@@ -96,3 +96,60 @@ target: localhost
 ```
 The above YAML can generated using `ssh-keyscan -j 81.95.52.60 | yq -P`
 <!-- END 81.95.52.60 -->
+<!-- BEGIN 81.95.52.6 -->
+## host2.webarch.net
+SSH server configuration details for `host2.webarch.net` at `81.95.52.6` generated on 2022-09-16 at 13:49:48:
+```yml
+banner:
+    comments: Debian-5+deb11u1
+    protocol:
+    - 2
+    - 0
+    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
+    software: OpenSSH_8.4p1
+compression:
+- none
+- zlib@openssh.com
+enc:
+- chacha20-poly1305@openssh.com
+- aes256-gcm@openssh.com
+- aes128-gcm@openssh.com
+- aes256-ctr
+- aes192-ctr
+- aes128-ctr
+fingerprints:
+-   hash: DAxdaqd2tSyueHikLkJlln2PWBDkJ5v7/PRtcSLblO0
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: cf:4c:9a:13:84:e8:53:16:66:ae:cb:e0:b9:5f:c5:62
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: gmh/x49giAD2L+Fci/eFA0IJPbeKI6+qsw5OEOzGz+c
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 49:15:fb:f8:1e:0d:23:d6:95:61:04:5c:11:a4:2f:17
+    hash_alg: MD5
+    hostkey: ssh-rsa
+kex:
+-   algorithm: curve25519-sha256
+-   algorithm: curve25519-sha256@libssh.org
+-   algorithm: diffie-hellman-group18-sha512
+-   algorithm: diffie-hellman-group16-sha512
+-   algorithm: diffie-hellman-group14-sha256
+-   algorithm: diffie-hellman-group-exchange-sha256
+    keysize: 2048
+key:
+-   algorithm: ssh-ed25519
+-   algorithm: rsa-sha2-512
+    keysize: 2048
+-   algorithm: rsa-sha2-256
+    keysize: 2048
+mac:
+- hmac-sha2-512-etm@openssh.com
+- hmac-sha2-256-etm@openssh.com
+- umac-128-etm@openssh.com
+target: localhost
+
+```
+The above YAML can generated using `ssh-keyscan -j 81.95.52.6 | yq -P`
+<!-- END 81.95.52.6 -->
