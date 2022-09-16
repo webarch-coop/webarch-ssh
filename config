@@ -1,0 +1,10 @@
+# Ansible managed
+# BEGIN 81.95.52.60
+Host git git.coop
+  Hostname 81.95.52.60
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/webarch/webarch-ssh/known_hosts
+# END 81.95.52.60
+# vim: syntax=sshconfig
