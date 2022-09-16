@@ -1,6 +1,6 @@
 # Webarchitects SSH Fingerprints
 
-This `git` repository contains SSH fingerprints for the following Webarchitects servers:
+This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints for the following Webarchitects servers:
 
 * [git.coop](#gitcoop)
 * [host2.webarch.net](#host2webarchnet)
@@ -12,6 +12,8 @@ This `git` repository contains SSH fingerprints for the following Webarchitects 
 * [webarch5.co.uk](#webarch5couk/)
 * [webarch6.co.uk](#webarch6couk/)
 * [webarch7.co.uk](#webarch7couk/)
+
+See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the finferprints.
 
 To install these fingerprints clone this repo into `~/.ssh`:
 
