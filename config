@@ -5,6 +5,6 @@ Host git git.coop
   Port 22
   CheckHostIP yes
   HashKnownHosts no
-  UserKnownHostsFile ~/webarch/webarch-ssh/known_hosts
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.60
 # vim: syntax=sshconfig

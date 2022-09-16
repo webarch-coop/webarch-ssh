@@ -2,16 +2,18 @@
 
 This repo contains SSH fingerprints for the following Webarchitects servers:
 
-* [git.coop](https://git.coop/)
-* [host2.webarch.net](https://host2.webarch.net/)
-* [host3.webarch.net](https://host3.webarch.net/)
-* [webarch1.co.uk](https://webarch1.co.uk/)
-* [webarch2.co.uk](https://webarch2.co.uk/)
-* [webarch3.co.uk](https://webarch3.co.uk/)
-* [webarch4.co.uk](https://webarch4.co.uk/)
-* [webarch5.co.uk](https://webarch5.co.uk/)
-* [webarch6.co.uk](https://webarch6.co.uk/)
-* [webarch7.co.uk](https://webarch7.co.uk/)
+* [git.coop](#gitcoop)
+<!--
+* [host2.webarch.net](#host2webarchnet)
+* [host3.webarch.net](#host3webarchnet)
+* [webarch1.co.uk](#webarch1couk/)
+* [webarch2.co.uk](#webarch2couk/)
+* [webarch3.co.uk](#webarch3couk/)
+* [webarch4.co.uk](#webarch4couk/)
+* [webarch5.co.uk](#webarch5couk/)
+* [webarch6.co.uk](#webarch6couk/)
+* [webarch7.co.uk](#webarch7couk/)
+-->
 
 To install these fingerprints clone this repo into `~/.ssh`:
 
