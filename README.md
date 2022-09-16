@@ -13,7 +13,7 @@ This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints 
 * [webarch6.co.uk](#webarch6couk/)
 * [webarch7.co.uk](#webarch7couk/)
 
-See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the finferprints.
+See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
 
 To install these fingerprints clone this repo into `~/.ssh`:
 
