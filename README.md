@@ -1,6 +1,6 @@
 # Webarchitects SSH Fingerprints
 
-This `git` repoository contains SSH fingerprints for the following Webarchitects servers:
+This `git` repository contains SSH fingerprints for the following Webarchitects servers:
 
 * [git.coop](#gitcoop)
 <!--
@@ -26,6 +26,13 @@ And then edit `~/.ssh/config` to add the following to the top of the file:
 
 ```
 Include ~/.ssh/webarch-ssh/config
+```
+
+To update these fingerprints:
+
+```bash
+cd ~/.ssh/webarch-ssh
+git pull
 ```
 
 The server fingerprints and other SSH details can be found below in YAML format.
