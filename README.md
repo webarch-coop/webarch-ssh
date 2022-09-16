@@ -1,6 +1,6 @@
 # Webarchitects SSH Fingerprints
 
-This repo contains SSH fingerprints for the following Webarchitects servers:
+This `git` repoository contains SSH fingerprints for the following Webarchitects servers:
 
 * [git.coop](#gitcoop)
 <!--
@@ -29,6 +29,8 @@ Include ~/.ssh/webarch-ssh/config
 ```
 
 The server fingerprints and other SSH details can be found below in YAML format.
+
+The contents of this repo have been automatically generated using the [Webarchitects SSH Ansible Role](http://git.coop/webarch/ssh), primary URL of this repo is [`https://git.coop/webarch/webarch-ssh`](https://git.coop/webarch/webarch-ssh) however it is also [mirrored to GitHub](https://github.com/webarch-coop/webarch-ssh)
 
 <!-- BEGIN 81.95.52.60 -->
 ## git.coop
