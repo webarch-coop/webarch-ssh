@@ -32,7 +32,7 @@ The server fingerprints and other SSH details can be found below in YAML format.
 
 <!-- BEGIN 81.95.52.60 -->
 ## git.coop
-SSH server configuration details for `git.coop` at `81.95.52.60`:
+SSH server configuration details for `git.coop` at `81.95.52.60` generated on 2022-09-16 at 13:26:51:
 ```yml
 banner:
     comments: Debian-5+deb11u1
