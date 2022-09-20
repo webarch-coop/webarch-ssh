@@ -41,26 +41,8 @@ The server fingerprints and other SSH details can be found below in YAML format.
 
 <!-- BEGIN 81.95.52.60 -->
 ## git.coop
-SSH server configuration details for `git.coop` at `81.95.52.60` generated on 2022-09-16 at 13:26:51:
+SSH server fingerprints for `git.coop` at `81.95.52.60`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: 8nWVinsp5nSG9urdJoQEml4q8Kuu+VKILVGQghiv7Bg
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -73,28 +55,9 @@ fingerprints:
 -   hash: bd:ca:f8:e7:62:a4:ee:39:5c:56:8c:dd:26:6e:f3:f2
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.60 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.60 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.60 -->
 <!-- BEGIN 81.95.52.6 -->
 ## host2.webarch.net
