@@ -98,26 +98,8 @@ The above YAML can generated using `ssh-keyscan -j 81.95.52.60 | yq -P`
 <!-- END 81.95.52.60 -->
 <!-- BEGIN 81.95.52.6 -->
 ## host2.webarch.net
-SSH server configuration details for `host2.webarch.net` at `81.95.52.6` generated on 2022-09-16 at 13:51:37:
+SSH server fingerprints for `host2.webarch.net` at `81.95.52.6`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: DAxdaqd2tSyueHikLkJlln2PWBDkJ5v7/PRtcSLblO0
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -130,51 +112,14 @@ fingerprints:
 -   hash: 49:15:fb:f8:1e:0d:23:d6:95:61:04:5c:11:a4:2f:17
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.6 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.6 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.6 -->
 <!-- BEGIN 81.95.52.15 -->
 ## host3.webarch.net
-SSH server configuration details for `host3.webarch.net` at `81.95.52.15` generated on 2022-09-16 at 13:53:07:
+SSH server fingerprints for `host3.webarch.net` at `81.95.52.15`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: XdP6rHAWWIUlFQ4EEUWqxlFyrNWRNCnZCznI9mlpxu8
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -187,51 +132,14 @@ fingerprints:
 -   hash: 1d:9a:6f:74:54:b3:f4:16:c2:e8:54:1c:f3:a8:65:6d
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.15 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.15 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.15 -->
 <!-- BEGIN 81.95.52.61 -->
 ## webarch1.co.uk
-SSH server configuration details for `webarch1.co.uk` at `81.95.52.61` generated on 2022-09-16 at 12:54:14:
+SSH server fingerprints for `webarch1.co.uk` at `81.95.52.61`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: YS5euQzn+tskGwhoUMJjonKoq6cUIt09ofDBayfhnts
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -244,51 +152,14 @@ fingerprints:
 -   hash: 26:c5:67:f7:5e:08:80:53:d4:04:f7:d9:53:ef:21:94
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.61 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.61 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.61 -->
 <!-- BEGIN 81.95.52.62 -->
 ## webarch2.co.uk
-SSH server configuration details for `webarch2.co.uk` at `81.95.52.62` generated on 2022-09-16 at 12:51:43:
+SSH server fingerprints for `webarch2.co.uk` at `81.95.52.62`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: PnsDhdiXkrSvew6o10/bdEtteKmF340t9YfIXrnIL3s
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -301,51 +172,14 @@ fingerprints:
 -   hash: 78:31:45:45:d8:b2:8f:ae:7b:74:3f:fa:3d:88:18:b2
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.62 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.62 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.62 -->
 <!-- BEGIN 81.95.52.63 -->
 ## webarch3.co.uk
-SSH server configuration details for `webarch3.co.uk` at `81.95.52.63` generated on 2022-09-16 at 12:53:07:
+SSH server fingerprints for `webarch3.co.uk` at `81.95.52.63`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: 8hVVrS25qQsp2WNQi7iUC0HaFzmGbvpJdCd1tTznfaw
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -358,51 +192,14 @@ fingerprints:
 -   hash: 84:da:0b:27:96:33:ad:a3:2c:47:68:92:f7:c6:e6:70
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.63 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.63 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.63 -->
 <!-- BEGIN 81.95.52.64 -->
 ## webarch4.co.uk
-SSH server configuration details for `webarch4.co.uk` at `81.95.52.64` generated on 2022-09-16 at 12:50:29:
+SSH server fingerprints for `webarch4.co.uk` at `81.95.52.64`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: X4QnGRi8EEzUzewwqONvK4M97cuFPn0mvR3NL8WftII
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -415,51 +212,14 @@ fingerprints:
 -   hash: 25:ab:9c:23:a0:b5:b4:10:36:9d:04:93:dd:4f:41:1b
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.64 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.64 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.64 -->
 <!-- BEGIN 81.95.52.65 -->
 ## webarch5.co.uk
-SSH server configuration details for `webarch5.co.uk` at `81.95.52.65` generated on 2022-09-16 at 12:51:44:
+SSH server fingerprints for `webarch5.co.uk` at `81.95.52.65`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: iJo+CkR5cpbpJYkKAaZGJdtZdgywAeegoc82ZCDxGcQ
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -472,51 +232,14 @@ fingerprints:
 -   hash: ac:cc:8e:56:1c:c8:04:fd:6d:c3:16:8b:bf:f2:ec:60
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.65 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.65 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.65 -->
 <!-- BEGIN 81.95.52.76 -->
 ## webarch6.co.uk
-SSH server configuration details for `webarch6.co.uk` at `81.95.52.76` generated on 2022-09-16 at 12:58:40:
+SSH server fingerprints for `webarch6.co.uk` at `81.95.52.76`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: maTEv1v0Md56HdVTzInPeZ7PleCA46vf5vuOGFBEFDg
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -529,51 +252,14 @@ fingerprints:
 -   hash: 96:43:45:0d:19:3d:cc:e7:77:26:a9:98:a3:a2:dc:f7
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.76 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.76 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.76 -->
 <!-- BEGIN 81.95.52.67 -->
 ## webarch7.co.uk
-SSH server configuration details for `webarch7.co.uk` at `81.95.52.67` generated on 2022-09-16 at 12:54:16:
+SSH server fingerprints for `webarch7.co.uk` at `81.95.52.67`:
 ```yml
-banner:
-    comments: Debian-5+deb11u1
-    protocol:
-    - 2
-    - 0
-    raw: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-    software: OpenSSH_8.4p1
-compression:
-- none
-- zlib@openssh.com
-enc:
-- chacha20-poly1305@openssh.com
-- aes256-gcm@openssh.com
-- aes128-gcm@openssh.com
-- aes256-ctr
-- aes192-ctr
-- aes128-ctr
-fingerprints:
 -   hash: dv2BBi8g+G0mYPCSz7NDaoVCwwX/OZGRsx0oA2il/tI
     hash_alg: SHA256
     hostkey: ssh-ed25519
@@ -586,26 +272,7 @@ fingerprints:
 -   hash: 13:15:12:42:c1:46:1d:55:43:5b:5b:12:84:dc:b7:bb
     hash_alg: MD5
     hostkey: ssh-rsa
-kex:
--   algorithm: curve25519-sha256
--   algorithm: curve25519-sha256@libssh.org
--   algorithm: diffie-hellman-group18-sha512
--   algorithm: diffie-hellman-group16-sha512
--   algorithm: diffie-hellman-group14-sha256
--   algorithm: diffie-hellman-group-exchange-sha256
-    keysize: 2048
-key:
--   algorithm: ssh-ed25519
--   algorithm: rsa-sha2-512
-    keysize: 2048
--   algorithm: rsa-sha2-256
-    keysize: 2048
-mac:
-- hmac-sha2-512-etm@openssh.com
-- hmac-sha2-256-etm@openssh.com
-- umac-128-etm@openssh.com
-target: localhost
 
 ```
-The above YAML can generated using `ssh-keyscan -j 81.95.52.67 | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.67 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.67 -->
