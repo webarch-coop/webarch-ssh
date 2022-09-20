@@ -5,17 +5,19 @@ This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints 
 * [git.coop](#gitcoop)
 * [host2.webarch.net](#host2webarchnet)
 * [host3.webarch.net](#host3webarchnet)
-* [webarch1.co.uk](#webarch1couk/)
-* [webarch2.co.uk](#webarch2couk/)
-* [webarch3.co.uk](#webarch3couk/)
-* [webarch4.co.uk](#webarch4couk/)
-* [webarch5.co.uk](#webarch5couk/)
-* [webarch6.co.uk](#webarch6couk/)
-* [webarch7.co.uk](#webarch7couk/)
+* [webarch1.co.uk](#webarch1couk)
+* [webarch2.co.uk](#webarch2couk)
+* [webarch3.co.uk](#webarch3couk)
+* [webarch4.co.uk](#webarch4couk)
+* [webarch5.co.uk](#webarch5couk)
+* [webarch6.co.uk](#webarch6couk)
+* [webarch7.co.uk](#webarch7couk)
 
 See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
 
-To install these fingerprints clone this repo into `~/.ssh`:
+You can download these SSH fingerprints as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.0.0/webarch-ssh-1.0.0.zip) ([other formats](https://git.coop/webarch/webarch-ssh/-/releases/1.0.0) and uncompress the archive into `~/.ssh/webarch-ssh`.
+
+Or install these fingerprints using `git`, clone this repo into `~/.ssh`:
 
 ```bash
 cd ~/.ssh
