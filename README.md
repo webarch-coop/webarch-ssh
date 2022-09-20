@@ -15,7 +15,7 @@ This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints 
 
 See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
 
-You can download these SSH fingerprints as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.0.0/webarch-ssh-1.0.0.zip) ([other formats](https://git.coop/webarch/webarch-ssh/-/releases/1.0.0) and uncompress the archive into `~/.ssh/webarch-ssh`.
+You can download these SSH fingerprints as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.0.0/webarch-ssh-1.0.0.zip) (other [formats available](https://git.coop/webarch/webarch-ssh/-/releases/1.0.0)) and uncompress the archive into `~/.ssh/webarch-ssh`.
 
 Or install these fingerprints using `git`, clone this repo into `~/.ssh`:
 
