@@ -1,4 +1,12 @@
 # Ansible managed
+# BEGIN 81.95.52.30
+Host dns1 dns1.webarchitects.co.uk
+  Hostname 81.95.52.30
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.30
 # BEGIN 23.237.136.75
 Host dns4 dns4.webarch.info
   Hostname 23.237.136.75
