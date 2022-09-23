@@ -371,3 +371,112 @@ SSH server fingerprints for `dns5.webarchitects.co.uk` at `81.95.52.27`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.27 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.27 -->
+
+# Development servers
+
+* [discourse.webarchitects.org.uk](#discoursewebarchitectsorguk)
+* [icinga-master.webarchitects.org.uk](#icinga-masterwebarchitectsorguk)
+* [nextcloud.webarch.org.uk](#nextcloudwebarchorguk)
+* [onlyoffice.webarchitects.org.uk](#onlyofficewebarchitectsorguk)
+* [wsh.webarchitects.org.uk](#wshwebarchitectsorguk)
+
+<!-- BEGIN 81.95.52.92 -->
+## discourse.webarchitects.org.uk
+SSH server fingerprints for `discourse.webarchitects.org.uk` at `81.95.52.92`:
+```yml
+-   hash: 4G44F377gR/26bQthk7DdCZCxOHNpe7Q+8s2mlzr1PU
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 66:48:42:dd:36:24:86:ac:fa:78:ef:73:bf:34:91:9e
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: jgRbl+SULj7cLnx9usmQrRKUz3AGco+G6isB40wYpNU
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: bd:06:59:4d:47:38:a9:28:9c:f5:22:d3:06:08:f2:2b
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.92 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.92 -->
+<!-- BEGIN 81.95.52.42 -->
+## icinga-master.webarchitects.org.uk
+SSH server fingerprints for `icinga-master.webarchitects.org.uk` at `81.95.52.42`:
+```yml
+-   hash: DmZbbmxocn8jZmR/jsXxJw80Yu13f9YkB381nLKjXcY
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: cd:a7:ba:2e:66:19:4f:43:37:38:ad:67:64:bf:2f:fc
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: HrfrLIdnON6j/MsgYZstNro525IjNnHffBf5Kqgmbnw
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 3e:39:5a:fe:cc:c8:cc:ba:a8:2e:56:40:49:a5:a6:c6
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.42 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.42 -->
+<!-- BEGIN 81.95.52.26 -->
+## nextcloud.webarch.org.uk
+SSH server fingerprints for `nextcloud.webarch.org.uk` at `81.95.52.26`:
+```yml
+-   hash: oAiCmiXulH7u0S7hCMOQSyLi4W0r7XrCQyjJSKp/FR0
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 5c:41:0e:5b:a9:52:a6:2c:54:0c:a2:a2:16:0d:0e:07
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 03mD18qPttZ+q4Og97FuJTXG8T36SSOye8CkM8cF1zo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: ac:49:0e:ee:11:fd:91:3b:f1:2c:0c:c1:15:e1:ff:a4
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.26 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.26 -->
+<!-- BEGIN 81.95.52.88 -->
+## onlyoffice.webarchitects.org.uk
+SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
+```yml
+-   hash: kE+2Q9GoP0gfatKYZmEE1wQqk2ogKDiO8KFU25rLAOY
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 9a:3a:ed:62:a8:73:86:4d:78:9b:e1:6b:28:5c:62:85
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: nCejHYIwnPbE97OqT8uMGX0i5UzxlHQJ60Uw2kg2I7g
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: c5:1c:8d:ab:f9:97:08:78:13:7e:76:24:41:69:ee:db
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.88 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.88 -->
+<!-- BEGIN 81.95.52.56 -->
+## wsh.webarchitects.org.uk
+SSH server fingerprints for `wsh.webarchitects.org.uk` at `81.95.52.56`:
+```yml
+-   hash: HgnaipZfbe+JWZkr/jjt72Y0y7hGI4kcK1M1qyYDoHY
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: df:b2:66:6d:56:89:88:5e:ff:44:89:ab:e0:1e:85:d2
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: Y2tCvB+YxBLCA5xyeXGiHH5OzW2wSRcUqRpzzjYT7Z0
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: f0:bd:d4:7b:bc:9c:33:a0:bf:8e:cb:2f:7b:26:bf:e4
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.56 -->
