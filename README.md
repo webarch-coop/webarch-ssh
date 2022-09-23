@@ -480,3 +480,49 @@ SSH server fingerprints for `wsh.webarchitects.org.uk` at `81.95.52.56`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.56 -->
+
+# Monitoring servers
+
+* [monitor.webarch.net](#monitorwebarchnet)
+* [icinga.webarch.net](#icingawebarchnet)
+
+<!-- BEGIN 81.95.52.37 -->
+## monitor.webarch.net
+SSH server fingerprints for `monitor.webarch.net` at `81.95.52.37`:
+```yml
+-   hash: 6xDbxi8+aJUgNipOOyoyIF1ZTWsoP1KPI9hxVf1Oy6w
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: ee:09:97:99:53:a2:a2:b5:53:30:c2:b7:a0:82:4f:54
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: HJP3OeWVTmm2gGmL9E0wayMs+181ie0u0uS/+td3rGQ
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: a8:d8:4e:5f:fe:8a:ce:a0:22:cd:aa:c8:68:e3:e8:b8
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.37 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.37 -->
+<!-- BEGIN 93.95.228.246 -->
+## icinga.webarch.net
+SSH server fingerprints for `icinga.webarch.net` at `93.95.228.246`:
+```yml
+-   hash: Pzo2yBBx8FY0z/QEHvQN0PMrP/Vrmzys7I4n0pDWcxw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 3d:aa:d5:0d:32:35:19:f5:c9:dc:b6:4c:76:f8:82:a0
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: rCVkGSn1NEheh7U2J4QNveQ6TMr8uins95ogpRGCaTI
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 59:43:a8:09:c0:eb:11:59:bc:9a:55:5f:ec:ec:f2:31
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 93.95.228.246 | jq .fingerprints | yq -P`
+<!-- END 93.95.228.246 -->

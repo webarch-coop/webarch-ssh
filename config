@@ -1,4 +1,20 @@
 # Ansible managed
+# BEGIN 93.95.228.246
+Host icinga icinga.webarch.net
+  Hostname 93.95.228.246
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 93.95.228.246
+# BEGIN 81.95.52.37
+Host monitor monitor.webarch.net
+  Hostname 81.95.52.37
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.37
 # BEGIN 81.95.52.92
 Host discourse discourse.webarchitects.org.uk
   Hostname 81.95.52.92
