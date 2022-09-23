@@ -575,6 +575,7 @@ The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints 
 
 # Web servers
 
+* [office.webarchitects.co.uk](#officewebarchitectscouk)
 * [web.webarch.net](#webwebarchnet)
 * [onekind.webarch.net](#onekindwebarchnet)
 * [ods.webarch.net](#odswebarchnet)
@@ -588,6 +589,26 @@ The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints 
 * [cloud.leedsbread.coop](#cloudleedsbreadcoop)
 * [imc.indymedia.org.uk](#imc.indymedia.org.uk)
 
+<!-- BEGIN 81.95.52.100 -->
+## office.webarchitects.co.uk
+SSH server fingerprints for `office.webarchitects.co.uk` at `81.95.52.100`:
+```yml
+-   hash: sS08QjKBtnwzWv8MvVt8LzvCToe2tpMCzWSR3jCfjuA
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 7b:77:74:28:2b:ef:ca:41:70:08:b5:92:d1:b6:cf:a6
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: ZfJPTwthoFHdBTYjcPTRmnWne4YlntgaUiUIyrD/vgg
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: d3:35:bf:c4:50:dd:02:18:9d:20:1d:a0:01:c3:04:20
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.100 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.100 -->
 <!-- BEGIN 81.95.52.98 -->
 ## web.webarch.net
 SSH server fingerprints for `web.webarch.net` at `81.95.52.98`:
