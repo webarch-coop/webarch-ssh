@@ -64,7 +64,7 @@ Host dns0 dns0.webarchitects.co.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.24
 # BEGIN 81.95.52.27
-Host dns5 dns5.webarchitects.co.uk
+Host dns5 dns5.webarchitects.co.uk dns5.webarch.info
   Hostname 81.95.52.27
   Port 22
   CheckHostIP yes
