@@ -1,4 +1,12 @@
 # Ansible managed
+# BEGIN 81.95.52.92
+Host discourse discourse.webarchitects.org.uk
+  Hostname 81.95.52.92
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.92
 # BEGIN 81.95.52.26
 Host nextcloud nextcloud.webarch.org.uk
   Hostname 81.95.52.26
