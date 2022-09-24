@@ -573,6 +573,115 @@ SSH server fingerprints for `onlyoffice2.webarch.net` at `81.95.52.90`:
 The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.90 -->
 
+# Discourse servers
+
+* [cotechforum.webarch.net](#cotechforumwebarchnet)
+* [workersforum.webarch.coop](#workersforumwebarchcoop)
+* [members.webarchitects.coop](#memberswebarchitectscoop)
+* [forum.meet.coop](#forummeetcoop)
+* [radhr.webarch.net](#radhrwebarchnet)
+
+<!-- BEGIN 81.95.52.58 -->
+## cotechforum.webarch.net
+SSH server fingerprints for `cotechforum.webarch.net` at `81.95.52.58`:
+```yml
+-   hash: VGWa72gsx0iMLa+HDynGOnqyOJ/OSloosGOUZGG4QgM
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 0b:91:31:e2:50:7e:20:9d:d3:38:5c:69:0d:c8:c3:6b
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: cIfhk58Yt1bbAEILZ4Z1/0TzM39fHIukMmqlps3/xfI
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: be:ba:3a:77:c3:4f:de:dc:77:4c:fb:97:44:07:b7:22
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.58 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.58 -->
+<!-- BEGIN 81.95.52.12 -->
+## workersforum.webarch.coop
+SSH server fingerprints for `workersforum.webarch.coop` at `81.95.52.12`:
+```yml
+-   hash: CZO1LP4fmImb049C5xfFkuqrRDn2/9+YFwT6tfTVkzo
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 15:be:d4:af:94:4d:10:ad:f6:6a:3d:37:de:10:52:d6
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: I+BW1QegYbchKNkrk+waGTk8/CrZ0o9R0pCu4OK9fsg
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: db:dc:ee:55:8c:57:83:47:87:88:01:98:45:94:9a:b3
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.12 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.12 -->
+<!-- BEGIN 81.95.52.93 -->
+## members.webarchitects.coop
+SSH server fingerprints for `members.webarchitects.coop` at `81.95.52.93`:
+```yml
+-   hash: AArx85YXV8jN+5S+Yk0R93m31ycCHY8WRhnkbX137g0
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 9e:26:2d:bc:8c:18:09:e2:b8:44:6b:f7:b3:c0:e5:0a
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 9pednZ+rr3ic3fmKVpYdx95T3kDGB4ibP4/gwgApgDg
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 16:9c:f1:48:7d:d5:bb:12:51:a1:01:d8:e5:84:e2:aa
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.93 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.93 -->
+<!-- BEGIN 81.95.52.40 -->
+## forum.meet.coop
+SSH server fingerprints for `forum.meet.coop` at `81.95.52.40`:
+```yml
+-   hash: /cg9jjtL2U+ehFjxVa4MSdZTkv8VBei6Kjney3xf0Ss
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 67:6f:43:0b:33:09:96:41:57:6b:28:88:74:51:70:48
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: UcI0ygXhCfV25PaJgamuQyrbGZXZ95glu5mSLYvYXSQ
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 50:10:96:a7:e6:a1:89:92:8b:31:bd:c4:d5:56:39:f8
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.40 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.40 -->
+<!-- BEGIN 81.95.52.33 -->
+## radhr.webarch.net
+SSH server fingerprints for `radhr.webarch.net` at `81.95.52.33`:
+```yml
+-   hash: yrXOnykC7x1lBd7+ZNR4m+n2VYnfIjngsWPNtBFM2DQ
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 70:3d:eb:20:26:8f:1e:cd:04:d6:05:4c:56:b7:29:7c
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: DCYHBqgVHabzdo/AVUbtZxA3gTjPGU5HM+XMnfnINpk
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 89:69:ff:d6:28:35:b7:cd:2c:8c:97:b5:50:fe:c9:bf
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.33 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.33 -->
+
 # Web servers
 
 * [office.webarchitects.co.uk](#officewebarchitectscouk)
@@ -588,6 +697,11 @@ The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints 
 * [office.unitedigitaltech.org](#officeunitedigitaltechorg)
 * [cloud.leedsbread.coop](#cloudleedsbreadcoop)
 * [imc.indymedia.org.uk](#imc.indymedia.org.uk)
+* [oriole.webarch.net](#oriolewebarchnet)
+* [animorph.webarch.coop](#animorphwebarchcoop)
+* [sharedfutures.webarch.net](#sharedfutureswebarchnet)
+* [greenham.webarch.net](#greenhamwebarchnet)
+* [sharenergy.webarch.net](#sharenergywebarchnet)
 
 <!-- BEGIN 81.95.52.100 -->
 ## office.webarchitects.co.uk
@@ -849,112 +963,103 @@ SSH server fingerprints for `imc.indymedia.org.uk` at `81.95.52.38`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.38 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.38 -->
-
-# Discourse servers
-
-* [cotechforum.webarch.net](#cotechforumwebarchnet)
-* [workersforum.webarch.coop](#workersforumwebarchcoop)
-* [members.webarchitects.coop](#memberswebarchitectscoop)
-* [forum.meet.coop](#forummeetcoop)
-* [radhr.webarch.net](#radhrwebarchnet)
-
-<!-- BEGIN 81.95.52.58 -->
-## cotechforum.webarch.net
-SSH server fingerprints for `cotechforum.webarch.net` at `81.95.52.58`:
+<!-- BEGIN 81.95.52.11 -->
+## oriole.webarch.net
+SSH server fingerprints for `oriole.webarch.net` at `81.95.52.11`:
 ```yml
--   hash: VGWa72gsx0iMLa+HDynGOnqyOJ/OSloosGOUZGG4QgM
+-   hash: +gniK/FBLCamD3tWtLAkzQTuwByALmKQmuhywp82NAM
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 0b:91:31:e2:50:7e:20:9d:d3:38:5c:69:0d:c8:c3:6b
+-   hash: 02:ff:2e:4a:45:2b:66:e1:72:d4:c4:a2:fc:db:c3:00
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: cIfhk58Yt1bbAEILZ4Z1/0TzM39fHIukMmqlps3/xfI
+-   hash: uvnxy0TMYybY7Zns3FtycBKEsXu1drXuZvxXl1QKvnI
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: be:ba:3a:77:c3:4f:de:dc:77:4c:fb:97:44:07:b7:22
+-   hash: f2:78:1d:a9:07:08:49:ba:50:fe:35:71:6a:c7:5b:b4
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.58 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.58 -->
-<!-- BEGIN 81.95.52.12 -->
-## workersforum.webarch.coop
-SSH server fingerprints for `workersforum.webarch.coop` at `81.95.52.12`:
+The above YAML can generated using `ssh-audit -j 81.95.52.11 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.11 -->
+<!-- BEGIN 81.95.52.34 -->
+## animorph.webarch.coop
+SSH server fingerprints for `animorph.webarch.coop` at `81.95.52.34`:
 ```yml
--   hash: CZO1LP4fmImb049C5xfFkuqrRDn2/9+YFwT6tfTVkzo
+-   hash: fjdL8H/PllxWbwB36C2zMF+M3StmRZ4H+rJnsvq4pxw
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 15:be:d4:af:94:4d:10:ad:f6:6a:3d:37:de:10:52:d6
+-   hash: bb:32:c9:67:6b:53:bc:8d:f9:9f:30:fe:50:61:8d:de
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: I+BW1QegYbchKNkrk+waGTk8/CrZ0o9R0pCu4OK9fsg
+-   hash: ImrNqGmqN9Ehg+yInqJXy5sO4LWo3k+f9/WZtLkwfSY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: db:dc:ee:55:8c:57:83:47:87:88:01:98:45:94:9a:b3
+-   hash: 17:bc:33:3b:6a:fc:50:0d:c3:2d:34:24:8f:1d:1d:34
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.12 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.12 -->
-<!-- BEGIN 81.95.52.93 -->
-## members.webarchitects.coop
-SSH server fingerprints for `members.webarchitects.coop` at `81.95.52.93`:
+The above YAML can generated using `ssh-audit -j 81.95.52.34 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.34 -->
+<!-- BEGIN 81.95.52.39 -->
+## sharedfutures.webarch.net
+SSH server fingerprints for `sharedfutures.webarch.net` at `81.95.52.39`:
 ```yml
--   hash: AArx85YXV8jN+5S+Yk0R93m31ycCHY8WRhnkbX137g0
+-   hash: CqYdd+q2U4VMoQzKzRxh3Pch78A+fGLB5lDmNycWf4E
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 9e:26:2d:bc:8c:18:09:e2:b8:44:6b:f7:b3:c0:e5:0a
+-   hash: 2b:ba:52:d1:c0:25:c8:b2:97:15:86:14:5a:aa:d1:43
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 9pednZ+rr3ic3fmKVpYdx95T3kDGB4ibP4/gwgApgDg
+-   hash: tnkGk06XjIBYLgClOFeZK+uKlrxiETm+r9K2R92gFeY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 16:9c:f1:48:7d:d5:bb:12:51:a1:01:d8:e5:84:e2:aa
+-   hash: 24:9c:6a:4f:5b:be:f2:4f:93:65:27:f2:9e:57:8a:eb
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.93 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.93 -->
-<!-- BEGIN 81.95.52.40 -->
-## forum.meet.coop
-SSH server fingerprints for `forum.meet.coop` at `81.95.52.40`:
+The above YAML can generated using `ssh-audit -j 81.95.52.39 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.39 -->
+<!-- BEGIN 81.95.52.19 -->
+## greenham.webarch.net
+SSH server fingerprints for `greenham.webarch.net` at `81.95.52.19`:
 ```yml
--   hash: /cg9jjtL2U+ehFjxVa4MSdZTkv8VBei6Kjney3xf0Ss
+-   hash: CNJrrCUoR5p77jAJW9LjXKtXk64KXP4sjsAelhoIz0E
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 67:6f:43:0b:33:09:96:41:57:6b:28:88:74:51:70:48
+-   hash: 07:c3:81:5c:47:02:11:36:d8:ee:9c:08:29:5b:78:26
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: UcI0ygXhCfV25PaJgamuQyrbGZXZ95glu5mSLYvYXSQ
+-   hash: GpXgjZRZKwtdtap31REpbTYhjg9nkttNbkm6usKjUBI
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 50:10:96:a7:e6:a1:89:92:8b:31:bd:c4:d5:56:39:f8
+-   hash: 61:ad:e6:8b:60:12:eb:35:ff:bb:ab:34:9b:d4:6a:c2
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.40 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.40 -->
-<!-- BEGIN 81.95.52.33 -->
-## radhr.webarch.net
-SSH server fingerprints for `radhr.webarch.net` at `81.95.52.33`:
+The above YAML can generated using `ssh-audit -j 81.95.52.19 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.19 -->
+<!-- BEGIN 81.95.52.17 -->
+## sharenergy.webarch.net
+SSH server fingerprints for `sharenergy.webarch.net` at `81.95.52.17`:
 ```yml
--   hash: yrXOnykC7x1lBd7+ZNR4m+n2VYnfIjngsWPNtBFM2DQ
+-   hash: vuC2J3TMSA+IOI1IW5sbdvKpa9hZDRPoCMWGI4N2/Xc
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 70:3d:eb:20:26:8f:1e:cd:04:d6:05:4c:56:b7:29:7c
+-   hash: fc:46:d5:8c:ef:37:42:40:65:80:24:71:a1:46:5f:88
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: DCYHBqgVHabzdo/AVUbtZxA3gTjPGU5HM+XMnfnINpk
+-   hash: qfM+bq3VYzoqX7hDP8bT7Y4pNSQ/mr9AesvGDeh/F2M
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 89:69:ff:d6:28:35:b7:cd:2c:8c:97:b5:50:fe:c9:bf
+-   hash: db:9f:fd:66:ed:57:a6:47:d7:34:d0:c1:fb:34:de:cc
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.33 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.33 -->
+The above YAML can generated using `ssh-audit -j 81.95.52.17 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.17 -->

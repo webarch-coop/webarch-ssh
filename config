@@ -1,6 +1,6 @@
 # Ansible managed
 # BEGIN 81.95.52.100
-Host office office.webarchitects.co.uk
+Host office.webarchitects.co.uk
   Hostname 81.95.52.100
   Port 22
   CheckHostIP yes
@@ -56,7 +56,7 @@ Host imc imc.indymedia.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.38
 # BEGIN 81.95.52.104
-Host cloud cloud.leedsbread.coop
+Host cloud.leedsbread.coop
   Hostname 81.95.52.104
   Port 22
   CheckHostIP yes
@@ -64,7 +64,7 @@ Host cloud cloud.leedsbread.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.104
 # BEGIN 81.95.52.96
-Host office office.unitedigitaltech.org
+Host office.unitedigitaltech.org
   Hostname 81.95.52.96
   Port 22
   CheckHostIP yes
@@ -80,7 +80,7 @@ Host sanford sanford.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.110
 # BEGIN 81.95.52.95
-Host office office.energytransitions.uk
+Host office.energytransitions.uk
   Hostname 81.95.52.95
   Port 22
   CheckHostIP yes
@@ -88,7 +88,7 @@ Host office office.energytransitions.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.95
 # BEGIN 81.95.52.31
-Host cloud cloud.inca.coop
+Host cloud.inca.coop
   Hostname 81.95.52.31
   Port 22
   CheckHostIP yes
@@ -96,7 +96,7 @@ Host cloud cloud.inca.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.31
 # BEGIN 81.95.52.103
-Host cloud cloud.assist.coop
+Host cloud.assist.coop
   Hostname 81.95.52.103
   Port 22
   CheckHostIP yes
@@ -136,7 +136,7 @@ Host onekind onekind.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.16
 # BEGIN 81.95.52.98
-Host web web.webarch.net
+Host web.webarch.net
   Hostname 81.95.52.98
   Port 22
   CheckHostIP yes
@@ -343,4 +343,44 @@ Host git git.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.60
+# BEGIN 81.95.52.11
+Host oriole oriole.webarch.net
+  Hostname 81.95.52.11
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.11
+# BEGIN 81.95.52.34
+Host animorph api.animorph.coop dev.animorph.coop hub.animorph.coop wag.animorph.coop animorph.webarch.coop
+  Hostname 81.95.52.34
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.34
+# BEGIN 81.95.52.39
+Host sharedfutures sharedfutures.app api.sharedfutures.app sharedfutures.webarch.net
+  Hostname 81.95.52.39
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.39
+# BEGIN 81.95.52.19
+Host greenham greenhamwomen greenhamwomen.digital api.greenhamwomen.digital greenham.webarch.net
+  Hostname 81.95.52.19
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.19
+# BEGIN 81.95.52.17
+Host sharenergy sharenergy.webarch.net my.bigsolar.coop
+  Hostname 81.95.52.17
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.17
 # vim: syntax=sshconfig
