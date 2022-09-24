@@ -1,6 +1,6 @@
 # Webarchitects SSH Fingerprints
 
-This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints for the following Webarchitects git and shared hosting servers:
+This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints for the following Webarchitects git and shared hosting servers (and many other additional servers that have only a small number of users):
 
 * [git.coop](#gitcoop)
 * [host2.webarch.net](#host2webarchnet)
