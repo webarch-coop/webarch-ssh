@@ -32,7 +32,7 @@ Host members members.webarchitects.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.93
 # BEGIN 81.95.52.12
-Host workersforum workersforum.webarch.coop forum.workers.coop
+Host forum.workers.coop workersforum workersforum.webarch.coop
   Hostname 81.95.52.12
   Port 22
   CheckHostIP yes
@@ -40,7 +40,7 @@ Host workersforum workersforum.webarch.coop forum.workers.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.12
 # BEGIN 81.95.52.58
-Host cotechforum cotechforum.webarch.net community.coops.tech
+Host community.coops.tech forum.cotech.uk
   Hostname 81.95.52.58
   Port 22
   CheckHostIP yes
@@ -383,4 +383,28 @@ Host sharenergy sharenergy.webarch.net my.bigsolar.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.17
+# BEGIN 81.95.52.21
+Host holyoake holyoake.webarch.coop
+  Hostname 81.95.52.21
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.21
+# BEGIN 81.95.52.59
+Host coops.tech web.cotech.uk
+  Hostname 81.95.52.59
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.59
+# BEGIN 81.95.52.13
+Host office.workers.coop workersoffice workersoffice.webarch.coop
+  Hostname 81.95.52.13
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.13
 # vim: syntax=sshconfig

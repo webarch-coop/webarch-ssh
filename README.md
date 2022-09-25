@@ -582,8 +582,8 @@ The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints 
 * [radhr.webarch.net](#radhrwebarchnet)
 
 <!-- BEGIN 81.95.52.58 -->
-## cotechforum.webarch.net
-SSH server fingerprints for `cotechforum.webarch.net` at `81.95.52.58`:
+## forum.cotech.uk
+SSH server fingerprints for `forum.cotech.uk` at `81.95.52.58`:
 ```yml
 -   hash: VGWa72gsx0iMLa+HDynGOnqyOJ/OSloosGOUZGG4QgM
     hash_alg: SHA256
@@ -602,8 +602,8 @@ SSH server fingerprints for `cotechforum.webarch.net` at `81.95.52.58`:
 The above YAML can generated using `ssh-audit -j 81.95.52.58 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.58 -->
 <!-- BEGIN 81.95.52.12 -->
-## workersforum.webarch.coop
-SSH server fingerprints for `workersforum.webarch.coop` at `81.95.52.12`:
+## forum.workers.coop
+SSH server fingerprints for `forum.workers.coop` at `81.95.52.12`:
 ```yml
 -   hash: CZO1LP4fmImb049C5xfFkuqrRDn2/9+YFwT6tfTVkzo
     hash_alg: SHA256
@@ -1063,3 +1063,63 @@ SSH server fingerprints for `sharenergy.webarch.net` at `81.95.52.17`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.17 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.17 -->
+<!-- BEGIN 81.95.52.21 -->
+## holyoake.webarch.coop
+SSH server fingerprints for `holyoake.webarch.coop` at `81.95.52.21`:
+```yml
+-   hash: dKG7EZCGVzPeCxRqJsJUnrpDR5JKlKCh0DsaGbfofNU
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: b0:86:bc:a1:29:15:9b:1f:b1:ed:03:5a:90:eb:56:f7
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 6/3tRJ66B33vlW1UPx9Spkc6oAO3UBuAyycWKNjdXpo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 7d:e7:ac:a5:96:8b:56:63:85:dd:47:4a:68:9e:2f:1e
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.21 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.21 -->
+<!-- BEGIN 81.95.52.59 -->
+## web.cotech.uk
+SSH server fingerprints for `web.cotech.uk` at `81.95.52.59`:
+```yml
+-   hash: rompfEXG+zhWSeef6BiSKAhka9/XpGyp2mRaMeFjoOI
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 48:2e:30:0c:0f:f4:42:ac:97:30:75:82:cf:41:0f:67
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: LsyKb7XJJhaxbxq68zm7DkLMRafU2keW3kDIyOeG024
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 08:d8:c6:65:36:8b:42:28:5a:28:a6:67:07:66:9f:36
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.59 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.59 -->
+<!-- BEGIN 81.95.52.13 -->
+## office.workers.coop
+SSH server fingerprints for `office.workers.coop` at `81.95.52.13`:
+```yml
+-   hash: CiM08t9Ncy1kuWAzBXy16DBNcuL4kG+6gjl6XiBgYaI
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 06:c5:b6:18:32:02:da:9c:4a:b9:7b:a3:41:6f:a4:80
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 56zba/8uJ1/S9VlPFOxHyjLTU07KDxqJ/9IKdx9k9CA
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: f1:e8:2b:99:ee:d2:28:5f:db:14:65:b9:4b:cc:b0:94
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.13 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.13 -->
