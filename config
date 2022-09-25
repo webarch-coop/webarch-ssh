@@ -407,4 +407,44 @@ Host office.workers.coop workersoffice workersoffice.webarch.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.13
+# BEGIN 81.95.52.71
+Host mx mx.webarch.net
+  Hostname 81.95.52.71
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.71
+# BEGIN 81.95.52.8
+Host redirect redirect.webarch.net
+  Hostname 81.95.52.8
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.8
+# BEGIN 81.95.52.20
+Host j25 j25.webarch.net
+  Hostname 81.95.52.20
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.20
+# BEGIN 81.95.52.112
+Host creativecommons creativecommons.email cc cc.webarch.net
+  Hostname 81.95.52.112
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.112
+# BEGIN 81.95.52.48
+Host webarch webarch.email
+  Hostname 81.95.52.48
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.48
 # vim: syntax=sshconfig
