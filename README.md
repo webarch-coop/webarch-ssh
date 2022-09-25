@@ -1293,3 +1293,103 @@ SSH server fingerprints for `3dcmail.webarch.net` at `81.95.52.54`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.54 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.54 -->
+<!-- BEGIN 81.95.52.32 -->
+## mail.croome.net
+SSH server fingerprints for `mail.croome.net` at `81.95.52.32`:
+```yml
+-   hash: GJF47CNPdzde/o7sC2Zg4cP+2OxGROFGMifhH2FIZPA
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 29:75:20:9e:32:7a:7c:a0:13:da:8f:05:41:f8:a2:8e
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: enf740ZpBKkUEAEp0sLy5OIOmzk+GDZkAXpyd8GEeOo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 86:48:e4:bd:dd:ca:0f:1f:e4:81:57:97:80:73:63:ec
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.32 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.32 -->
+<!-- BEGIN 81.95.52.36 -->
+## cloud.croome.net
+SSH server fingerprints for `cloud.croome.net` at `81.95.52.36`:
+```yml
+-   hash: QRvjUS3fXSVRiLt9bupwCPhF1Xa5I5qAG7ko3Nu/i9g
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: c8:ac:60:3e:b4:55:84:cc:9f:70:04:a7:6e:a6:8d:dd
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: K0hZBRkTGkrfQLo4bnr0kwyNvzZIEXtIXDslIRQfhM4
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 6e:b0:29:4e:68:0c:0c:1a:4c:1e:20:44:b3:77:f0:5e
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.36 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.36 -->
+<!-- BEGIN 81.95.52.5 -->
+## bert.croome.net
+SSH server fingerprints for `bert.croome.net` at `81.95.52.5`:
+```yml
+-   hash: mPZCheFmfioVhhYrmtFcWswVAJKThXMkgprI7UE7EGY
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 2a:35:06:ad:fd:37:b0:d9:2f:bf:e9:d7:b3:24:0d:cf
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: nVgvxb1YK/pGjLIIKMgmbIG4b9DqFNN2gjh2W9IlC60
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 62:83:14:ed:c8:fe:dd:32:4e:9d:75:48:a6:90:2c:ce
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.5 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.5 -->
+<!-- BEGIN 81.95.52.29 -->
+## proxy.webarch.net
+SSH server fingerprints for `proxy.webarch.net` at `81.95.52.29`:
+```yml
+-   hash: 77II+yq10bvyH8/ZSIzbVXHIcoEx0aCIGBF0c2gqrI8
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 2e:ee:ba:d0:fe:22:6f:01:50:c4:a3:26:8f:fd:bd:ad
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: DtN+vCH86Stf575Vc3bE/KG79GebjcTF3r+pTXSPg7U
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 45:b1:7b:22:82:95:d5:e0:44:9b:2c:33:11:ab:28:7d
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.29 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.29 -->
+<!-- BEGIN 81.95.52.35 -->
+## control.croome.net
+SSH server fingerprints for `control.croome.net` at `81.95.52.35`:
+```yml
+-   hash: wtypAGZtUWiN7JUKy33FNPSlbjablQ16UrMEXEcSsBk
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 11:2e:56:15:be:23:58:98:eb:06:43:c0:6a:3e:9a:c3
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: QhgNOwfb79pauiKhCEI1VsfYs9KYe140O+BnY3UOOIE
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 6c:07:2e:6e:e8:6d:bc:a6:50:95:26:79:5a:31:1e:a2
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.35 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.35 -->
