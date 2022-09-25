@@ -447,4 +447,20 @@ Host webarch webarch.email
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.48
+# BEGIN 81.95.52.102
+Host rt rt.webarch.net
+  Hostname 81.95.52.102
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.102
+# BEGIN 81.95.52.109
+Host mail.sanford.coop sanfordmail sanfordmail.webarch.net
+  Hostname 81.95.52.109
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.109
 # vim: syntax=sshconfig

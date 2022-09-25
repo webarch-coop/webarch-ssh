@@ -1166,6 +1166,11 @@ The above YAML can generated using `ssh-audit -j 81.95.52.20 | jq .fingerprints 
 
 # Mail servers
 
+* [mx.webarch.net](#mxwebarchnet)
+* [cc.webarch.net](#ccwebarchnet)
+* [webarch.email](#webarchemail)
+* [rt.webarch.net](#rtwebarchnet)
+
 <!-- BEGIN 81.95.52.71 -->
 ## mx.webarch.net
 SSH server fingerprints for `mx.webarch.net` at `81.95.52.71`:
@@ -1226,3 +1231,43 @@ SSH server fingerprints for `webarch.email` at `81.95.52.48`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.48 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.48 -->
+<!-- BEGIN 81.95.52.102 -->
+## rt.webarch.net
+SSH server fingerprints for `rt.webarch.net` at `81.95.52.102`:
+```yml
+-   hash: meedPtukBCv5dyxSFfiDgiqrOHePSQ2t5V6UlSSOWc8
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 00:3f:7b:15:cb:79:22:8d:be:02:8d:79:18:a2:e5:3a
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: eXw/7txX4TDDUIP7NNmdxFkL8TIldhlZVtcTDul3IfU
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: e8:c6:ee:ba:03:f4:13:3b:44:50:5e:0a:f9:bb:0b:62
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.102 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.102 -->
+<!-- BEGIN 81.95.52.109 -->
+## sanfordmail.webarch.net
+SSH server fingerprints for `sanfordmail.webarch.net` at `81.95.52.109`:
+```yml
+-   hash: OtkMupVxAnLYUUllScg6ELdOeAszPEvPMXWcBJXPIr8
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 45:a7:52:f4:cd:77:bf:95:9a:10:b5:fb:92:6e:4c:2d
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: ozvw+99TE31n68+HN1vaR8bnK/yzE9M92R9TRRlgp/A
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 2c:bf:67:37:e6:6e:0d:f1:e1:44:de:44:0a:49:29:a9
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.109 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.109 -->
