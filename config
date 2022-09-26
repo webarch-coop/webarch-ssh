@@ -72,7 +72,7 @@ Host office.unitedigitaltech.org
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.96
 # BEGIN 81.95.52.110
-Host sanford sanford.webarch.net
+Host cloud.sanford.coop sanford sanford.webarch.net
   Hostname 81.95.52.110
   Port 22
   CheckHostIP yes
@@ -144,7 +144,7 @@ Host web.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.98
 # BEGIN 81.95.52.90
-Host onlyoffice2 onlyoffice2.webarch.net
+Host onlyoffice2 onlyoffice2.webarch.net onlyoffice.office.workers.coop onlyoffice.office.coops.tech onlyoffice.office.cotech.uk onlyoffice.cloud.3dcampus.co.uk onlyoffice.hub.animorph.coop onlyoffice.cloud.freetechproject.com onlyoffice.cloud.union-coops.uk onlyoffice.office.webarchitects.co.uk
   Hostname 81.95.52.90
   Port 22
   CheckHostIP yes
@@ -152,7 +152,7 @@ Host onlyoffice2 onlyoffice2.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.90
 # BEGIN 81.95.52.87
-Host onlyoffice1 onlyoffice1.webarch.net
+Host onlyoffice1 onlyoffice1.webarch.net onlyoffice.cloud.assist.coop onlyoffice.office.energytransitions.uk onlyoffice.cloud.meet.coop onlyoffice.cloud.surge.coop onlyoffice.cloud.parkhill.estate onlyoffice.office.unitedigitaltech.org onlyoffice.cloud.croome.net onlyoffice.cloud.mutual.email onlyoffice.cloud.1012.me onlyoffice.cloud.valleycare.coop onlyoffice.cloud.leedsbread.coop onlyoffice.cloud.platform6.coop onlyoffice.cloud.sanford.coop onlyoffice.hurray.org.uk onlyoffice.cloud.socialsystems.io onlyoffice.cloud.sos-uk.org onlyoffice.cloud.ldn.cash onlyoffice.cloud.inca.coop onlyoffice.cloud.ecocounts.community onlyoffice.cloud.acommuneinthenorth.org.uk
   Hostname 81.95.52.87
   Port 22
   CheckHostIP yes
