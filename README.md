@@ -39,6 +39,8 @@ cd ~/.ssh/webarch-ssh
 git pull
 ```
 
+## Fingerprints repo
+
 The contents of this repo have been automatically generated using the [Webarchitects SSH Ansible Role](https://git.coop/webarch/ssh), primary URL of this repo is [`https://git.coop/webarch/webarch-ssh`](https://git.coop/webarch/webarch-ssh) however it is also [mirrored to GitHub](https://github.com/webarch-coop/webarch-ssh).
 
 See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
