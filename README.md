@@ -13,9 +13,11 @@ This `git` repository contains [OpenSSH](https://www.openssh.com/) fingerprints 
 * [webarch6.co.uk](#webarch6couk)
 * [webarch7.co.uk](#webarch7couk)
 
-See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
+Please use the fingerprints below to verify your SSH connection when you first connect to our servers.
 
-You can download these SSH fingerprints as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.0.0/webarch-ssh-1.0.0.zip) (other [formats available](https://git.coop/webarch/webarch-ssh/-/releases/1.0.0)) and uncompress the archive into `~/.ssh/webarch-ssh`.
+## OpenSSH users
+
+If you use [OpenSSH](https://www.openssh.com/) then you can install these fingerprints locally by either downloading them as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.1.0/webarch-ssh-1.1.0.zip) (other [formats available](https://git.coop/webarch/webarch-ssh/-/releases/1.1.0)) and uncompress the archive into `~/.ssh/webarch-ssh`.
 
 And then edit `~/.ssh/config` to add the following to the top of the file:
 
@@ -38,6 +40,8 @@ git pull
 ```
 
 The contents of this repo have been automatically generated using the [Webarchitects SSH Ansible Role](https://git.coop/webarch/ssh), primary URL of this repo is [`https://git.coop/webarch/webarch-ssh`](https://git.coop/webarch/webarch-ssh) however it is also [mirrored to GitHub](https://github.com/webarch-coop/webarch-ssh).
+
+See the [config](config) file for the list of hosts and the [known_hosts](known_hosts) file for the fingerprints.
 
 The server fingerprints and other SSH details can be found below in YAML format, `yq` is [available from GitHub](https://github.com/mikefarah/yq), we have written [a yq Ansible role](https://git.coop/webarch/yq) to install it.
 
@@ -1345,6 +1349,12 @@ The above YAML can generated using `ssh-audit -j 81.95.52.32 | jq .fingerprints 
 * [bert.croome.net](#bertcroomenet)
 * [controlller.webarch.net](#controlllerwebarchnet)
 * [proxy.webarch.net](#proxywebarchnet)
+* [xen4.webarch.net](#xen4webarchnet)
+* [storage.webarch.net](#storagewebarchnet)
+* [backup-a.webarch.net](#backup-awebarchnet)
+* [runner.git.coop](#runnergitcoop)
+* [priv.runner.git.coop](#privrunnergitcoop)
+* [workersauth.webarch.coop](#workersauthwebarchcoop)
 
 <!-- BEGIN 81.95.52.5 -->
 ## bert.croome.net
@@ -1406,3 +1416,123 @@ SSH server fingerprints for `controller.webarch.net` at `81.95.52.35`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.35 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.35 -->
+<!-- BEGIN 81.95.52.121 -->
+## xen4.webarch.net
+SSH server fingerprints for `xen4.webarch.net` at `81.95.52.121`:
+```yml
+-   hash: p0rWRNs23UpPMGZI+N9/H5CI4SQlBFRd+4QLcxtbjHM
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 79:1f:6f:1a:45:c0:17:53:43:33:4a:b6:86:74:57:aa
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: zQbQlMJqdET13m7+YKMZYYK5sfbDZYFF5AJR4FD/oKI
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: cc:d7:e4:a9:95:cb:b1:8d:ca:70:e3:20:6e:6d:c3:1d
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.121 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.121 -->
+<!-- BEGIN 81.95.52.125 -->
+## storage.webarch.net
+SSH server fingerprints for `storage.webarch.net` at `81.95.52.125`:
+```yml
+-   hash: ljf5za5GBODi+pEIDu2QDgB5fSiStMpdPxmLD8nx74U
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: d7:59:58:32:b2:11:54:18:f8:34:0e:94:2a:c3:ab:70
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: nZenAHPCkA2/klKdtDk72HbKgNpyfTRXACxYxUsQMXI
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 15:ba:1c:3e:34:4b:8c:4a:84:61:35:ea:1f:02:f3:d2
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.125 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.125 -->
+<!-- BEGIN 81.95.52.122 -->
+## backup-a.webarch.net
+SSH server fingerprints for `backup-a.webarch.net` at `81.95.52.122`:
+```yml
+-   hash: ho+pmno1beyuLvvLe8Wr2AyIR9HdRjPA2uUQ4UxbVRE
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 8b:68:74:3a:85:be:71:93:fe:10:74:31:61:21:31:b0
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: aQoT/1jf2gMDCzgHzu+1r8Z0GCnPsQdzHipEhJ1hqaQ
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 71:2a:02:10:6e:0a:ec:57:c9:d9:f8:2e:84:64:45:fa
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.122 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.122 -->
+<!-- BEGIN 81.95.52.69 -->
+## priv.runner.git.coop
+SSH server fingerprints for `priv.runner.git.coop` at `81.95.52.69`:
+```yml
+-   hash: ckErqjjf2DCCN76S/S/wRBVpGmABKuMWxQ966EYLHiw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 99:74:c8:51:6e:42:a8:f8:a0:2e:f8:7b:5c:b5:cb:60
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: NEs73xGPVOozfW6Wz8yFcVcePJumzoSQ1WwX/gOMaEw
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 5c:7e:c2:4f:d6:27:41:5d:1c:b8:9d:8a:9c:2f:a6:dc
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.69 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.69 -->
+<!-- BEGIN 81.95.52.70 -->
+## runner.git.coop
+SSH server fingerprints for `runner.git.coop` at `81.95.52.70`:
+```yml
+-   hash: hm0BUU7506/aH+NhMG6x6evB1BOU9QtzlOMMLnUube4
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 3a:8d:24:2f:ca:a2:d0:5b:d3:73:de:dd:00:e3:ec:b8
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: PfpDXsRgShHtEumiIbt3I+xpNsD0hiN1ThaVlYzK6Uo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: cd:79:75:07:b1:13:49:08:71:3d:a8:e8:ab:b6:96:e9
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.70 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.70 -->
+<!-- BEGIN 81.95.52.9 -->
+## workersauth.webarch.coop
+SSH server fingerprints for `workersauth.webarch.coop` at `81.95.52.9`:
+```yml
+-   hash: dWC+H39wPb9e3LJaD8yR25XekuIJ0WGiVu/hm6HPj7A
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 64:8a:14:f9:ed:e5:bf:e0:96:79:75:0f:c4:28:ed:b4
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: nE5G0OVbRFAnkLRhZDrcx0mkUPUPpbONoBqiTwKUzeM
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 2d:e7:3c:5a:ce:0d:d4:7d:52:e1:36:34:d9:b7:c6:70
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.9 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.9 -->
