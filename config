@@ -559,4 +559,12 @@ Host workersauth workersauth.webarch.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.9
+# BEGIN 81.95.52.41
+Host creative1 creative1.webarch.coop
+  Hostname 81.95.52.41
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.41
 # vim: syntax=sshconfig

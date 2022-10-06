@@ -1538,3 +1538,23 @@ SSH server fingerprints for `workersauth.webarch.coop` at `81.95.52.9`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.9 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.9 -->
+<!-- BEGIN 81.95.52.41 -->
+## creative1.webarch.coop
+SSH server fingerprints for `creative1.webarch.coop` at `81.95.52.41`:
+```yml
+-   hash: Ztbn+rGa3HTY+NHlcHC4N6aYpQapqWvWmCQAUsvCE7k
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 72:59:e2:38:ae:ab:27:c4:e5:54:d2:12:f0:59:b7:60
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: iC4fmmAMmMZZrqBIErGuOoJZOctPXHyJ8cz+I8nrby8
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 39:c1:21:38:99:a4:d7:86:af:eb:c3:71:47:aa:2d:fb
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.41 -->
