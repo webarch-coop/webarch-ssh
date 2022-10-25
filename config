@@ -32,7 +32,7 @@ Host members members.webarchitects.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.93
 # BEGIN 81.95.52.12
-Host forum.workers.coop workersforum workersforum.webarch.coop
+Host forum.workers.coop workersforum workersforum.webarch.coop forum.workerscoop.uk
   Hostname 81.95.52.12
   Port 22
   CheckHostIP yes
