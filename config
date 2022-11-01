@@ -552,7 +552,7 @@ Host priv priv.runner.git.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.69
 # BEGIN 81.95.52.9
-Host workersauth workersauth.webarch.coop
+Host auth.workers.coop workersauth workersauth.webarch.coop
   Hostname 81.95.52.9
   Port 22
   CheckHostIP yes
@@ -567,4 +567,12 @@ Host creative1 creative1.webarch.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.41
+# BEGIN 81.95.52.7
+Host chat.workers.coop workersmatter workersmatter.webarch.coop
+  Hostname 81.95.52.7
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.7
 # vim: syntax=sshconfig

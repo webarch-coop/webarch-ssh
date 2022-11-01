@@ -1519,8 +1519,8 @@ SSH server fingerprints for `runner.git.coop` at `81.95.52.70`:
 The above YAML can generated using `ssh-audit -j 81.95.52.70 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.70 -->
 <!-- BEGIN 81.95.52.9 -->
-## workersauth.webarch.coop
-SSH server fingerprints for `workersauth.webarch.coop` at `81.95.52.9`:
+## auth.workers.coop
+SSH server fingerprints for `auth.workers.coop` at `81.95.52.9`:
 ```yml
 -   hash: dWC+H39wPb9e3LJaD8yR25XekuIJ0WGiVu/hm6HPj7A
     hash_alg: SHA256
@@ -1558,3 +1558,23 @@ SSH server fingerprints for `creative1.webarch.coop` at `81.95.52.41`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.41 -->
+<!-- BEGIN 81.95.52.7 -->
+## chat.workers.coop
+SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
+```yml
+-   hash: CSnJysXtB2f9M67GD6ls7NFJlisSvbuyFGqYprFCqT4
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 9f:4c:a0:78:70:ac:12:79:f5:91:be:f3:d4:c1:96:5d
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: J7K3tqqjbv2PY6TkUhdU3gHRSjoWBtkVM+88JYAkz1o
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 3b:6b:43:70:53:0e:8f:34:88:b2:ce:cb:65:3b:54:2f
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.7 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.7 -->
