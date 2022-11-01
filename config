@@ -575,4 +575,12 @@ Host chat.workers.coop workersmatter workersmatter.webarch.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.7
+# BEGIN 81.95.52.45
+Host mattermost mattermost.webarch.org.uk
+  Hostname 81.95.52.45
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.45
 # vim: syntax=sshconfig

@@ -1578,3 +1578,23 @@ SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.7 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.7 -->
+<!-- BEGIN 81.95.52.45 -->
+## mattermost.webarch.org.uk
+SSH server fingerprints for `mattermost.webarch.org.uk` at `81.95.52.45`:
+```yml
+-   hash: Qj2JShKOOOG5Yblk+tdDkq2DzdUrsBCQ3o+M39uv0WU
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 1d:99:11:61:0d:7e:ec:1f:6c:0a:48:6a:02:2d:ae:ae
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: FeNOKALIV3Td5BKqY/MKc0OGaNg1ycFMvp87BWzRQJQ
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: ee:fe:9d:22:c0:5f:01:af:89:40:a0:c4:c2:83:cd:fc
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.45 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.45 -->
