@@ -1598,3 +1598,23 @@ SSH server fingerprints for `mattermost.webarch.org.uk` at `81.95.52.45`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.45 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.45 -->
+<!-- BEGIN 81.95.52.91 -->
+## mastodon.webarch.org.uk
+SSH server fingerprints for `mastodon.webarch.org.uk` at `81.95.52.91`:
+```yml
+-   hash: vbQQgG6PCLbIMGQ48o2cxsVE1ZjAQYpMjYY+PjPBo78
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 65:30:34:43:e3:e4:f3:a8:9f:1d:ce:c3:c7:b6:21:ef
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: UPvSlF4s7E6F64ftHB7Xd8OigVYftEX59ktadt1Gclk
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 9f:64:88:95:e6:86:09:d9:21:2d:64:15:f9:0e:f9:43
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.91 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.91 -->

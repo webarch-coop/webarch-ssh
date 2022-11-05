@@ -583,4 +583,12 @@ Host mattermost mattermost.webarch.org.uk
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.45
+# BEGIN 81.95.52.91
+Host mastodon mastodon.webarch.org.uk
+  Hostname 81.95.52.91
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.91
 # vim: syntax=sshconfig
