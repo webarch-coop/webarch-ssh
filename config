@@ -576,7 +576,7 @@ Host chat.workers.coop workersmatter workersmatter.webarch.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.7
 # BEGIN 81.95.52.45
-Host mattermost mattermost.webarch.org.uk
+Host synapse synapse.webarchitects.org
   Hostname 81.95.52.45
   Port 22
   CheckHostIP yes
