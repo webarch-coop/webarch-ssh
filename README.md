@@ -1618,3 +1618,23 @@ SSH server fingerprints for `mastodon.webarch.org.uk` at `81.95.52.91`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.91 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.91 -->
+<!-- BEGIN 81.95.52.94 -->
+## gicast2.animorph.coop
+SSH server fingerprints for `gicast2.animorph.coop` at `81.95.52.94`:
+```yml
+-   hash: 8LbOE2/jCAEpzeLKIDl9CtfPvwbCsdglLoqkHvX3IMc
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 0e:4c:68:18:2b:15:b6:98:54:9f:f7:d2:5f:1b:ad:95
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: i1oGVR9YXC7ypnm5k+/VyMA7etBLy3JkIhUE4BAYUWs
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 30:1a:42:5d:96:3b:60:69:32:a5:30:a8:22:17:7f:00
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.94 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.94 -->

@@ -591,4 +591,12 @@ Host mastodon mastodon.webarch.org.uk
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.91
+# BEGIN 81.95.52.94
+Host gicast2 gicast2.animorph.coop
+  Hostname 81.95.52.94
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.94
 # vim: syntax=sshconfig
