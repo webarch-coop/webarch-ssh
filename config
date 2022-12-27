@@ -568,7 +568,7 @@ Host creative1 creative1.webarch.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.41
 # BEGIN 81.95.52.7
-Host chat.workers.coop workersmatter workersmatter.webarch.coop
+Host chat.workers.coop workerschat workerschat.webarch.coop theworkers.coop workers.coop
   Hostname 81.95.52.7
   Port 22
   CheckHostIP yes
