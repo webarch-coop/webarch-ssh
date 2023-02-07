@@ -1562,16 +1562,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints 
 ## chat.workers.coop
 SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
 ```yml
--   hash: CSnJysXtB2f9M67GD6ls7NFJlisSvbuyFGqYprFCqT4
+-   hash: OkW76rzqhra103eS332QFx6IOjcLi9DIDoKAWKkrpAE
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 9f:4c:a0:78:70:ac:12:79:f5:91:be:f3:d4:c1:96:5d
+-   hash: b5:e3:e0:b6:77:4e:1b:9c:81:d0:90:ed:16:37:c8:00
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: J7K3tqqjbv2PY6TkUhdU3gHRSjoWBtkVM+88JYAkz1o
+-   hash: e03XfmziVFFeK3vRsXOfeZs5MJk9GXYVfbxu2pGKpM0
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 3b:6b:43:70:53:0e:8f:34:88:b2:ce:cb:65:3b:54:2f
+-   hash: 36:bd:70:7c:fd:b9:03:91:f3:e1:00:32:bf:07:e6:0b
     hash_alg: MD5
     hostkey: ssh-rsa
 
