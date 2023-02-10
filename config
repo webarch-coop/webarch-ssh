@@ -168,7 +168,7 @@ Host icinga icinga.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 93.95.228.246
 # BEGIN 81.95.52.37
-Host monitor monitor.webarch.net
+Host monitor monitor.webarch.net munin.webarch.net
   Hostname 81.95.52.37
   Port 22
   CheckHostIP yes
