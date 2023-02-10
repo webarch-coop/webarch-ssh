@@ -875,19 +875,19 @@ SSH server fingerprints for `cloud.inca.coop` at `81.95.52.31`:
 The above YAML can generated using `ssh-audit -j 81.95.52.31 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.31 -->
 <!-- BEGIN 81.95.52.95 -->
-## office.energytransitions.uk
-SSH server fingerprints for `office.energytransitions.uk` at `81.95.52.95`:
+## easel.webarch.net
+SSH server fingerprints for `easel.webarch.net` at `81.95.52.95`:
 ```yml
--   hash: AG/qSJ8dB4NVKccUto4z6plNV8uPHH37R6jvVVJX2Lo
+-   hash: Bosxez6k9JZMRsrhcEpv5SEiBWmGs+jQXimahvbyAYY
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 20:57:b7:3a:1f:2e:c9:a0:5f:ef:de:3e:91:00:78:b7
+-   hash: 40:e8:6a:8a:ff:90:58:77:5c:58:b5:fd:40:b9:af:6e
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: CBaNxGy+Hg5axp9Slxyy8is1aT/+CJmrEfXQrpMM/Nc
+-   hash: 3IiDuqLS1s1NrbmyP/Axcw/Ax2CJuk9oOOE1g0bBlxg
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 42:aa:12:e8:b3:d1:b4:77:01:ac:74:7d:72:35:c9:7d
+-   hash: a1:50:22:e2:38:3b:51:de:a4:f5:e5:90:71:74:e8:41
     hash_alg: MD5
     hostkey: ssh-rsa
 

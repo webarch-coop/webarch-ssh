@@ -80,7 +80,7 @@ Host cloud.sanford.coop sanford sanford.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.110
 # BEGIN 81.95.52.95
-Host office.energytransitions.uk energytransitions.co.uk
+Host easel easel.webarch.net
   Hostname 81.95.52.95
   Port 22
   CheckHostIP yes
