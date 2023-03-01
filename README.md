@@ -692,7 +692,6 @@ The above YAML can generated using `ssh-audit -j 81.95.52.33 | jq .fingerprints 
 
 * [office.webarchitects.co.uk](#officewebarchitectscouk)
 * [web.webarch.net](#webwebarchnet)
-* [onekind.webarch.net](#onekindwebarchnet)
 * [ods.webarch.net](#odswebarchnet)
 * [3dccloud.webarch.net](#3dccloudwebarchnet)
 * [ldn.webarch.net](#ldnwebarchnet)
@@ -754,26 +753,6 @@ SSH server fingerprints for `web.webarch.net` at `81.95.52.98`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.98 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.98 -->
-<!-- BEGIN 81.95.52.16 -->
-## onekind.webarch.net
-SSH server fingerprints for `onekind.webarch.net` at `81.95.52.16`:
-```yml
--   hash: iuvTbuNdpKcO+YcjIYqErar/JSdnZseUy7aB5ktJ4YQ
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 3f:27:ad:ee:cc:0a:aa:9d:fc:28:49:47:0d:87:13:16
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: /yLwDChPF8SW9wm45CqJofenaX2GN6Ud/akF68vNP9E
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: 65:96:6c:93:2b:78:8d:14:36:11:45:b9:0f:89:d5:09
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 81.95.52.16 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.16 -->
 <!-- BEGIN 81.95.52.14 -->
 ## ods.webarch.net
 SSH server fingerprints for `ods.webarch.net` at `81.95.52.14`:

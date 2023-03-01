@@ -127,14 +127,6 @@ Host mon mon.opendataservices.coop ods ods.webarch.net
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.14
-# BEGIN 81.95.52.16
-Host onekind onekind.webarch.net
-  Hostname 81.95.52.16
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 81.95.52.16
 # BEGIN 81.95.52.98
 Host web.webarch.net
   Hostname 81.95.52.98
