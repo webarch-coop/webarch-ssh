@@ -1638,3 +1638,23 @@ SSH server fingerprints for `gicast2.animorph.coop` at `81.95.52.94`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.94 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.94 -->
+<!-- BEGIN 94.199.30.35 -->
+## harland.webarch.net
+SSH server fingerprints for `harland.webarch.net` at `94.199.30.35`:
+```yml
+-   hash: 5Ikcbair6vZzFJQKMrshmRrp1H7eBRTIxdq3Y59x7ho
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 46:11:f6:19:26:d9:7d:b9:55:e9:37:4f:4b:b3:43:9d
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: vWc1rWlkiFem6XkTgYmVuj7J+p8GuwgcPybcRuT41L8
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 8a:b6:df:a3:f9:dc:93:e7:47:64:2a:f9:c7:0e:1b:07
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 94.199.30.35 | jq .fingerprints | yq -P`
+<!-- END 94.199.30.35 -->
