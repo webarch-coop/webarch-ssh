@@ -1378,7 +1378,7 @@ SSH server fingerprints for `proxy.webarch.net` at `81.95.52.29`:
 The above YAML can generated using `ssh-audit -j 81.95.52.29 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.29 -->
 <!-- BEGIN 81.95.52.35 -->
-## control.croome.net
+## controller.webarch.net
 SSH server fingerprints for `controller.webarch.net` at `81.95.52.35`:
 ```yml
 -   hash: wtypAGZtUWiN7JUKy33FNPSlbjablQ16UrMEXEcSsBk
