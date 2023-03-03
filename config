@@ -607,4 +607,12 @@ Host onekind onekind.webarch.net
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.16
+# BEGIN 192.168.8.2
+Host harland harland.webarch.net
+  Hostname 192.168.8.2
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 192.168.8.2
 # vim: syntax=sshconfig
