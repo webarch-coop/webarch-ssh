@@ -1637,3 +1637,23 @@ SSH server fingerprints for `harland.webarch.net` at `94.199.30.35`:
 ```
 The above YAML can generated using `ssh-audit -j 94.199.30.35 | jq .fingerprints | yq -P`
 <!-- END 94.199.30.35 -->
+<!-- BEGIN 81.95.52.16 -->
+## onekind.webarch.net
+SSH server fingerprints for `onekind.webarch.net` at `81.95.52.16`:
+```yml
+-   hash: iuvTbuNdpKcO+YcjIYqErar/JSdnZseUy7aB5ktJ4YQ
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 3f:27:ad:ee:cc:0a:aa:9d:fc:28:49:47:0d:87:13:16
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: /yLwDChPF8SW9wm45CqJofenaX2GN6Ud/akF68vNP9E
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 65:96:6c:93:2b:78:8d:14:36:11:45:b9:0f:89:d5:09
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.16 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.16 -->
