@@ -63,7 +63,7 @@ Then clone this repo:
 git clone https://git.coop/webarch/webarch-ssh.git
 ```
 
-And then either manually add the follwing line to to the top of your `~/.ssh/config` file:
+And then either manually add the follwing line to to the top of your existing `~/.ssh/config` file:
 
 ```
 Include ~/.ssh/webarch-ssh/config
@@ -72,7 +72,7 @@ Include ~/.ssh/webarch-ssh/config
 Or run this command for the file to be created with this content or the content to be appended to an existing file:
 
 ```bash
-echo "Include ~/.ssh/webarch-ssh/config" >> ~/.ssh/config
+echo "Include ~/.ssh/webarch-ssh/config" >> ~/.ssh/config && chown 0600 ~/.ssh/config
 ```
 
 And then when you need to update the fingerprints run:
