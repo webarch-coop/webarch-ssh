@@ -17,7 +17,72 @@ Please use the fingerprints below to verify your SSH connection when you first c
 
 ## OpenSSH users
 
-If you use [OpenSSH](https://www.openssh.com/) then you can install these fingerprints locally by either downloading them as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.1.0/webarch-ssh-1.1.0.zip) (other [formats available](https://git.coop/webarch/webarch-ssh/-/releases/1.1.0)) and uncompress the archive into `~/.ssh/webarch-ssh`.
+If you use [OpenSSH](https://www.openssh.com/) then you can install these fingerprints locally, the best way to do this is using `git` as this will result in the most recent version of this repository and it will make it easier to update the configuration.
+
+The following instructions assume you are running Linux or something like it and your shell is Bash, or something like it.
+
+Open a terninal client and check that you have OpenSSH, run
+
+```bash
+ssh -V
+```
+
+It should output the version of OpenSSH that you ahve installed:
+
+```
+OpenSSH_9.2p1 Debian-2, OpenSSL 3.0.8 7 Feb 2023]
+```
+
+Check that you have `git`, run:
+
+```bash
+git -v
+```
+
+It should output the version of `git` that you ahve installed:
+
+```
+git version 2.39.2
+```
+
+Then change into your `~/.ssh` directory, the following command will create the directory if it doesn't exist and then change into it (the tilda character, `~` is a shortcut for your `$HOME` directory):
+
+```bash
+cd ~/.ssh || mkdir ~/.ssh ; chmod 0700 ~/.ssh ; cd ~/.ssh
+```
+
+Check that you are in the the `~/.ssh` directory:
+
+```bash
+pwd
+```
+
+Then clone this repo:
+
+```bash
+git clone https://git.coop/webarch/webarch-ssh.git
+```
+
+And then either manually add the follwing line to to the top of your `~/.ssh/config` file:
+
+```
+Include ~/.ssh/webarch-ssh/config
+```
+
+Or run this command for the file to be created with this content or the content to be appended to an existing file:
+
+```bash
+echo "Include ~/.ssh/webarch-ssh/config" >> ~/.ssh/config
+```
+
+And then when you need to update the fingerprints run:
+
+```bash
+cd ~/.ssh/webarch-ssh
+git pull
+```
+
+If you can't use `git` you can download the SSH configuration as [a zip file](https://git.coop/webarch/webarch-ssh/-/archive/1.2.0/webarch-ssh-1.2.0.zip) (other [formats available](https://git.coop/webarch/webarch-ssh/-/releases/1.2.0)) and uncompress the archive into `~/.ssh/webarch-ssh`.
 
 And then edit `~/.ssh/config` to add the following to the top of the file:
 
@@ -25,19 +90,7 @@ And then edit `~/.ssh/config` to add the following to the top of the file:
 Include ~/.ssh/webarch-ssh/config
 ```
 
-Or install these fingerprints using `git`, clone this repo into `~/.ssh`:
-
-```bash
-cd ~/.ssh
-git clone https://git.coop/webarch/webarch-ssh.git
-```
-
-And update these fingerprints using `git`:
-
-```bash
-cd ~/.ssh/webarch-ssh
-git pull
-```
+*However* please note that updating is harder when not using `git` and in addition we update the repo when we add and remove servers but don't always generate a release when this is done so the archive files might well be out of date.
 
 ## Fingerprints repo
 
