@@ -27,7 +27,7 @@ Open a terninal client and check that you have OpenSSH, run
 ssh -V
 ```
 
-It should output the version of OpenSSH that you ahve installed:
+It should output the version of OpenSSH that you have installed:
 
 ```
 OpenSSH_9.2p1 Debian-2, OpenSSL 3.0.8 7 Feb 2023]
