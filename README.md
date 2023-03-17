@@ -33,6 +33,10 @@ It should output the version of OpenSSH that you have installed:
 OpenSSH_9.2p1 Debian-2, OpenSSL 3.0.8 7 Feb 2023]
 ```
 
+Check that you are running [OpenSSH 8.2](https://www.openssh.com/releasenotes.html#8.2) or greater as this version (which was released on 2020-02-14) added:
+
+> an Include sshd_config keyword that allows including additional configuration files
+
 Check that you have `git`, run:
 
 ```bash
