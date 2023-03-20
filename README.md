@@ -1734,3 +1734,23 @@ SSH server fingerprints for `harland.webarch.net` at `192.168.8.2`:
 ```
 The above YAML can generated using `ssh-audit -j 192.168.8.2 | jq .fingerprints | yq -P`
 <!-- END 192.168.8.2 -->
+<!-- BEGIN 213.108.108.167 -->
+## greenhost.crin.org
+SSH server fingerprints for `greenhost.crin.org` at `213.108.108.167`:
+```yml
+-   hash: JGo6Nu5hkBF9iZaBqED1rBKUpuKBklAF7HSYtXGeTJM
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: e7:2b:ca:c0:02:ef:d4:01:e8:34:a2:42:bf:e0:ff:1a
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 7IY6zErvxLBQJOsdQvMgVxnpCXCJlUIw07tskIJIsPs
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 18:5c:6e:cf:7f:cf:34:c3:2c:9c:45:74:34:c9:7a:0a
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 213.108.108.167 | jq .fingerprints | yq -P`
+<!-- END 213.108.108.167 -->
