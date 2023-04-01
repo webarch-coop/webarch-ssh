@@ -184,7 +184,7 @@ Host nextcloud nextcloud.webarch.org.uk www.nextcloud.webarch.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.26
 # BEGIN 81.95.52.88
-Host onlyoffice onlyoffice.webarchitects.org.uk onlyoffice.webarch.org.uk onlyoffice.nextcloud.webarchitects.org.uk onlyoffice.nextcloud.webarch.org.uk
+Host onlyoffice onlyoffice.webarchitects.org.uk
   Hostname 81.95.52.88
   Port 22
   CheckHostIP yes
