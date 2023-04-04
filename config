@@ -392,7 +392,7 @@ Host coops.tech web.cotech.uk cotechweb cotechweb.webarch.net office.cotech.uk o
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.59
 # BEGIN 81.95.52.13
-Host office.workers.coop workersoffice workersoffice.webarch.coop
+Host office.workers.coop workersoffice workersoffice.webarch.coop www.workers.coop
   Hostname 81.95.52.13
   Port 22
   CheckHostIP yes
