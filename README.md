@@ -487,16 +487,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.42 | jq .fingerprints 
 ## nextcloud.webarch.org.uk
 SSH server fingerprints for `nextcloud.webarch.org.uk` at `81.95.52.26`:
 ```yml
--   hash: xWM4IM4v5dyqPdA+B8xJA9n0AF85MfuUbD2BU1jjDJU
+-   hash: DQSOGewK/5fhhb6OSWf1oTcdqI4IvH0cvHkXga/Ot+0
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 2d:f6:a7:26:46:0e:e3:68:f0:b8:bf:56:3c:7f:8b:ff
+-   hash: 7e:fb:dc:d2:82:1e:b2:66:05:50:4d:8f:f7:c2:f5:20
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: B/flP0KNk8rp23GDZKhpGnxwKSMGIoRJJEHoP3wpCSM
+-   hash: 3R76d0SM+Bcq4DEGI7wQBDtg194w2AKIq9VRNUrD2Pg
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 53:41:49:d2:79:d2:be:cc:83:f1:f5:93:d6:e5:2c:07
+-   hash: ee:20:f0:55:23:ec:f3:15:5d:24:b3:0b:83:3c:06:e0
     hash_alg: MD5
     hostkey: ssh-rsa
 
