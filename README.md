@@ -67,7 +67,7 @@ Then clone this repo:
 git clone https://git.coop/webarch/webarch-ssh.git
 ```
 
-And then either manually add the follwing line to to the top of your existing `~/.ssh/config` file:
+And then either manually add the following line to to the top of your existing `~/.ssh/config` file:
 
 ```
 Include ~/.ssh/webarch-ssh/config
