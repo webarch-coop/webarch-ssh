@@ -40,7 +40,7 @@ Check that you are running [OpenSSH 8.2](https://www.openssh.com/releasenotes.ht
 Check that you have `git`, run:
 
 ```bash
-git -v
+git version
 ```
 
 It should output the version of `git` that you ahve installed:
