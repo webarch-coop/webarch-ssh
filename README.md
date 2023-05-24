@@ -1754,3 +1754,23 @@ SSH server fingerprints for `greenhost.crin.org` at `213.108.108.167`:
 ```
 The above YAML can generated using `ssh-audit -j 213.108.108.167 | jq .fingerprints | yq -P`
 <!-- END 213.108.108.167 -->
+<!-- BEGIN 81.95.52.72 -->
+## op.animorph.coop
+SSH server fingerprints for `op.animorph.coop` at `81.95.52.72`:
+```yml
+-   hash: QCobd7415j56hnv0Wxil0RoCQyXoL3AKioK+rdLV/II
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 7a:4a:d5:a6:36:12:8d:b2:c7:fc:e2:fa:e7:dc:8c:23
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: OQIVdIk1r0cZclvyIZhyoXGDUEnUZLTMFWTSOkmDC20
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 25:e4:97:ff:b1:19:68:56:15:01:36:0e:96:14:6e:72
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.72 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.72 -->

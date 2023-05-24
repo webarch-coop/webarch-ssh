@@ -623,4 +623,12 @@ Host greenhost greenhost.crin.org
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 213.108.108.167
+# BEGIN 81.95.52.72
+Host op op.animorph.coop openproject.animorph.coop op.webarch.net
+  Hostname 81.95.52.72
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.72
 # vim: syntax=sshconfig
