@@ -600,7 +600,7 @@ Host harland harland.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 94.199.30.35
 # BEGIN 81.95.52.16
-Host onekind onekind.webarch.net
+Host cal.workers.coop workerscal workerscal.webarch.coop conversations.workers.coop
   Hostname 81.95.52.16
   Port 22
   CheckHostIP yes
