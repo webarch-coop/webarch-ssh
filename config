@@ -631,4 +631,12 @@ Host op op.animorph.coop openproject.animorph.coop op.webarch.net
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.72
+# BEGIN 81.95.52.78
+Host together together.webarch.net together.weall.org
+  Hostname 81.95.52.78
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.78
 # vim: syntax=sshconfig
