@@ -639,4 +639,12 @@ Host together together.webarch.net together.weall.org
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.78
+# BEGIN 81.95.52.73
+Host mailcoop mailcoop.webarch.net mail.mail.coop mailcoop.webarch.coop
+  Hostname 81.95.52.73
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.73
 # vim: syntax=sshconfig
