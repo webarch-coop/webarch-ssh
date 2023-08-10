@@ -507,16 +507,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.26 | jq .fingerprints 
 ## onlyoffice.webarchitects.org.uk
 SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
 ```yml
--   hash: eKacp9qjEbZTTp49fVMrBSXdZFbLbFlA5WjniwZ9GFs
+-   hash: mGL7cDJVZm/968HWFH6c9lF0T8ZAHBcnMl4twLsE4/o
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 8f:b4:70:2b:76:7e:3e:94:b6:8e:82:b0:9e:13:4f:c1
+-   hash: 96:b2:58:1d:d3:84:d9:39:de:df:7a:04:ee:9b:1f:1c
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: hREaFJU9mbn6jMzip5ybS6+3T6jm7s51yS8oja7Q6Mw
+-   hash: +tS+5e/JdSGRqKmUpgJX3qDAZdifU1mZcwWCUjkAumM
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 37:ab:83:7b:c7:5c:2e:47:04:e0:d5:44:6c:0c:97:57
+-   hash: 6d:86:74:92:93:8b:ab:b5:39:91:0b:0e:08:d6:d9:29
     hash_alg: MD5
     hostkey: ssh-rsa
 
