@@ -104,7 +104,7 @@ Host cloud.assist.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.103
 # BEGIN 81.95.52.43
-Host ldn ldn.webarch.net
+Host ldn ldn.webarch.net cloud.ldn.cash
   Hostname 81.95.52.43
   Port 22
   CheckHostIP yes
