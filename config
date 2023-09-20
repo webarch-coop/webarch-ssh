@@ -647,4 +647,12 @@ Host mailcoop mailcoop.webarch.net mail.mail.coop mailcoop.webarch.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.73
+# BEGIN 81.95.52.97
+Host red red.webarch.net
+  Hostname 81.95.52.97
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.97
 # vim: syntax=sshconfig

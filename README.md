@@ -1814,3 +1814,23 @@ SSH server fingerprints for `mailcoop.webarch.net` at `81.95.52.73`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.73 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.73 -->
+<!-- BEGIN 81.95.52.97 -->
+## red.webarch.net
+SSH server fingerprints for `red.webarch.net` at `81.95.52.97`:
+```yml
+-   hash: 2mGW3nxUiSI2smLH2tZMJVy3frvygTfFzMhJiLXWLSw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: ce:43:49:0d:69:59:8a:80:d7:fa:5d:84:8a:d8:0a:c2
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: zvio9v+X+h+17JWSwZsimtOILxQ43i0chBfJZBfQmCo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: a8:1b:63:59:60:0b:3c:7f:ab:9b:de:df:4b:cc:a2:99
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.97 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.97 -->
