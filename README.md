@@ -76,7 +76,7 @@ Include ~/.ssh/webarch-ssh/config
 Or run this command for the file to be created with this content or the content to be appended to an existing file:
 
 ```bash
-echo "Include ~/.ssh/webarch-ssh/config" >> ~/.ssh/config && chown 0600 ~/.ssh/config
+echo "Include ~/.ssh/webarch-ssh/config" >> ~/.ssh/config && chmod 0600 ~/.ssh/config
 ```
 
 And then when you need to update the fingerprints run:
