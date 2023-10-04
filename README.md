@@ -513,10 +513,10 @@ SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
 -   hash: 96:b2:58:1d:d3:84:d9:39:de:df:7a:04:ee:9b:1f:1c
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: +tS+5e/JdSGRqKmUpgJX3qDAZdifU1mZcwWCUjkAumM
+-   hash: BW6ZLEJLkA9YzB+OdUdlTUHx6KORnGs1L9uCJMOCnEo
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 6d:86:74:92:93:8b:ab:b5:39:91:0b:0e:08:d6:d9:29
+-   hash: 6c:1e:e2:4c:10:28:b0:45:15:f4:7c:ac:38:40:6d:c2
     hash_alg: MD5
     hostkey: ssh-rsa
 
