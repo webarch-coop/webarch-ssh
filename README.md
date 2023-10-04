@@ -533,12 +533,6 @@ SSH server fingerprints for `wsh.webarchitects.org.uk` at `81.95.52.56`:
 -   hash: df:b2:66:6d:56:89:88:5e:ff:44:89:ab:e0:1e:85:d2
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: Y2tCvB+YxBLCA5xyeXGiHH5OzW2wSRcUqRpzzjYT7Z0
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: f0:bd:d4:7b:bc:9c:33:a0:bf:8e:cb:2f:7b:26:bf:e4
-    hash_alg: MD5
-    hostkey: ssh-rsa
 
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints | yq -P`
