@@ -493,10 +493,10 @@ SSH server fingerprints for `nextcloud.webarch.org.uk` at `81.95.52.26`:
 -   hash: 7e:fb:dc:d2:82:1e:b2:66:05:50:4d:8f:f7:c2:f5:20
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 3R76d0SM+Bcq4DEGI7wQBDtg194w2AKIq9VRNUrD2Pg
+-   hash: NoSx/6ps0iakC/4gkjkzS/JHU1Tk160mVtuifR1K044
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: ee:20:f0:55:23:ec:f3:15:5d:24:b3:0b:83:3c:06:e0
+-   hash: 1d:0e:e9:45:d0:3c:c7:57:18:ce:9e:fb:cf:52:a7:1d
     hash_alg: MD5
     hostkey: ssh-rsa
 
