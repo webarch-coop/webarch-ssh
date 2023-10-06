@@ -32,7 +32,7 @@ Host members members.webarchitects.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.93
 # BEGIN 81.95.52.12
-Host forum.workers.coop workersforum workersforum.webarch.coop forum.workerscoop.uk
+Host forum.workers.coop workersforum workersforum.webarch.coop
   Hostname 81.95.52.12
   Port 22
   CheckHostIP yes
@@ -392,7 +392,7 @@ Host coops.tech web.cotech.uk cotechweb cotechweb.webarch.net office.cotech.uk o
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.59
 # BEGIN 81.95.52.13
-Host office.workers.coop workersoffice workersoffice.webarch.coop www.workers.coop
+Host office.workers.coop workersoffice workersoffice.webarch.coop www.workers.coop office.workers.coop
   Hostname 81.95.52.13
   Port 22
   CheckHostIP yes
@@ -560,7 +560,7 @@ Host creative1 creative1.webarch.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.41
 # BEGIN 81.95.52.7
-Host chat.workers.coop workerschat workerschat.webarch.coop theworkers.coop workers.coop
+Host chat.workers.coop workerschat workerschat.webarch.coop workers.coop
   Hostname 81.95.52.7
   Port 22
   CheckHostIP yes

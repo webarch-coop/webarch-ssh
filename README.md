@@ -674,10 +674,10 @@ SSH server fingerprints for `forum.workers.coop` at `81.95.52.12`:
 -   hash: 15:be:d4:af:94:4d:10:ad:f6:6a:3d:37:de:10:52:d6
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: I+BW1QegYbchKNkrk+waGTk8/CrZ0o9R0pCu4OK9fsg
+-   hash: R7glUNE25m0DOkFoqtFZTqZW4Y/IqidzJwiZamIMbgY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: db:dc:ee:55:8c:57:83:47:87:88:01:98:45:94:9a:b3
+-   hash: 18:8c:fe:0a:e8:87:e5:e4:b2:91:87:29:12:6f:62:e9
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1160,10 +1160,10 @@ SSH server fingerprints for `office.workers.coop` at `81.95.52.13`:
 -   hash: 06:c5:b6:18:32:02:da:9c:4a:b9:7b:a3:41:6f:a4:80
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 56zba/8uJ1/S9VlPFOxHyjLTU07KDxqJ/9IKdx9k9CA
+-   hash: hAMVczxYzQSfjrW5LgJmruE304jXkmcOytnZayNlrjk
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: f1:e8:2b:99:ee:d2:28:5f:db:14:65:b9:4b:cc:b0:94
+-   hash: ea:68:da:82:8f:71:ba:31:f9:e4:80:f5:ee:b2:29:04
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1564,10 +1564,10 @@ SSH server fingerprints for `auth.workers.coop` at `81.95.52.9`:
 -   hash: 64:8a:14:f9:ed:e5:bf:e0:96:79:75:0f:c4:28:ed:b4
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: nE5G0OVbRFAnkLRhZDrcx0mkUPUPpbONoBqiTwKUzeM
+-   hash: ny0f9ojFR1/1Y/o/YZCrp0rv0SmX/8xuoKzFk+RZIyw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 2d:e7:3c:5a:ce:0d:d4:7d:52:e1:36:34:d9:b7:c6:70
+-   hash: a8:eb:cb:15:71:f0:8f:07:39:a1:76:2c:3a:60:74:e3
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1604,10 +1604,10 @@ SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
 -   hash: b5:e3:e0:b6:77:4e:1b:9c:81:d0:90:ed:16:37:c8:00
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: e03XfmziVFFeK3vRsXOfeZs5MJk9GXYVfbxu2pGKpM0
+-   hash: zDYfOCzsqp3KSQjzdOY9yDmr70ha0mWPnWw+CvOeBe0
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 36:bd:70:7c:fd:b9:03:91:f3:e1:00:32:bf:07:e6:0b
+-   hash: 40:f9:ea:9a:34:df:c5:70:c7:87:be:dd:49:8a:9a:65
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1704,10 +1704,10 @@ SSH server fingerprints for `cal.workers.coop` at `81.95.52.16`:
 -   hash: f5:53:0f:99:9b:37:ce:11:92:46:e0:59:9e:5c:d3:02
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: cTVP0rNwxmNMbOat7yWY+VicXJ1mibgVQD0DRo2oV2w
+-   hash: QfQIOPfFSEsbHdpKEGdI+FSrtZSpdrnhnrBuZpJ25iY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 9e:0e:e7:7f:9a:c9:ab:5b:4b:f0:f7:13:e7:53:d8:ba
+-   hash: 8e:ad:d8:a6:35:98:48:60:2c:2a:4d:79:ae:18:76:89
     hash_alg: MD5
     hostkey: ssh-rsa
 
