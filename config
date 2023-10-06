@@ -176,7 +176,7 @@ Host discourse discourse.webarchitects.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.92
 # BEGIN 81.95.52.26
-Host nextcloud nextcloud.webarch.org.uk www.nextcloud.webarch.org.uk
+Host nextcloud nextcloud.webarch.org.uk
   Hostname 81.95.52.26
   Port 22
   CheckHostIP yes
@@ -376,7 +376,7 @@ Host sharenergy sharenergy.webarch.net my.bigsolar.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.17
 # BEGIN 81.95.52.21
-Host holyoake holyoake.webarch.coop
+Host holyoake.webarch.coop holyoake thenews.coop
   Hostname 81.95.52.21
   Port 22
   CheckHostIP yes
@@ -440,7 +440,7 @@ Host webarch webarch.email
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.48
 # BEGIN 81.95.52.102
-Host rt rt.webarch.net
+Host creativecommons creativecommons.email rt rt.webarch.net
   Hostname 81.95.52.102
   Port 22
   CheckHostIP yes
@@ -584,7 +584,7 @@ Host mastodon mastodon.webarch.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.91
 # BEGIN 81.95.52.94
-Host gicast2 gicast2.animorph.coop gicast2.webarch.coop gicast2.webarch.net
+Host gicast2 gicast2.animorph.coop
   Hostname 81.95.52.94
   Port 22
   CheckHostIP yes
