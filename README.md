@@ -1371,10 +1371,10 @@ SSH server fingerprints for `mail.croome.net` at `81.95.52.32`:
 -   hash: 29:75:20:9e:32:7a:7c:a0:13:da:8f:05:41:f8:a2:8e
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: enf740ZpBKkUEAEp0sLy5OIOmzk+GDZkAXpyd8GEeOo
+-   hash: zzrbPSwViKJNs7DvZ73jQbTlgMzps6/vIY1DfyRC+GE
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 86:48:e4:bd:dd:ca:0f:1f:e4:81:57:97:80:73:63:ec
+-   hash: c4:56:e6:3f:ab:58:b5:00:ed:85:9d:b7:b8:0b:65:ca
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1404,10 +1404,10 @@ SSH server fingerprints for `bert.croome.net` at `81.95.52.5`:
 -   hash: 2a:35:06:ad:fd:37:b0:d9:2f:bf:e9:d7:b3:24:0d:cf
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: nVgvxb1YK/pGjLIIKMgmbIG4b9DqFNN2gjh2W9IlC60
+-   hash: nkBI7gUEPffowlGFExyoGYNNceUwrNX5nuZnySaurOc
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 62:83:14:ed:c8:fe:dd:32:4e:9d:75:48:a6:90:2c:ce
+-   hash: 16:bc:66:47:26:d7:fa:c4:2f:83:19:ad:ad:a4:d7:2b
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1424,10 +1424,10 @@ SSH server fingerprints for `proxy.webarch.net` at `81.95.52.29`:
 -   hash: 2e:ee:ba:d0:fe:22:6f:01:50:c4:a3:26:8f:fd:bd:ad
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: DtN+vCH86Stf575Vc3bE/KG79GebjcTF3r+pTXSPg7U
+-   hash: 8g8mrdumVAiQ2JhHmFFNzRfv8OhOLDMQJe3YOeGbF28
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 45:b1:7b:22:82:95:d5:e0:44:9b:2c:33:11:ab:28:7d
+-   hash: 4a:29:33:b2:1c:38:54:13:ed:e0:ce:bd:93:75:ac:f4
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1435,8 +1435,8 @@ SSH server fingerprints for `proxy.webarch.net` at `81.95.52.29`:
 The above YAML can generated using `ssh-audit -j 81.95.52.29 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.29 -->
 <!-- BEGIN 81.95.52.35 -->
-## controller.webarch.net
-SSH server fingerprints for `controller.webarch.net` at `81.95.52.35`:
+## control.croome.net
+SSH server fingerprints for `control.croome.net` at `81.95.52.35`:
 ```yml
 -   hash: wtypAGZtUWiN7JUKy33FNPSlbjablQ16UrMEXEcSsBk
     hash_alg: SHA256
@@ -1444,10 +1444,10 @@ SSH server fingerprints for `controller.webarch.net` at `81.95.52.35`:
 -   hash: 11:2e:56:15:be:23:58:98:eb:06:43:c0:6a:3e:9a:c3
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: QhgNOwfb79pauiKhCEI1VsfYs9KYe140O+BnY3UOOIE
+-   hash: W/FEv74QvWSJzQbatjemJlz5sRVI6KGEnXy5ekx4+OM
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 6c:07:2e:6e:e8:6d:bc:a6:50:95:26:79:5a:31:1e:a2
+-   hash: 60:93:9c:6a:46:85:79:00:03:48:0f:1b:ba:66:56:53
     hash_alg: MD5
     hostkey: ssh-rsa
 
