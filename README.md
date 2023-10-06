@@ -114,10 +114,10 @@ SSH server fingerprints for `git.coop` at `81.95.52.60`:
 -   hash: 4b:8a:35:8d:22:c0:33:fb:90:95:c6:db:74:32:4f:eb
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: SOtHe3ukCvoXvXopARa5bY4sPoARuJ3vCwXI/bGCoJ4
+-   hash: FxkEors9uuUTSkNHvTqNt8wpUzBlMQbkK/cXDp9uFDQ
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: bd:ca:f8:e7:62:a4:ee:39:5c:56:8c:dd:26:6e:f3:f2
+-   hash: d4:b6:7d:1e:47:33:f3:67:d3:de:83:e4:ca:42:02:b5
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1251,10 +1251,10 @@ SSH server fingerprints for `mx.webarch.net` at `81.95.52.71`:
 -   hash: 60:a1:a8:d9:ac:42:c0:38:56:03:d8:b3:dd:ec:69:25
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: l7rFNol/EcL/Edz1TRjh1QK1JXiCkzlEKGWsK868RPU
+-   hash: eUDpOa3Vh1kNDvk5sK4rHwo7Gd1FVRIU/cDbaiAK7Hs
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 2f:c9:25:6d:80:a2:cd:5b:22:34:05:6a:8b:bf:1c:e3
+-   hash: c6:a9:d7:5c:30:0b:9b:50:eb:ce:c9:f6:8e:a2:68:0b
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1464,10 +1464,10 @@ SSH server fingerprints for `xen4.webarch.net` at `81.95.52.121`:
 -   hash: 79:1f:6f:1a:45:c0:17:53:43:33:4a:b6:86:74:57:aa
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: zQbQlMJqdET13m7+YKMZYYK5sfbDZYFF5AJR4FD/oKI
+-   hash: aPBhW8ksO2SqHemceYtdPXr/lTIPhMXjJMHXa0+xcRA
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: cc:d7:e4:a9:95:cb:b1:8d:ca:70:e3:20:6e:6d:c3:1d
+-   hash: e9:70:00:b8:71:88:00:d8:c2:ee:aa:e1:d1:6c:7b:f1
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1724,10 +1724,10 @@ SSH server fingerprints for `harland.webarch.net` at `192.168.8.2`:
 -   hash: 46:11:f6:19:26:d9:7d:b9:55:e9:37:4f:4b:b3:43:9d
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: vWc1rWlkiFem6XkTgYmVuj7J+p8GuwgcPybcRuT41L8
+-   hash: ZSK26Rvwh4E5yyRxqf4fQkRKHhMXvwfjE4a9HmRcJoA
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 8a:b6:df:a3:f9:dc:93:e7:47:64:2a:f9:c7:0e:1b:07
+-   hash: 80:25:46:78:16:24:a8:b2:dd:84:aa:ae:c6:d9:bd:f6
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1824,10 +1824,10 @@ SSH server fingerprints for `red.webarch.net` at `81.95.52.97`:
 -   hash: ce:43:49:0d:69:59:8a:80:d7:fa:5d:84:8a:d8:0a:c2
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: zvio9v+X+h+17JWSwZsimtOILxQ43i0chBfJZBfQmCo
+-   hash: JJfCZMnJDQQySWgEOpnxf1TfZrXxjLdDBCEmPv84G+4
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: a8:1b:63:59:60:0b:3c:7f:ab:9b:de:df:4b:cc:a2:99
+-   hash: 35:ce:bf:88:29:93:43:a4:a6:82:17:55:b8:85:a5:78
     hash_alg: MD5
     hostkey: ssh-rsa
 
