@@ -43,7 +43,7 @@ Check that you have `git`, run:
 git version
 ```
 
-It should output the version of `git` that you ahve installed:
+It should output the version of `git` that you have installed:
 
 ```
 git version 2.39.2
