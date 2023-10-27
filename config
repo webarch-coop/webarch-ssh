@@ -112,7 +112,7 @@ Host ldn ldn.webarch.net cloud.ldn.cash
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.43
 # BEGIN 81.95.52.55
-Host 3dccloud 3dccloud.webarch.net
+Host 3dccloud 3dccloud.webarch.net 3dccloud.3dcampus.co.uk
   Hostname 81.95.52.55
   Port 22
   CheckHostIP yes
