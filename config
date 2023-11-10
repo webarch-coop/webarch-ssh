@@ -655,4 +655,12 @@ Host red red.webarch.net
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.97
+# BEGIN 81.95.52.74
+Host sw sw.animorph.coop
+  Hostname 81.95.52.74
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.74
 # vim: syntax=sshconfig
