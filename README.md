@@ -1764,10 +1764,10 @@ SSH server fingerprints for `op.animorph.coop` at `81.95.52.72`:
 -   hash: 7a:4a:d5:a6:36:12:8d:b2:c7:fc:e2:fa:e7:dc:8c:23
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: OQIVdIk1r0cZclvyIZhyoXGDUEnUZLTMFWTSOkmDC20
+-   hash: dDp2LhfcT+mlbl/Q2f7oDZNc4QzJk475ajDZwpWMRqg
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 25:e4:97:ff:b1:19:68:56:15:01:36:0e:96:14:6e:72
+-   hash: fa:36:f9:7f:43:20:f7:8f:1b:6a:ff:c5:b5:fb:70:7c
     hash_alg: MD5
     hostkey: ssh-rsa
 
