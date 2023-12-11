@@ -1854,3 +1854,23 @@ SSH server fingerprints for `sw.animorph.coop` at `81.95.52.74`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.74 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.74 -->
+<!-- BEGIN 81.95.52.75 -->
+## workspace.webarch.org.uk
+SSH server fingerprints for `workspace.webarch.org.uk` at `81.95.52.75`:
+```yml
+-   hash: jzFU5papARKkjtm0VD1lZyac442wRAdwdItB2kPbsmo
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 6f:f4:6b:02:6f:2f:3f:8e:dc:b1:9c:99:2d:77:97:c9
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: QsKf3+WXld66CQNwfFVVfcAXuFrA+UQHZshUESb7Cn8
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 99:a8:fb:1c:0e:a2:f9:31:42:70:9d:3e:86:52:2f:a8
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.75 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.75 -->
