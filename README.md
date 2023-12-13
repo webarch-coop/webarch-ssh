@@ -1140,10 +1140,10 @@ SSH server fingerprints for `web.cotech.uk` at `81.95.52.59`:
 -   hash: 48:2e:30:0c:0f:f4:42:ac:97:30:75:82:cf:41:0f:67
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: LsyKb7XJJhaxbxq68zm7DkLMRafU2keW3kDIyOeG024
+-   hash: HbolIROj/VjrE027QPITy6R4DN0tkutI9QxbKInOQyk
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 08:d8:c6:65:36:8b:42:28:5a:28:a6:67:07:66:9f:36
+-   hash: b5:64:f9:99:67:a0:27:de:f2:16:f7:23:27:2f:4e:eb
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1857,6 +1857,20 @@ The above YAML can generated using `ssh-audit -j 81.95.52.74 | jq .fingerprints 
 <!-- BEGIN 81.95.52.75 -->
 ## workspace.webarch.org.uk
 SSH server fingerprints for `workspace.webarch.org.uk` at `81.95.52.75`:
+```yml
+-   hash: 2RjWRdXMf5JYyrpqYS9pRAc/6c7nQ1CY43nxTIZ1dno
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: bc:5a:9e:02:65:5e:fb:61:b1:3a:8a:9f:a3:af:34:69
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: KmyGM8e32PiePCg4AHnV0U33PCAcQgbm2bZC9H3Y1XU
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: f9:9d:3b:43:7b:16:e3:b5:ed:98:86:f6:ce:79:50:a9
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.75 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.75 -->
