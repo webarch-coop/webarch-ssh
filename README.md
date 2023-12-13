@@ -1854,3 +1854,9 @@ SSH server fingerprints for `sw.animorph.coop` at `81.95.52.74`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.74 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.74 -->
+<!-- BEGIN 81.95.52.75 -->
+## workspace.webarch.org.uk
+SSH server fingerprints for `workspace.webarch.org.uk` at `81.95.52.75`:
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.75 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.75 -->

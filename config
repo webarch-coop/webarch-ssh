@@ -663,4 +663,12 @@ Host sw sw.animorph.coop
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.74
+# BEGIN 81.95.52.75
+Host workspace workspace.webarch.org.uk
+  Hostname 81.95.52.75
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.75
 # vim: syntax=sshconfig
