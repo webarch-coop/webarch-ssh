@@ -384,7 +384,7 @@ Host holyoake.webarch.coop holyoake thenews.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.21
 # BEGIN 81.95.52.59
-Host coops.tech web.cotech.uk cotechweb cotechweb.webarch.net office.cotech.uk office.coops.tech
+Host coops.tech web.cotech.uk cotechweb cotechweb.webarch.net
   Hostname 81.95.52.59
   Port 22
   CheckHostIP yes
