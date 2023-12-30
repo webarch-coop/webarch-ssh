@@ -579,10 +579,10 @@ SSH server fingerprints for `monitor.webarch.net` at `81.95.52.37`:
 -   hash: ee:09:97:99:53:a2:a2:b5:53:30:c2:b7:a0:82:4f:54
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: HJP3OeWVTmm2gGmL9E0wayMs+181ie0u0uS/+td3rGQ
+-   hash: roKSXNtPc6klRREAR/Ri5+DbtCimeVk+JKI1/GS5yRM
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: a8:d8:4e:5f:fe:8a:ce:a0:22:cd:aa:c8:68:e3:e8:b8
+-   hash: 1c:95:c5:ed:d1:9e:2d:85:cc:16:25:dd:e9:14:1f:6d
     hash_alg: MD5
     hostkey: ssh-rsa
 
