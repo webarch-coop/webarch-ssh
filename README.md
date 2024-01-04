@@ -860,10 +860,10 @@ SSH server fingerprints for `ldn.webarch.net` at `81.95.52.43`:
 -   hash: 42:0e:68:13:7c:58:ce:05:a7:6c:88:8b:e2:b7:f6:9f
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: KkskTszgnOFDJWeBFw/IwXEMii8k96Z0sYMvzarXMfw
+-   hash: I34pzTaDuqpxXyPpKHpRWL1EzI+oqdul8OmNPy5E8kU
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: ed:e4:46:c6:5b:0a:69:f8:a4:39:55:63:de:f7:10:11
+-   hash: e4:52:ee:db:40:91:49:7e:b5:47:43:07:6b:dd:64:8d
     hash_alg: MD5
     hostkey: ssh-rsa
 
