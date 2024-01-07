@@ -605,10 +605,10 @@ SSH server fingerprints for `onlyoffice1.webarch.net` at `81.95.52.87`:
 -   hash: b5:28:4c:1a:95:4c:50:c3:f4:57:49:cb:c1:1b:10:70
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 2umCQHgQZcAq+0obQkaixDw1qvdMHZnUnOE1BiGmlVo
+-   hash: ZfrUZQmk18rSF48chBERdvI7LhUPNDMfpds2pF5/z5s
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: f0:43:61:98:f2:57:11:e4:c1:89:6a:93:54:36:08:0d
+-   hash: 78:d7:12:08:22:ad:a2:8b:cb:0e:40:98:b8:2c:4c:24
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -625,10 +625,10 @@ SSH server fingerprints for `onlyoffice2.webarch.net` at `81.95.52.90`:
 -   hash: 9b:ae:a2:d3:bb:3a:1e:8a:cc:be:31:af:53:72:18:d6
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: Smg6QrunBrS9DqX0hkEYwidnJcMIq/G6pvTZMaCbB7g
+-   hash: EaGvZRZmA5nyGXW/WoTHETNpG3wyOfjHw6FOaFCogQ8
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: f4:1b:6e:aa:cb:b7:24:36:f0:c0:8c:f9:a7:91:e5:cd
+-   hash: 25:6b:a1:6e:c1:c0:db:05:a8:31:8f:2f:be:20:d5:6c
     hash_alg: MD5
     hostkey: ssh-rsa
 
