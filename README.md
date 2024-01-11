@@ -134,10 +134,10 @@ SSH server fingerprints for `host2.webarch.net` at `81.95.52.6`:
 -   hash: cf:4c:9a:13:84:e8:53:16:66:ae:cb:e0:b9:5f:c5:62
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: gmh/x49giAD2L+Fci/eFA0IJPbeKI6+qsw5OEOzGz+c
+-   hash: ZqMuNmoV9dPBJjQn26Q8TeGasfJkBltarCUOM559RH4
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 49:15:fb:f8:1e:0d:23:d6:95:61:04:5c:11:a4:2f:17
+-   hash: e1:1a:28:c9:d8:36:34:25:03:e5:03:37:18:5a:82:d0
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -154,10 +154,10 @@ SSH server fingerprints for `host3.webarch.net` at `81.95.52.15`:
 -   hash: 3c:12:c4:6c:10:90:bc:6a:c7:56:10:83:99:36:eb:c1
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: bnsZNSIFYSFdWJIfP8r8MUiJSgyFdV+mRX0UAsupdnA
+-   hash: owmQMQEVZ7MVhA/rlCnPO1GMxlthVVGG0s4b/uoFIOQ
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 1d:9a:6f:74:54:b3:f4:16:c2:e8:54:1c:f3:a8:65:6d
+-   hash: 32:56:c8:2b:69:ae:4c:b0:90:05:3d:9e:26:0b:01:4a
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -174,10 +174,10 @@ SSH server fingerprints for `webarch1.co.uk` at `81.95.52.61`:
 -   hash: bb:a2:5a:c2:c5:7e:ac:1f:24:23:9d:86:0b:50:15:e7
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: QI1ALRSfqNirgnrvhA1oI2xMPzKv6SIxpX9QMESivBo
+-   hash: VaoaOurV0JGnGiipwm/hlB3AxN28625Qk9+16UiVS0Y
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 26:c5:67:f7:5e:08:80:53:d4:04:f7:d9:53:ef:21:94
+-   hash: ef:54:07:a0:b3:b2:27:6d:bb:8b:0e:eb:e1:1a:98:be
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -214,10 +214,10 @@ SSH server fingerprints for `webarch3.co.uk` at `81.95.52.63`:
 -   hash: 64:3c:6e:01:2b:fe:f9:48:ec:92:f3:87:4b:85:43:51
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: BmHGwHiwInhuKq4xbVNbJg+fRv2wVZWyvzUwvw+C8AI
+-   hash: 77mOLoVV4p2DNwYwAFk2rT3HPFUZobiPAErdx+IbG3k
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 84:da:0b:27:96:33:ad:a3:2c:47:68:92:f7:c6:e6:70
+-   hash: 30:a2:a3:b0:3c:c8:79:c0:6e:05:72:8a:d9:44:66:14
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -234,10 +234,10 @@ SSH server fingerprints for `webarch4.co.uk` at `81.95.52.64`:
 -   hash: 76:55:e0:dd:dc:69:6a:60:da:62:5a:9a:dc:2f:d4:6c
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: ETFAIJf543GyTNO3IwWSh4Lh3j2XessMtlX0/b30yl0
+-   hash: EyDlrEZ4BhoYXt78MV7RQatNZ/8NYR/qwg1N0F2WeHQ
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 25:ab:9c:23:a0:b5:b4:10:36:9d:04:93:dd:4f:41:1b
+-   hash: af:f2:0b:15:32:bb:6b:2e:2f:13:3f:99:f3:b3:63:25
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -254,10 +254,10 @@ SSH server fingerprints for `webarch5.co.uk` at `81.95.52.65`:
 -   hash: d3:87:f2:5b:05:5b:8b:e2:d0:b2:4b:18:b0:a9:11:d0
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 134bSuKj2+9qhsQct1i1ge37u19kKY8z5BetytTYTiY
+-   hash: Q5U1/ch+kbZeOMPB4+cWo+RhK0UGGWozg16Hbgbp/dI
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: ac:cc:8e:56:1c:c8:04:fd:6d:c3:16:8b:bf:f2:ec:60
+-   hash: 67:27:93:11:c8:bf:f6:3d:70:e0:3b:31:d0:6e:7a:85
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -274,10 +274,10 @@ SSH server fingerprints for `webarch6.co.uk` at `81.95.52.76`:
 -   hash: 58:4e:72:d4:54:c1:0a:9e:54:18:e1:96:75:f9:bd:c9
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 8bbn+uWpYMxuW9EvP8Rb8nWpZxjDRIUp4ZEpIBeHyUU
+-   hash: 7yyIiIjUcFaHMlQYCtyEMb9oFBDo+1dwe0rMMwa+Rdk
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 96:43:45:0d:19:3d:cc:e7:77:26:a9:98:a3:a2:dc:f7
+-   hash: 91:97:fb:55:f3:37:73:94:77:43:29:fe:28:f9:88:fb
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -294,10 +294,10 @@ SSH server fingerprints for `webarch7.co.uk` at `81.95.52.67`:
 -   hash: 9e:4b:0e:92:e2:a3:19:00:ad:02:db:37:b1:fd:f5:67
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: kFUrvamfWtXBVv8ZOkB4yWeDrevxNTMGAi4uElBMmKg
+-   hash: 8A7T2UN/UC2AVpHP2YCacfD7uspycnjABZHjuAgcQV4
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 13:15:12:42:c1:46:1d:55:43:5b:5b:12:84:dc:b7:bb
+-   hash: c0:1d:d9:49:32:c0:04:a0:9f:69:1a:18:e8:8e:c5:af
     hash_alg: MD5
     hostkey: ssh-rsa
 
