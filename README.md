@@ -194,10 +194,10 @@ SSH server fingerprints for `webarch2.co.uk` at `81.95.52.62`:
 -   hash: 49:69:e5:62:b5:33:6a:49:fc:80:5a:3b:a4:77:d0:3f
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: mtIdVhfRNjzjhpsXbSyzjhi3GHAqPJQuVcoBSRMxXuI
+-   hash: 30gvg7gaw90UdMVbCNQYp21oWfa5kRhiRdyTzyjgOm0
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 78:31:45:45:d8:b2:8f:ae:7b:74:3f:fa:3d:88:18:b2
+-   hash: d1:36:9d:3a:04:9c:5b:a3:89:5f:8f:bb:52:bd:8f:11
     hash_alg: MD5
     hostkey: ssh-rsa
 
