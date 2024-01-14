@@ -32,7 +32,7 @@ Host members members.webarchitects.coop 81.95.52.93
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.93
 # BEGIN 81.95.52.12
-Host forum.workers.coop workersforum workersforum.webarch.coop
+Host forum forum.workers.coop workersforum workersforum.webarch.coop 81.95.52.12
   Hostname 81.95.52.12
   Port 22
   CheckHostIP yes
@@ -80,7 +80,7 @@ Host sanford sanford.webarch.net cloud.sanford.coop 81.95.52.110
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.110
 # BEGIN 81.95.52.95
-Host easel easel.webarch.net
+Host easel easel.webarch.net 81.95.52.95
   Hostname 81.95.52.95
   Port 22
   CheckHostIP yes
@@ -344,7 +344,7 @@ Host oriole oriole.webarch.net 81.95.52.11
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.11
 # BEGIN 81.95.52.34
-Host animorph api.animorph.coop dev.animorph.coop hub.animorph.coop wag.animorph.coop animorph.webarch.coop
+Host animorph animorph.webarch.coop api.animorph.coop dev.animorph.coop hub.animorph.coop wag.animorph.coop 81.95.52.34
   Hostname 81.95.52.34
   Port 22
   CheckHostIP yes
@@ -352,7 +352,7 @@ Host animorph api.animorph.coop dev.animorph.coop hub.animorph.coop wag.animorph
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.34
 # BEGIN 81.95.52.39
-Host sharedfutures sharedfutures.app api.sharedfutures.app sharedfutures.webarch.net
+Host sharedfutures sharedfutures.webarch.net sharedfutures.app api.sharedfutures.app 81.95.52.39
   Hostname 81.95.52.39
   Port 22
   CheckHostIP yes
@@ -360,7 +360,7 @@ Host sharedfutures sharedfutures.app api.sharedfutures.app sharedfutures.webarch
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.39
 # BEGIN 81.95.52.19
-Host greenham greenhamwomen greenhamwomen.digital api.greenhamwomen.digital greenham.webarch.net
+Host greenham greenham.webarch.net greenhamwomen greenhamwomen.digital api.greenhamwomen.digital 81.95.52.19
   Hostname 81.95.52.19
   Port 22
   CheckHostIP yes
@@ -391,14 +391,6 @@ Host web web.cotech.uk coops.tech www.coops.tech 81.95.52.59
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.59
-# BEGIN 81.95.52.13
-Host forum forum.workers.coop workersforum workersforum.webarch.coop 81.95.52.13
-  Hostname 81.95.52.13
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 81.95.52.13
 # BEGIN 81.95.52.71
 Host mx mx.webarch.net 81.95.52.71
   Hostname 81.95.52.71
@@ -624,7 +616,7 @@ Host greenhost greenhost.crin.org 213.108.108.167
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 213.108.108.167
 # BEGIN 81.95.52.72
-Host op op.animorph.coop openproject.animorph.coop op.webarch.net
+Host op op.animorph.coop openproject.animorph.coop op.webarch.net 81.95.52.72
   Hostname 81.95.52.72
   Port 22
   CheckHostIP yes
