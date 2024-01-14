@@ -1164,10 +1164,10 @@ SSH server fingerprints for `cloud.croome.net` at `81.95.52.36`:
 -   hash: c8:ac:60:3e:b4:55:84:cc:9f:70:04:a7:6e:a6:8d:dd
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: K0hZBRkTGkrfQLo4bnr0kwyNvzZIEXtIXDslIRQfhM4
+-   hash: z5usqZ3xMiWTM/+gaS3eK8eg4GDJ2pU3gdbftaOew3s
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 6e:b0:29:4e:68:0c:0c:1a:4c:1e:20:44:b3:77:f0:5e
+-   hash: 26:a9:d7:ee:ab:ec:96:90:68:77:7a:68:72:b0:94:76
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -1419,8 +1419,8 @@ SSH server fingerprints for `xen4.webarch.net` at `81.95.52.121`:
 The above YAML can generated using `ssh-audit -j 81.95.52.121 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.121 -->
 <!-- BEGIN 81.95.52.125 -->
-## storage.webarch.net
-SSH server fingerprints for `storage.webarch.net` at `81.95.52.125`:
+## storage.webarchitects.coop
+SSH server fingerprints for `storage.webarchitects.coop` at `81.95.52.125`:
 ```yml
 -   hash: ljf5za5GBODi+pEIDu2QDgB5fSiStMpdPxmLD8nx74U
     hash_alg: SHA256
@@ -1518,26 +1518,6 @@ SSH server fingerprints for `auth.workers.coop` at `81.95.52.9`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.9 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.9 -->
-<!-- BEGIN 81.95.52.41 -->
-## creative1.webarch.coop
-SSH server fingerprints for `creative1.webarch.coop` at `81.95.52.41`:
-```yml
--   hash: Ztbn+rGa3HTY+NHlcHC4N6aYpQapqWvWmCQAUsvCE7k
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 72:59:e2:38:ae:ab:27:c4:e5:54:d2:12:f0:59:b7:60
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: wSwLutMP3dG/t1N5XmC5myvikpbRK7wlBbOH9dUuqwg
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: f6:8d:17:f1:09:2f:7d:a5:c9:ad:8c:e9:e6:e0:cc:df
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.41 -->
 <!-- BEGIN 81.95.52.7 -->
 ## chat.workers.coop
 SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
@@ -1628,10 +1608,10 @@ SSH server fingerprints for `harland.webarch.net` at `94.199.30.35`:
 -   hash: 46:11:f6:19:26:d9:7d:b9:55:e9:37:4f:4b:b3:43:9d
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: vWc1rWlkiFem6XkTgYmVuj7J+p8GuwgcPybcRuT41L8
+-   hash: ZSK26Rvwh4E5yyRxqf4fQkRKHhMXvwfjE4a9HmRcJoA
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 8a:b6:df:a3:f9:dc:93:e7:47:64:2a:f9:c7:0e:1b:07
+-   hash: 80:25:46:78:16:24:a8:b2:dd:84:aa:ae:c6:d9:bd:f6
     hash_alg: MD5
     hostkey: ssh-rsa
 

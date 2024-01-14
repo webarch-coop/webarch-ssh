@@ -432,7 +432,7 @@ Host sanfordmail sanfordmail.webarch.net mail.sanford.coop 81.95.52.109
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.109
 # BEGIN 81.95.52.54
-Host 3dcmail 3dcmail.webarch.net 81.95.52.54
+Host 3dcmail 3dcmail.webarch.net mail.3dcampus.co.uk 81.95.52.54
   Hostname 81.95.52.54
   Port 22
   CheckHostIP yes
@@ -448,7 +448,7 @@ Host croome croome.email mail.croome.net 81.95.52.32
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.32
 # BEGIN 81.95.52.36
-Host cloud cloud.croome.net
+Host cloud.croome.net 81.95.52.36
   Hostname 81.95.52.36
   Port 22
   CheckHostIP yes
@@ -488,7 +488,7 @@ Host xen4 xen4.webarch.net 81.95.52.121
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.121
 # BEGIN 81.95.52.125
-Host storage storage.webarch.net
+Host storage storage.webarchitects.coop storage.webarch.net 81.95.52.125
   Hostname 81.95.52.125
   Port 22
   CheckHostIP yes
@@ -496,7 +496,7 @@ Host storage storage.webarch.net
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.125
 # BEGIN 81.95.52.122
-Host backup-a backup-a.webarch.net
+Host backup-a backup-a.webarch.net 81.95.52.122
   Hostname 81.95.52.122
   Port 22
   CheckHostIP yes
@@ -527,14 +527,6 @@ Host auth auth.workers.coop workersauth workersauth.webarch.coop 81.95.52.9
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.9
-# BEGIN 81.95.52.41
-Host creative1 creative1.webarch.coop
-  Hostname 81.95.52.41
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 81.95.52.41
 # BEGIN 81.95.52.7
 Host chat chat.workers.coop workerschat workerschat.webarch.coop workers.coop 81.95.52.7
   Hostname 81.95.52.7
@@ -568,7 +560,7 @@ Host gicast2 gicast2.animorph.coop 81.95.52.94
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.94
 # BEGIN 94.199.30.35
-Host harland harland.webarch.net
+Host harland harland.webarch.net 94.199.30.35
   Hostname 94.199.30.35
   Port 22
   CheckHostIP yes
@@ -600,7 +592,7 @@ Host op op.animorph.coop openproject.animorph.coop op.webarch.net 81.95.52.72
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.72
 # BEGIN 81.95.52.78
-Host together together.webarch.net together.weall.org
+Host together together.webarch.net together.weall.org 81.95.52.78
   Hostname 81.95.52.78
   Port 22
   CheckHostIP yes
@@ -624,7 +616,7 @@ Host red red.webarch.net 81.95.52.97
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.97
 # BEGIN 81.95.52.74
-Host sw sw.animorph.coop
+Host sw sw.animorph.coop 81.95.52.74
   Hostname 81.95.52.74
   Port 22
   CheckHostIP yes
