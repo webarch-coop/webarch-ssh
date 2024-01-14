@@ -208,23 +208,15 @@ Host wsh wsh.webarchitects.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.56
 # BEGIN 81.95.52.30
-Host dns1 dns1.webarchitects.co.uk
+Host dns1 dns1.webarchitects.co.uk 81.95.52.30
   Hostname 81.95.52.30
   Port 22
   CheckHostIP yes
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.30
-# BEGIN 23.237.136.75
-Host dns4 dns4.webarch.info
-  Hostname 23.237.136.75
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 23.237.136.75
 # BEGIN 185.112.146.79
-Host dns3 dns3.webarch.info
+Host dns3 dns3.webarch.info 185.112.146.79
   Hostname 185.112.146.79
   Port 22
   CheckHostIP yes
@@ -232,23 +224,15 @@ Host dns3 dns3.webarch.info
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 185.112.146.79
 # BEGIN 81.95.52.24
-Host dns0 dns0.webarchitects.co.uk
+Host dns0 dns0.webarchitects.co.uk 81.95.52.24
   Hostname 81.95.52.24
   Port 22
   CheckHostIP yes
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.24
-# BEGIN 81.95.52.27
-Host dns5 dns5.webarchitects.co.uk dns5.webarch.info
-  Hostname 81.95.52.27
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 81.95.52.27
 # BEGIN 217.70.190.127
-Host dns2 dns2.webarch.info
+Host dns2 dns2.webarch.info 217.70.190.127
   Hostname 217.70.190.127
   Port 22
   CheckHostIP yes
@@ -408,7 +392,7 @@ Host redirect redirect.webarch.net 81.95.52.8
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.8
 # BEGIN 81.95.52.20
-Host j25 j25.webarch.net
+Host j25 j25.webarch.net 81.95.52.20
   Hostname 81.95.52.20
   Port 22
   CheckHostIP yes
@@ -432,7 +416,7 @@ Host webarch webarch.email 81.95.52.48
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.48
 # BEGIN 81.95.52.102
-Host creativecommons creativecommons.email rt rt.webarch.net
+Host rt rt.webarch.net 81.95.52.102
   Hostname 81.95.52.102
   Port 22
   CheckHostIP yes
@@ -448,7 +432,7 @@ Host sanfordmail sanfordmail.webarch.net mail.sanford.coop 81.95.52.109
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.109
 # BEGIN 81.95.52.54
-Host mail.3dcampus.co.uk 3dcmail 3dcmail.webarch.net
+Host 3dcmail 3dcmail.webarch.net 81.95.52.54
   Hostname 81.95.52.54
   Port 22
   CheckHostIP yes
@@ -599,14 +583,6 @@ Host cal cal.workers.coop workerscal workerscal.webarch.coop conversations.worke
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.16
-# BEGIN 192.168.8.2
-Host harland harland.webarch.net
-  Hostname 192.168.8.2
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 192.168.8.2
 # BEGIN 213.108.108.167
 Host greenhost greenhost.crin.org 213.108.108.167
   Hostname 213.108.108.167

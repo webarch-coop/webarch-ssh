@@ -311,8 +311,6 @@ The above YAML can generated using `ssh-audit -j 81.95.52.67 | jq .fingerprints 
 * [dns1.webarchitects.co.uk](#dns1webarchitectscouk)
 * [dns2.webarch.info](#dns2webarchinfo)
 * [dns3.webarch.info](#dns3webarchinfo)
-* [dns4.webarch.info](#dns4webarchinfo)
-* [dns5.webarchitects.co.uk](#dns5webarchitectscouk)
 
 <!-- BEGIN 81.95.52.24 -->
 ## dns0.webarchitects.co.uk
@@ -324,10 +322,10 @@ SSH server fingerprints for `dns0.webarchitects.co.uk` at `81.95.52.24`:
 -   hash: 65:c4:71:91:3f:e3:4b:87:3b:15:19:a1:c0:6c:da:6a
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: wjugQ3TZ6kjP0cO46DNM1zkVkExn3/wrr0WgM4yWTnY
+-   hash: hRwmYq0YAzK91jYjOxZx9RLWL9cwjCeWTjjbUHaUMVw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: c5:37:0f:04:8e:21:cc:b8:b8:bb:3e:f4:f0:e3:f9:2f
+-   hash: 45:5a:4c:b9:f9:d0:3d:e8:d4:df:45:a1:e0:25:53:8b
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -344,10 +342,10 @@ SSH server fingerprints for `dns1.webarchitects.co.uk` at `81.95.52.30`:
 -   hash: f7:31:82:2c:24:f7:94:5c:b2:fa:06:91:8c:09:36:2e
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: G7XBpl/Xtp5tiMVZQSbTDcdrd4DU2w1hafq1GQ5oPH8
+-   hash: swqcHiOjI1IrO139QqObwtwRDS3JuWoDvbWcTbfoMYQ
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 4c:e9:3d:d8:5b:7f:ab:55:a0:54:24:17:df:06:5a:84
+-   hash: 52:86:7f:e9:d4:ae:a2:72:b7:9c:d5:7c:dc:54:a3:ba
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -364,10 +362,10 @@ SSH server fingerprints for `dns2.webarch.info` at `217.70.190.127`:
 -   hash: 96:31:60:99:51:39:b8:23:8a:45:e2:8f:ec:2d:e0:10
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: YpCLxqckDBzM09l2R6Y03qPSfL6xrDi2GEJ4YPKLY2U
+-   hash: kF10X8bdmNLhWar1xC8lp8jpzSpxKN8T87wgJtDNhdg
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 46:8b:da:9d:80:b5:93:30:98:12:0c:df:9d:61:70:45
+-   hash: 42:d2:79:e6:56:85:2f:41:58:2e:8d:63:6b:a6:9f:6f
     hash_alg: MD5
     hostkey: ssh-rsa
 
@@ -384,56 +382,16 @@ SSH server fingerprints for `dns3.webarch.info` at `185.112.146.79`:
 -   hash: 93:36:e8:cc:c4:13:8d:b4:0c:24:47:67:c4:2d:67:bd
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: tegfguzTkXdIIePQ9xGyNxEP0DzjYxU1UCXkWKigUiI
+-   hash: KVUm+m/hhVmj8jnZSJQ0u1nX0XvPN3krJdAOYKG2xDw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 5b:82:82:6d:97:4b:94:0a:a7:9c:6f:ce:cf:7c:01:c2
+-   hash: b7:5e:5e:2c:6a:6b:2a:26:25:87:8a:6a:f8:f0:dd:e7
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
 The above YAML can generated using `ssh-audit -j 185.112.146.79 | jq .fingerprints | yq -P`
 <!-- END 185.112.146.79 -->
-<!-- BEGIN 23.237.136.75 -->
-## dns4.webarch.info
-SSH server fingerprints for `dns4.webarch.info` at `23.237.136.75`:
-```yml
--   hash: ZYLyCtj3NtE/aLzGYC3wXNnJG4phB6ZksI+yyfD0Wk0
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 15:e8:f8:ea:1d:38:fb:b2:73:9b:5f:ac:a3:43:00:79
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: xppdf6iTkZto2gWef90Nyw4wxIiMtFnd9zyd8iq5aMo
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: f9:8a:e1:74:c2:1f:86:fa:41:ec:34:cd:6c:dd:c2:d2
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 23.237.136.75 | jq .fingerprints | yq -P`
-<!-- END 23.237.136.75 -->
-<!-- BEGIN 81.95.52.27 -->
-## dns5.webarchitects.co.uk
-SSH server fingerprints for `dns5.webarchitects.co.uk` at `81.95.52.27`:
-```yml
--   hash: oLlyMFwnHqeGHXZVBx6XAU5yDJX/ddD2nImg490MKy8
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: fc:5d:86:51:89:33:68:bd:f9:f7:84:f1:e2:66:7f:a2
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: NVCNPZU+QblTtYIEWneunlpmjXZ5DAoWxwa2XHoy9uo
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: 9b:16:cb:f1:17:b2:6e:88:cd:de:1e:ac:9d:66:f2:61
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 81.95.52.27 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.27 -->
 
 # Development servers
 
@@ -1700,26 +1658,6 @@ SSH server fingerprints for `cal.workers.coop` at `81.95.52.16`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.16 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.16 -->
-<!-- BEGIN 192.168.8.2 -->
-## harland.webarch.net
-SSH server fingerprints for `harland.webarch.net` at `192.168.8.2`:
-```yml
--   hash: 5Ikcbair6vZzFJQKMrshmRrp1H7eBRTIxdq3Y59x7ho
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 46:11:f6:19:26:d9:7d:b9:55:e9:37:4f:4b:b3:43:9d
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: ZSK26Rvwh4E5yyRxqf4fQkRKHhMXvwfjE4a9HmRcJoA
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: 80:25:46:78:16:24:a8:b2:dd:84:aa:ae:c6:d9:bd:f6
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 192.168.8.2 | jq .fingerprints | yq -P`
-<!-- END 192.168.8.2 -->
 <!-- BEGIN 213.108.108.167 -->
 ## greenhost.crin.org
 SSH server fingerprints for `greenhost.crin.org` at `213.108.108.167`:
