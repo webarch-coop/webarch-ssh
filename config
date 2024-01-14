@@ -16,7 +16,7 @@ Host radhr radhr.webarch.net community.radhr.org 81.95.52.33
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.33
 # BEGIN 81.95.52.40
-Host forum forum.meet.coop
+Host forum forum.meet.coop 81.95.52.40
   Hostname 81.95.52.40
   Port 22
   CheckHostIP yes
@@ -24,7 +24,7 @@ Host forum forum.meet.coop
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.40
 # BEGIN 81.95.52.93
-Host members members.webarchitects.coop
+Host members members.webarchitects.coop 81.95.52.93
   Hostname 81.95.52.93
   Port 22
   CheckHostIP yes
@@ -392,7 +392,7 @@ Host web web.cotech.uk coops.tech www.coops.tech 81.95.52.59
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.59
 # BEGIN 81.95.52.13
-Host office office.workers.coop workersoffice workersoffice.webarch.coop www.workers.coop office.workers.coop onlyoffice.office.workers.coop 81.95.52.13
+Host forum forum.workers.coop workersforum workersforum.webarch.coop 81.95.52.13
   Hostname 81.95.52.13
   Port 22
   CheckHostIP yes
