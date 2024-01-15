@@ -168,7 +168,7 @@ Host monitor monitor.webarch.net munin.webarch.net 81.95.52.37
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.37
 # BEGIN 81.95.52.92
-Host discourse discourse.webarchitects.org.uk
+Host discourse discourse.webarchitects.org.uk 81.95.52.92
   Hostname 81.95.52.92
   Port 22
   CheckHostIP yes
@@ -624,7 +624,7 @@ Host sw sw.animorph.coop 81.95.52.74
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.74
 # BEGIN 81.95.52.75
-Host workspace workspace.webarch.org.uk
+Host workspace workspace.webarch.org.uk 81.95.52.75
   Hostname 81.95.52.75
   Port 22
   CheckHostIP yes
