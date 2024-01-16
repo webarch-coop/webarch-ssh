@@ -176,7 +176,7 @@ Host discourse discourse.webarchitects.org.uk 81.95.52.92
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.92
 # BEGIN 81.95.52.26
-Host nextcloud nextcloud.webarch.org.uk
+Host nextcloud nextcloud.webarch.org.uk 81.95.52.26
   Hostname 81.95.52.26
   Port 22
   CheckHostIP yes
@@ -184,7 +184,7 @@ Host nextcloud nextcloud.webarch.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.26
 # BEGIN 81.95.52.88
-Host onlyoffice onlyoffice.webarchitects.org.uk
+Host onlyoffice onlyoffice.webarchitects.org.uk onlyoffice.nextcloud.wsh.webarchitects.org.uk 81.95.52.88
   Hostname 81.95.52.88
   Port 22
   CheckHostIP yes
