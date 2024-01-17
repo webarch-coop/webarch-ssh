@@ -200,7 +200,7 @@ Host icinga-master icinga-master.webarchitects.org.uk 81.95.52.42
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.42
 # BEGIN 81.95.52.56
-Host wsh wsh.webarchitects.org.uk
+Host wsh wsh.webarchitects.org.uk 81.95.52.56
   Hostname 81.95.52.56
   Port 22
   CheckHostIP yes
