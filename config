@@ -647,4 +647,12 @@ Host mailman-1 mailman-1.webarchitects.coop 81.95.52.23
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.23
+# BEGIN 81.95.52.13
+Host office office.workers.coop workersoffice workersoffice.webarch.coop www.workers.coop office.workers.coop onlyoffice.office.workers.coop 81.95.52.13
+  Hostname 81.95.52.13
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.13
 # vim: syntax=sshconfig

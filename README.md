@@ -1095,8 +1095,8 @@ SSH server fingerprints for `web.cotech.uk` at `81.95.52.59`:
 The above YAML can generated using `ssh-audit -j 81.95.52.59 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.59 -->
 <!-- BEGIN 81.95.52.13 -->
-## forum.workers.coop
-SSH server fingerprints for `forum.workers.coop` at `81.95.52.13`:
+## office.workers.coop
+SSH server fingerprints for `office.workers.coop` at `81.95.52.13`:
 ```yml
 -   hash: CiM08t9Ncy1kuWAzBXy16DBNcuL4kG+6gjl6XiBgYaI
     hash_alg: SHA256
