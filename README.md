@@ -1822,16 +1822,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.23 | jq .fingerprints 
 ## workspace.webarch.org.uk
 SSH server fingerprints for `workspace.webarch.org.uk` at `localhost`:
 ```yml
--   hash: /rfHE1XnJi+jKaF6Pr5ENT50aEkqZ556unHu1aFFqxg
+-   hash: 8cTA29r6Y1vDJBibQzqOXjvGLu2nD/0A/HZtIL2ozYg
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: ac:51:a8:f7:72:05:31:60:b2:50:a7:0f:9e:a9:8a:be
+-   hash: 2b:6e:d5:b1:2f:68:fc:83:46:71:f9:9f:ba:ef:f1:23
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: qr1A9QfPu7QUYvvr9Fgiavucgv/H6h97w7B6e8/eyDY
+-   hash: FAiaWnhY4NuuaexvPnnWG4rtG/us9ZwCXg2A8QDgLmU
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 0e:73:22:f9:0e:5d:da:9f:a0:59:fb:da:28:fb:86:7c
+-   hash: dd:8a:7c:21:d9:df:7d:5e:52:4b:2b:6a:75:dd:c7:94
     hash_alg: MD5
     hostkey: ssh-rsa
 
