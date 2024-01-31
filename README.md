@@ -1838,3 +1838,23 @@ SSH server fingerprints for `workspace.webarch.org.uk` at `localhost`:
 ```
 The above YAML can generated using `ssh-audit -j localhost | jq .fingerprints | yq -P`
 <!-- END localhost -->
+<!-- BEGIN 81.95.52.66 -->
+## mailcoopuk.webarch.net
+SSH server fingerprints for `mailcoopuk.webarch.net` at `81.95.52.66`:
+```yml
+-   hash: x0iuarIzc90rWnr2P/SCt3EjNObzrdkHl/P8624e89k
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 58:62:ce:be:69:ff:06:fd:1f:cb:48:02:ad:24:0b:c4
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: C03YEz4jJu894ptewgR+tfEoUrTw6pEcamF9bwxb4ZU
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 0b:1f:f3:3d:7d:b8:d9:f9:de:d6:5b:14:76:ee:01:e7
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.66 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.66 -->
