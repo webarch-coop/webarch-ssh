@@ -1862,16 +1862,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.66 | jq .fingerprints 
 ## munin.webarch.org.uk
 SSH server fingerprints for `munin.webarch.org.uk` at `81.95.52.41`:
 ```yml
--   hash: yQrUUTFNRYFLZANw4Cumszc2GyROwTelCxnfrKr3ZTY
+-   hash: 0VfaZP7Hgy/vuvg9VYx5zTZtnC5GMPnWAkyy4MSDRW4
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 11:b9:d1:bc:55:10:f9:85:b0:50:5f:14:ca:ae:dd:7a
+-   hash: 81:d1:7d:a4:96:ef:e4:61:19:89:9a:6a:42:9c:0f:17
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 82rXGwpcU94wvDTfXt5nwvxKdwFc0loVveEgRdSYfpM
+-   hash: v+fqngzp9ArB2avmVjAhmn7pVerdta1NyGNGayN8Jfw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 82:18:87:4f:e4:ca:b3:41:5d:17:3d:53:76:02:af:06
+-   hash: 68:35:08:da:2a:92:15:25:e2:0d:91:45:68:84:57:10
     hash_alg: MD5
     hostkey: ssh-rsa
 
