@@ -678,4 +678,12 @@ Host munin munin.webarch.org.uk 81.95.52.41
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.41
+# BEGIN 81.95.52.44
+Host odmworkspace odmworkspace.webarch.net 81.95.52.44
+  Hostname 81.95.52.44
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.44
 # vim: syntax=sshconfig

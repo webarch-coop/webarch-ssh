@@ -1878,3 +1878,23 @@ SSH server fingerprints for `munin.webarch.org.uk` at `81.95.52.41`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.41 -->
+<!-- BEGIN 81.95.52.44 -->
+## odmworkspace.webarch.net
+SSH server fingerprints for `odmworkspace.webarch.net` at `81.95.52.44`:
+```yml
+-   hash: BRh1Z+DknneAoBawtM9Dntmj3YHyHOb4ki1jqznQFyw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: c2:c5:21:46:ae:63:8a:31:4b:2a:b1:46:25:77:e9:ab
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 9iCmi3MJNWR5n3RO7GmnZiw7Roi3Vgb0vJ6X75ArGQg
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 6d:5e:ec:a4:9e:bb:61:4f:aa:d1:a5:84:b0:55:20:99
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.44 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.44 -->
