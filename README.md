@@ -1898,3 +1898,23 @@ SSH server fingerprints for `odmworkspace.webarch.net` at `81.95.52.44`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.44 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.44 -->
+<!-- BEGIN 81.95.52.25 -->
+## labourstart.webarchitects.co.uk
+SSH server fingerprints for `labourstart.webarchitects.co.uk` at `81.95.52.25`:
+```yml
+-   hash: yHSAv4iOvO6KKG9rZNfXtKJ2+4z3AGfybgoG4uqX9h4
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: a3:30:bd:d5:fc:dc:e4:06:09:a3:53:01:be:cc:96:d0
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: Np48O4rRtnWfIMIjk2vOvWnmb1w0zXHRwPBwitufskA
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 5b:78:0b:6e:3c:d9:f7:21:4a:2e:da:95:6c:64:7c:28
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.25 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.25 -->

@@ -686,4 +686,12 @@ Host odmworkspace odmworkspace.webarch.net 81.95.52.44
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.44
+# BEGIN 81.95.52.25
+Host labourstart labourstart.webarchitects.co.uk 81.95.52.25
+  Hostname 81.95.52.25
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.25
 # vim: syntax=sshconfig
