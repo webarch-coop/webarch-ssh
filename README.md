@@ -1922,16 +1922,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.25 | jq .fingerprints 
 ## webarch8.co.uk
 SSH server fingerprints for `webarch8.co.uk` at `81.95.52.28`:
 ```yml
--   hash: 4hAzTgqjaSDuq540Pup1sEYpjFAvMB8OiOM4XzOrJks
+-   hash: wz7V06VAxNu08QywRSTHMBqlN/LtgZzfRY/sUH8aH1o
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: e6:22:ca:6a:b0:04:5c:21:e4:47:70:63:57:7b:9d:b1
+-   hash: d7:79:f9:e9:84:52:af:20:1b:61:96:55:b7:1b:6e:67
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: uSgpT9VaUUgUD12W3RVqh2kn88u6wSaQBv8keqDG/FY
+-   hash: mBHyB4dg1VZh/A6tI6Ok/3w3RIC89cymJtf5x+BEO88
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: ee:bf:ac:d3:87:be:da:ae:32:2e:a7:59:76:e0:00:77
+-   hash: 78:b1:cf:49:7d:4c:be:5d:6f:06:95:51:83:f6:9e:3c
     hash_alg: MD5
     hostkey: ssh-rsa
 
