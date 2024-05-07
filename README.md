@@ -1918,3 +1918,23 @@ SSH server fingerprints for `labourstart.webarchitects.co.uk` at `81.95.52.25`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.25 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.25 -->
+<!-- BEGIN 81.95.52.28 -->
+## webarch8.co.uk
+SSH server fingerprints for `webarch8.co.uk` at `81.95.52.28`:
+```yml
+-   hash: 4hAzTgqjaSDuq540Pup1sEYpjFAvMB8OiOM4XzOrJks
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: e6:22:ca:6a:b0:04:5c:21:e4:47:70:63:57:7b:9d:b1
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: uSgpT9VaUUgUD12W3RVqh2kn88u6wSaQBv8keqDG/FY
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: ee:bf:ac:d3:87:be:da:ae:32:2e:a7:59:76:e0:00:77
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.28 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.28 -->

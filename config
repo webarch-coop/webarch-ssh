@@ -694,4 +694,12 @@ Host labourstart labourstart.webarchitects.co.uk 81.95.52.25
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.25
+# BEGIN 81.95.52.28
+Host webarch8 webarch8.co.uk 81.95.52.28
+  Hostname 81.95.52.28
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.28
 # vim: syntax=sshconfig
