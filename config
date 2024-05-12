@@ -64,7 +64,7 @@ Host cloud cloud.leedsbread.coop 81.95.52.104
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.104
 # BEGIN 81.95.52.96
-Host office office.unitedigitaltech.org 81.95.52.96
+Host office office.unitedigitaltech.org office.unitelondonitc.org.uk 81.95.52.96
   Hostname 81.95.52.96
   Port 22
   CheckHostIP yes
