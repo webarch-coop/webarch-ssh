@@ -528,7 +528,7 @@ Host auth auth.workers.coop workersauth workersauth.webarch.coop 81.95.52.9
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.9
 # BEGIN 81.95.52.7
-Host chat chat.workers.coop workerschat workerschat.webarch.coop workers.coop 81.95.52.7
+Host unbound unbound.webarch.org.uk 81.95.52.7
   Hostname 81.95.52.7
   Port 22
   CheckHostIP yes

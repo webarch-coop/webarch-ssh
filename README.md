@@ -1519,19 +1519,19 @@ SSH server fingerprints for `auth.workers.coop` at `81.95.52.9`:
 The above YAML can generated using `ssh-audit -j 81.95.52.9 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.9 -->
 <!-- BEGIN 81.95.52.7 -->
-## chat.workers.coop
-SSH server fingerprints for `chat.workers.coop` at `81.95.52.7`:
+## unbound.webarch.org.uk
+SSH server fingerprints for `unbound.webarch.org.uk` at `81.95.52.7`:
 ```yml
--   hash: OkW76rzqhra103eS332QFx6IOjcLi9DIDoKAWKkrpAE
+-   hash: mDaKZExz0P9PZUZdDjEUDJH/8K4frCsnnI1kh/glltQ
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: b5:e3:e0:b6:77:4e:1b:9c:81:d0:90:ed:16:37:c8:00
+-   hash: c1:72:99:79:04:d4:35:09:c1:d8:0c:1f:4f:c0:e3:c7
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: zDYfOCzsqp3KSQjzdOY9yDmr70ha0mWPnWw+CvOeBe0
+-   hash: P6ifPlN9owKZgV32l3glMYBu47kOe1XxVOfJx7B/+6k
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 40:f9:ea:9a:34:df:c5:70:c7:87:be:dd:49:8a:9a:65
+-   hash: f8:5a:a5:cb:0e:2a:10:1e:e3:a0:55:78:a5:f3:f1:68
     hash_alg: MD5
     hostkey: ssh-rsa
 
