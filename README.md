@@ -1144,10 +1144,10 @@ SSH server fingerprints for `j25.webarch.net` at `81.95.52.20`:
 -   hash: 34:10:e4:e1:33:9c:38:c2:1b:16:e4:34:da:bf:fa:39
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: TIUSHr441lWtRasQSpO45jO14+i8OiZ2oV7dUrH6cno
+-   hash: +7jdqCDr3gSvxYGgmyoxUiZo1Q8I1z7EVn75rkLVCZo
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 8f:5e:ea:9f:4d:c5:0f:a9:b3:22:89:51:da:41:5d:89
+-   hash: f0:8f:6c:d6:de:59:ca:ac:6b:f0:7d:6c:5d:68:9c:f6
     hash_alg: MD5
     hostkey: ssh-rsa
 
