@@ -702,4 +702,20 @@ Host webarch8 webarch8.co.uk 81.95.52.28
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.28
+# BEGIN 81.95.52.10
+Host unbound1 unbound1.webarch.net 81.95.52.10
+  Hostname 81.95.52.10
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.10
+# BEGIN 81.95.52.53
+Host unbound2 unbound2.webarch.net 81.95.52.53
+  Hostname 81.95.52.53
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.53
 # vim: syntax=sshconfig
