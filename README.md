@@ -1938,3 +1938,43 @@ SSH server fingerprints for `webarch8.co.uk` at `81.95.52.28`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.28 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.28 -->
+<!-- BEGIN 81.95.52.10 -->
+## unbound1.webarch.net
+SSH server fingerprints for `unbound1.webarch.net` at `81.95.52.10`:
+```yml
+-   hash: QzBvEXrv+z9+ccLFdx6v2HzUSgd2Cvvk+avxSkh8xlE
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 72:ad:75:0c:b7:19:db:7b:0c:d0:36:90:95:59:05:2f
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: dfHj3ENKpmnar8MSmBqpPYekxjrrgno7sCrDXLUc8dk
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 77:dc:7a:2f:e8:aa:5e:b7:fb:50:fe:22:da:d9:cc:1b
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.10 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.10 -->
+<!-- BEGIN 81.95.52.53 -->
+## unbound2.webarch.net
+SSH server fingerprints for `unbound2.webarch.net` at `81.95.52.53`:
+```yml
+-   hash: vfx+Ifud2blua6YDF0vnSNhQegzzQlTBQZtUpdgaXOw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 94:ae:72:9d:6a:5c:f8:58:27:a4:2c:ef:cf:5c:31:96
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: ZZJ5fNqNEc/WgEuZhJA7KdbKmmEnqLl/uA3xVWWihH0
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: c3:f3:bb:66:b4:24:88:77:ea:bf:ba:7c:21:d3:78:e5
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.53 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.53 -->
