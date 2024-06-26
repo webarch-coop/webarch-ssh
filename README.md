@@ -1978,3 +1978,23 @@ SSH server fingerprints for `unbound2.webarch.net` at `81.95.52.53`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.53 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.53 -->
+<!-- BEGIN 81.95.52.126 -->
+## xen5.webarch.net
+SSH server fingerprints for `xen5.webarch.net` at `81.95.52.126`:
+```yml
+-   hash: +FOyLYhSz8hzJuBuZr6XPCyzvkDVWr3P1mzHH6xK6Gw
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 1f:d2:19:13:be:40:9a:82:34:7b:33:96:7c:99:3c:bb
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: j2aUVfcgpQ5PKbL5+AYXqQBGRY/VVUxkloAZHb8OXbc
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 97:37:30:1b:8e:c7:a4:b4:3d:96:37:ef:55:37:02:36
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.126 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.126 -->
