@@ -663,7 +663,7 @@ Host workspace workspace.webarch.org.uk
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END localhost
 # BEGIN 81.95.52.66
-Host mailcoopuk mailcoopuk.webarch.net testmail.mailcoop.uk 81.95.52.66
+Host mailcoopuk mailcoopuk.webarch.net testmail testmail.mailcoop.uk 81.95.52.66
   Hostname 81.95.52.66
   Port 22
   CheckHostIP yes
