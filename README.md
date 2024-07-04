@@ -1998,3 +1998,23 @@ SSH server fingerprints for `xen5.webarch.net` at `81.95.52.126`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.126 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.126 -->
+<!-- BEGIN 81.95.52.89 -->
+## webmin.webarch.org.uk
+SSH server fingerprints for `webmin.webarch.org.uk` at `81.95.52.89`:
+```yml
+-   hash: kGh5CZ/paQ5a/LfaqdoZT00qtCa8qQsNcEuEW1Yu8T4
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 84:b7:d9:f9:9a:7a:4c:0b:1a:23:c5:be:f2:64:0b:47
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: vvigA0qtCJTsqIGBL5WnNUubu4w0Dxo2kOJoXWz9mN8
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: bd:d9:5c:a9:cf:c1:fe:7c:4e:1a:1a:6f:fd:8e:67:78
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.89 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.89 -->
