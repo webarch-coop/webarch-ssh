@@ -56,7 +56,7 @@ Host imc imc.indymedia.org.uk 81.95.52.38
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.38
 # BEGIN 81.95.52.104
-Host cloud cloud.leedsbread.coop 81.95.52.104
+Host cloud.leedsbread.coop 81.95.52.104
   Hostname 81.95.52.104
   Port 22
   CheckHostIP yes
@@ -88,7 +88,7 @@ Host easel easel.webarch.net 81.95.52.95
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.95
 # BEGIN 81.95.52.31
-Host cloud cloud.inca.coop 81.95.52.31
+Host cloud.inca.coop 81.95.52.31
   Hostname 81.95.52.31
   Port 22
   CheckHostIP yes
@@ -96,7 +96,7 @@ Host cloud cloud.inca.coop 81.95.52.31
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.31
 # BEGIN 81.95.52.103
-Host cloud cloud.assist.coop 81.95.52.103
+Host cloud.assist.coop 81.95.52.103
   Hostname 81.95.52.103
   Port 22
   CheckHostIP yes
@@ -448,7 +448,7 @@ Host croome croome.email mail.croome.net 81.95.52.32
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.32
 # BEGIN 81.95.52.36
-Host cloud.croome.net 81.95.52.36
+Host cloud cloud.croome.net 81.95.52.36
   Hostname 81.95.52.36
   Port 22
   CheckHostIP yes
