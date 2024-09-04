@@ -2038,3 +2038,23 @@ SSH server fingerprints for `dns5.webarch.org.uk` at `81.95.52.27`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.27 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.27 -->
+<!-- BEGIN 81.95.52.119 -->
+## backup-b.webarch.net
+SSH server fingerprints for `backup-b.webarch.net` at `81.95.52.119`:
+```yml
+-   hash: nBlVdhTw70Vx3Eku8LCZnRUaoCtUacY9yhIjJxtl7NA
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: b7:6b:5e:8d:7b:9b:69:52:f8:da:7e:09:96:e9:ad:84
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: FfNB4c4G4FDq/sBavYoNGSYbxA4H2ZU8CLxawdU5a1c
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 5f:29:e3:79:7a:ae:27:c8:b1:fe:6d:e8:00:a7:bd:5c
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.52.119 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.119 -->

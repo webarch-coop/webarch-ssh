@@ -742,4 +742,12 @@ Host dns5 dns5.webarch.org.uk 81.95.52.27
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.27
+# BEGIN 81.95.52.119
+Host backup-b backup-b.webarch.net 81.95.52.119
+  Hostname 81.95.52.119
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.52.119
 # vim: syntax=sshconfig
