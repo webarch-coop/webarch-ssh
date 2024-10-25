@@ -21,7 +21,7 @@ If you use [OpenSSH](https://www.openssh.com/) then you can install these finger
 
 The following instructions assume you are running Linux or something like it and your shell is Bash, or something like it.
 
-Open a terninal client and check that you have OpenSSH, run
+Open a terninal client and check that you have OpenSSH, run (note this is a uppercase `V`):
 
 ```bash
 ssh -V
