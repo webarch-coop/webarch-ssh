@@ -1619,19 +1619,19 @@ SSH server fingerprints for `harland.webarch.net` at `94.199.30.35`:
 The above YAML can generated using `ssh-audit -j 94.199.30.35 | jq .fingerprints | yq -P`
 <!-- END 94.199.30.35 -->
 <!-- BEGIN 81.95.52.16 -->
-## cal.workers.coop
-SSH server fingerprints for `cal.workers.coop` at `81.95.52.16`:
+## plane.webarch.coop
+SSH server fingerprints for `plane.webarch.coop` at `81.95.52.16`:
 ```yml
--   hash: JYvPmtuBr1/1ifZhLUEkX0xtz7ABhAyhalVPg061kzE
+-   hash: S2zwQCMoGSiOEPprJhSHYgPSztN+1TP/swT9HYCQpU8
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: f5:53:0f:99:9b:37:ce:11:92:46:e0:59:9e:5c:d3:02
+-   hash: e9:da:62:e7:71:0d:3a:96:eb:40:28:c5:32:bc:8e:2d
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: QfQIOPfFSEsbHdpKEGdI+FSrtZSpdrnhnrBuZpJ25iY
+-   hash: L+dcq39GWW3Q3NYlvyhOU1m7otAMZNg+CrYI9YJDXJo
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 8e:ad:d8:a6:35:98:48:60:2c:2a:4d:79:ae:18:76:89
+-   hash: 88:5c:8e:e8:34:e2:b6:d7:14:8a:a8:82:b7:b2:70:a6
     hash_alg: MD5
     hostkey: ssh-rsa
 

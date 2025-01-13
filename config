@@ -568,7 +568,7 @@ Host harland harland.webarch.net 94.199.30.35
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 94.199.30.35
 # BEGIN 81.95.52.16
-Host cal cal.workers.coop workerscal workerscal.webarch.coop conversations.workers.coop 81.95.52.16
+Host plane plane.webarch.coop 81.95.52.16
   Hostname 81.95.52.16
   Port 22
   CheckHostIP yes
