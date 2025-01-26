@@ -1539,19 +1539,19 @@ SSH server fingerprints for `unbound.webarch.org.uk` at `81.95.52.7`:
 The above YAML can generated using `ssh-audit -j 81.95.52.7 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.7 -->
 <!-- BEGIN 81.95.52.45 -->
-## synapse.webarchitects.org
-SSH server fingerprints for `synapse.webarchitects.org` at `81.95.52.45`:
+## authentik.webarch.org.uk
+SSH server fingerprints for `authentik.webarch.org.uk` at `81.95.52.45`:
 ```yml
--   hash: Ss6wJFyPVOcZqai6JSUsrtCeVs7mpZvhCwdlvBYH6EY
+-   hash: GfcSwVFn1d39BEhKnRgHf7ArKR8uEtyGgdrTfSaT1bQ
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 7a:b0:13:5a:ec:8d:f7:22:a0:a4:1b:c6:58:f0:fc:bc
+-   hash: 0f:52:0b:c6:dc:29:a8:df:87:cb:e3:91:a2:2a:ef:68
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: ROngh3AsqyojBqaWcnvRRn/Vg3oaEmoxKjzTrPbEfcQ
+-   hash: 7nrCfc63X6DAo3OAyvpPnufkzx7BVlnD+J+9T9wVmFk
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: f7:c6:24:fa:6d:23:e2:f5:b4:89:42:a3:ec:34:e5:1c
+-   hash: b3:f7:cd:3b:a8:3d:cc:78:79:38:65:69:a9:0d:63:36
     hash_alg: MD5
     hostkey: ssh-rsa
 

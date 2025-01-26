@@ -536,7 +536,7 @@ Host unbound unbound.webarch.org.uk 81.95.52.7
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.7
 # BEGIN 81.95.52.45
-Host synapse synapse.webarchitects.org 81.95.52.45
+Host authentik authentik.webarch.org.uk 81.95.52.45
   Hostname 81.95.52.45
   Port 22
   CheckHostIP yes
