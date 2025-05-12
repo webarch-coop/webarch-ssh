@@ -1622,16 +1622,16 @@ The above YAML can generated using `ssh-audit -j 94.199.30.35 | jq .fingerprints
 ## plane.webarch.coop
 SSH server fingerprints for `plane.webarch.coop` at `81.95.52.16`:
 ```yml
--   hash: S2zwQCMoGSiOEPprJhSHYgPSztN+1TP/swT9HYCQpU8
+-   hash: BOPZi8vWDXRDIUJ+DTOuwZiIaQYwUsPA2b6dbYct8f4
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: e9:da:62:e7:71:0d:3a:96:eb:40:28:c5:32:bc:8e:2d
+-   hash: 2d:21:c0:d8:be:1a:6c:73:78:82:b5:6d:4e:46:21:df
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: L+dcq39GWW3Q3NYlvyhOU1m7otAMZNg+CrYI9YJDXJo
+-   hash: 2jkpclPc843NwpkfspA3E+rApWwVlgVtyqJL3yxb5Jo
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 88:5c:8e:e8:34:e2:b6:d7:14:8a:a8:82:b7:b2:70:a6
+-   hash: 02:34:ba:f6:11:46:26:e4:2f:34:b0:72:87:33:a4:a2
     hash_alg: MD5
     hostkey: ssh-rsa
 
