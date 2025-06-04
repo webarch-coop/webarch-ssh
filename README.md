@@ -459,7 +459,7 @@ SSH server fingerprints for `nextcloud.webarch.org.uk` at `81.95.52.26`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.26 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.26 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.26 -->
 <!-- BEGIN 81.95.52.88 -->
 ## onlyoffice.webarchitects.org.uk
@@ -479,7 +479,7 @@ SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.88 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.88 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.88 -->
 <!-- BEGIN 81.95.52.56 -->
 ## wsh.webarchitects.org.uk
@@ -499,7 +499,7 @@ SSH server fingerprints for `wsh.webarchitects.org.uk` at `81.95.52.56`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.56 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.56 -->
 
 # Monitoring servers
@@ -556,8 +556,22 @@ The above YAML can generated using `ssh-audit -j 81.95.52.37 | jq .fingerprints 
 <!-- BEGIN 81.95.52.87 -->
 ## onlyoffice1.webarch.net
 SSH server fingerprints for `onlyoffice1.webarch.net` at `81.95.52.87`:
+```yml
+-   hash: Y8cQsxuQ5EHkY5MPChMB1k7ubjxAtGraeEGlMFpLH9Y
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: b5:28:4c:1a:95:4c:50:c3:f4:57:49:cb:c1:1b:10:70
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: ZfrUZQmk18rSF48chBERdvI7LhUPNDMfpds2pF5/z5s
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 78:d7:12:08:22:ad:a2:8b:cb:0e:40:98:b8:2c:4c:24
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.87 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.87 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.87 -->
 <!-- BEGIN 81.95.52.90 -->
 ## onlyoffice2.webarch.net
@@ -577,7 +591,7 @@ SSH server fingerprints for `onlyoffice2.webarch.net` at `81.95.52.90`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.90 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.90 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.90 -->
 
 # Discourse servers
@@ -732,7 +746,7 @@ SSH server fingerprints for `office.webarchitects.co.uk` at `81.95.52.100`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.100 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.100 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.100 -->
 <!-- BEGIN 81.95.52.98 -->
 ## web.webarch.net
@@ -792,7 +806,7 @@ SSH server fingerprints for `3dccloud.3dcampus.co.uk` at `81.95.52.55`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.55 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.55 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.55 -->
 <!-- BEGIN 81.95.52.43 -->
 ## ldn.webarch.net
@@ -812,7 +826,7 @@ SSH server fingerprints for `ldn.webarch.net` at `81.95.52.43`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.43 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.43 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.43 -->
 <!-- BEGIN 81.95.52.103 -->
 ## cloud.assist.coop
@@ -832,7 +846,7 @@ SSH server fingerprints for `cloud.assist.coop` at `81.95.52.103`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.103 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.103 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.103 -->
 <!-- BEGIN 81.95.52.31 -->
 ## cloud.inca.coop
@@ -892,7 +906,7 @@ SSH server fingerprints for `sanford.webarch.net` at `81.95.52.110`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.110 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.110 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.110 -->
 <!-- BEGIN 81.95.52.96 -->
 ## office.unitedigitaltech.org
@@ -912,7 +926,7 @@ SSH server fingerprints for `office.unitedigitaltech.org` at `81.95.52.96`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.96 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.96 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.96 -->
 <!-- BEGIN 81.95.52.104 -->
 ## cloud.leedsbread.coop
@@ -932,7 +946,7 @@ SSH server fingerprints for `cloud.leedsbread.coop` at `81.95.52.104`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.104 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.104 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.104 -->
 <!-- BEGIN 81.95.52.38 -->
 ## imc.indymedia.org.uk
@@ -972,7 +986,7 @@ SSH server fingerprints for `oriole.webarch.net` at `81.95.52.11`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.11 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.11 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.11 -->
 <!-- BEGIN 81.95.52.34 -->
 ## animorph.webarch.coop
@@ -992,7 +1006,7 @@ SSH server fingerprints for `animorph.webarch.coop` at `81.95.52.34`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.34 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.34 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.34 -->
 <!-- BEGIN 81.95.52.39 -->
 ## sharedfutures.webarch.net
@@ -1092,7 +1106,7 @@ SSH server fingerprints for `web.cotech.uk` at `81.95.52.59`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.59 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.59 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.59 -->
 <!-- BEGIN 81.95.52.13 -->
 ## office.workers.coop
@@ -1112,7 +1126,7 @@ SSH server fingerprints for `office.workers.coop` at `81.95.52.13`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.13 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.13 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.13 -->
 <!-- BEGIN 81.95.52.8 -->
 ## redirect.webarch.net
@@ -1172,7 +1186,7 @@ SSH server fingerprints for `cloud.croome.net` at `81.95.52.36`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.36 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.36 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.36 -->
 
 # Mail servers
