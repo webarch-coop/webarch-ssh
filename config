@@ -80,7 +80,7 @@ Host sanford sanford.webarch.net cloud.sanford.coop 81.95.52.110
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.110
 # BEGIN 81.95.52.95
-Host easel easel.webarch.net 81.95.52.95
+Host wao wao.webarch.net 81.95.52.95
   Hostname 81.95.52.95
   Port 22
   CheckHostIP yes
