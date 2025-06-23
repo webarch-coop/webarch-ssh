@@ -872,16 +872,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.31 | jq .fingerprints 
 ## wao.webarch.net
 SSH server fingerprints for `wao.webarch.net` at `81.95.52.95`:
 ```yml
--   hash: ffP4DRboKGHXkzdlIs1kPYYRHb7K8ZFAgA8AluW8yKI
+-   hash: ZA7BRSof65HGpcU4jiAbzOWeFbQjDjtShw7B1rny3kQ
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 4c:87:25:87:e8:03:c8:29:65:3e:da:27:70:bb:be:56
+-   hash: 15:6e:78:31:8e:39:01:bc:8e:bf:88:e1:ff:69:c9:ed
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: mXnwRukyyxfdqSfvssbsYLfSeQnLbAm4ZgFfvvu3DDo
+-   hash: IhJ9jdywVKHzaiRhezuhrrYWcXtjAa+m6mswVjWyyrM
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: ee:b1:12:e5:97:d6:57:54:67:df:a1:44:92:ae:20:7a
+-   hash: 9c:91:47:0e:0b:e7:5a:06:af:82:32:79:96:94:e8:cc
     hash_alg: MD5
     hostkey: ssh-rsa
 
