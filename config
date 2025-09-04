@@ -136,7 +136,7 @@ Host web web.webarch.net 81.95.52.98
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.98
 # BEGIN 81.95.52.90
-Host onlyoffice2 onlyoffice2.webarch.net office.hades.town onlyoffice.cloud.coalaction.org.uk onlyoffice.cloud.freetechproject.com onlyoffice.cloud.libredigital.org 81.95.52.90
+Host onlyoffice2 onlyoffice2.webarch.net office.hades.town onlyoffice.cloud.coalaction.org.uk onlyoffice.cloud.freetechproject.com onlyoffice.cloud.libredigital.org onlyoffice.cloud.swop.coop 81.95.52.90
   Hostname 81.95.52.90
   Port 22
   CheckHostIP yes

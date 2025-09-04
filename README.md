@@ -1317,7 +1317,7 @@ SSH server fingerprints for `3dcmail.webarch.net` at `81.95.52.54`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.54 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.54 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.54 -->
 <!-- BEGIN 81.95.52.32 -->
 ## mail.croome.net
