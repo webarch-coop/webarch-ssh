@@ -786,7 +786,7 @@ SSH server fingerprints for `ods.webarch.net` at `81.95.52.14`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.14 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.14 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.14 -->
 <!-- BEGIN 81.95.52.55 -->
 ## 3dccloud.3dcampus.co.uk
@@ -1066,7 +1066,7 @@ SSH server fingerprints for `sharenergy.webarch.net` at `81.95.52.17`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.17 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.17 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.17 -->
 <!-- BEGIN 81.95.52.21 -->
 ## holyoake.webarch.coop
