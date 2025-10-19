@@ -316,21 +316,21 @@ The above YAML can generated using `ssh-audit -j 81.95.52.67 | jq .fingerprints 
 ## dns0.webarchitects.co.uk
 SSH server fingerprints for `dns0.webarchitects.co.uk` at `81.95.52.24`:
 ```yml
--   hash: U66Vm8vkhWcHUiFjaxSgBWOw7daZCFYJMjoP8mR/tuo
+-   hash: SY1oVlMPi7uwpsQPesG/AZj3XL+rxo5wX3ZQWTFpCrQ
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 65:c4:71:91:3f:e3:4b:87:3b:15:19:a1:c0:6c:da:6a
+-   hash: df:e6:04:ff:56:2e:8f:80:5f:7b:7e:a5:04:99:7e:e4
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: hRwmYq0YAzK91jYjOxZx9RLWL9cwjCeWTjjbUHaUMVw
+-   hash: Ld0cnf4sAGv6kNkeelZVHfBhWgMdQgknI8OiPKw24FQ
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 45:5a:4c:b9:f9:d0:3d:e8:d4:df:45:a1:e0:25:53:8b
+-   hash: bc:22:c8:7c:45:0d:56:03:b4:2a:ae:c5:1a:d2:66:fb
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.24 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.24 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.24 -->
 <!-- BEGIN 81.95.52.30 -->
 ## dns1.webarchitects.co.uk
@@ -2036,21 +2036,21 @@ The above YAML can generated using `ssh-audit -j 81.95.52.89 | jq .fingerprints 
 ## dns5.webarch.org.uk
 SSH server fingerprints for `dns5.webarch.org.uk` at `81.95.52.27`:
 ```yml
--   hash: SY1oVlMPi7uwpsQPesG/AZj3XL+rxo5wX3ZQWTFpCrQ
+-   hash: CmgekJv3veBqFfVt1TPCdk03lTFkAPxxuoAUwEo5ENU
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: df:e6:04:ff:56:2e:8f:80:5f:7b:7e:a5:04:99:7e:e4
+-   hash: dc:a8:67:1e:c1:64:ab:a9:db:9b:06:20:ea:ee:df:aa
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: Ld0cnf4sAGv6kNkeelZVHfBhWgMdQgknI8OiPKw24FQ
+-   hash: IurSECKylKXp+ulFYARDW6EIdAfbPVNawGDHFbfeQJw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: bc:22:c8:7c:45:0d:56:03:b4:2a:ae:c5:1a:d2:66:fb
+-   hash: 33:d3:08:06:c4:da:cd:58:b9:0a:11:c5:fd:59:fe:e0
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.27 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.27 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.27 -->
 <!-- BEGIN 81.95.52.119 -->
 ## backup-b.webarch.net
