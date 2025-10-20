@@ -312,26 +312,6 @@ The above YAML can generated using `ssh-audit -j 81.95.52.67 | jq .fingerprints 
 * [dns2.webarch.info](#dns2webarchinfo)
 * [dns3.webarch.info](#dns3webarchinfo)
 
-<!-- BEGIN 81.95.52.24 -->
-## dns0.webarchitects.co.uk
-SSH server fingerprints for `dns0.webarchitects.co.uk` at `81.95.52.24`:
-```yml
--   hash: SY1oVlMPi7uwpsQPesG/AZj3XL+rxo5wX3ZQWTFpCrQ
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: df:e6:04:ff:56:2e:8f:80:5f:7b:7e:a5:04:99:7e:e4
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: Ld0cnf4sAGv6kNkeelZVHfBhWgMdQgknI8OiPKw24FQ
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: bc:22:c8:7c:45:0d:56:03:b4:2a:ae:c5:1a:d2:66:fb
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.24 | jq .fingerprints | yq -P`
-<!-- END 81.95.52.24 -->
 <!-- BEGIN 81.95.52.30 -->
 ## dns1.webarchitects.co.uk
 SSH server fingerprints for `dns1.webarchitects.co.uk` at `81.95.52.30`:
@@ -2072,3 +2052,23 @@ SSH server fingerprints for `backup-b.webarch.net` at `81.95.52.119`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.52.119 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.119 -->
+<!-- BEGIN 81.95.52.24 -->
+## dns0.webarchitects.co.uk
+SSH server fingerprints for `dns0.webarchitects.co.uk` at `81.95.52.24`:
+```yml
+-   hash: SY1oVlMPi7uwpsQPesG/AZj3XL+rxo5wX3ZQWTFpCrQ
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: df:e6:04:ff:56:2e:8f:80:5f:7b:7e:a5:04:99:7e:e4
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: Ld0cnf4sAGv6kNkeelZVHfBhWgMdQgknI8OiPKw24FQ
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: bc:22:c8:7c:45:0d:56:03:b4:2a:ae:c5:1a:d2:66:fb
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.24 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.24 -->
