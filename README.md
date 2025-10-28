@@ -1616,21 +1616,21 @@ The above YAML can generated using `ssh-audit -j 94.199.30.35 | jq .fingerprints
 ## plane.webarch.coop
 SSH server fingerprints for `plane.webarch.coop` at `81.95.52.16`:
 ```yml
--   hash: BOPZi8vWDXRDIUJ+DTOuwZiIaQYwUsPA2b6dbYct8f4
+-   hash: eK6FUkfWnVTRyx+KIhy9XH/9DgexfMyZIzuDSEkYTPA
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 2d:21:c0:d8:be:1a:6c:73:78:82:b5:6d:4e:46:21:df
+-   hash: db:34:e7:9f:4d:06:10:42:e3:d6:88:c8:ae:44:01:5a
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 2jkpclPc843NwpkfspA3E+rApWwVlgVtyqJL3yxb5Jo
+-   hash: UhnoEEu28jwme392aHi0+8aJhIGi4pAL3eJaeszDqFc
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 02:34:ba:f6:11:46:26:e4:2f:34:b0:72:87:33:a4:a2
+-   hash: 36:c8:5f:12:84:a9:f5:45:7b:90:f0:24:b3:19:24:3f
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.16 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.16 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.16 -->
 <!-- BEGIN 213.108.108.167 -->
 ## greenhost.crin.org
