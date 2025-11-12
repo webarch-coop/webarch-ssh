@@ -989,24 +989,24 @@ SSH server fingerprints for `animorph.webarch.coop` at `81.95.52.34`:
 The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.34 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.34 -->
 <!-- BEGIN 81.95.52.39 -->
-## sharedfutures.webarch.net
-SSH server fingerprints for `sharedfutures.webarch.net` at `81.95.52.39`:
+## sso2.meet.coop
+SSH server fingerprints for `sso2.meet.coop` at `81.95.52.39`:
 ```yml
--   hash: CqYdd+q2U4VMoQzKzRxh3Pch78A+fGLB5lDmNycWf4E
+-   hash: 48+qEoVYaHQEqVsIPOmg3pxaVlBTS0NJ1upJQ0L8b0U
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 2b:ba:52:d1:c0:25:c8:b2:97:15:86:14:5a:aa:d1:43
+-   hash: a7:c4:be:40:3c:7e:6c:27:a8:4c:31:df:b2:b0:6a:c0
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: S2RHkA3y9ITq0SsZz7mu/jcft2dohhmu4xcgjExbb3M
+-   hash: e3cznX7fMim/tWedN9FrD70IdHJ2k5eaxA6knbNWDOY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: bd:96:94:11:b0:8e:f5:e6:cc:12:fc:c0:3a:cb:9e:fe
+-   hash: 6d:83:d2:77:a8:a5:f6:83:83:d7:0a:8b:8c:02:a4:6b
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.39 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.39 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.39 -->
 <!-- BEGIN 81.95.52.19 -->
 ## greenham.webarch.net
