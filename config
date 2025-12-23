@@ -750,4 +750,12 @@ Host backup-b backup-b.webarch.net 81.95.52.119
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.119
+# BEGIN 185.152.3.91
+Host harland harland.webarch.net 185.152.3.91
+  Hostname 185.152.3.91
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 185.152.3.91
 # vim: syntax=sshconfig
