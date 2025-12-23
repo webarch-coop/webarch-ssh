@@ -559,14 +559,6 @@ Host gicast2 gicast2.animorph.coop 81.95.52.94
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.94
-# BEGIN 94.199.30.35
-Host harland harland.webarch.net 94.199.30.35
-  Hostname 94.199.30.35
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 94.199.30.35
 # BEGIN 81.95.52.16
 Host plane plane.webarch.coop 81.95.52.16 plane.animorph.coop
   Hostname 81.95.52.16
