@@ -88,7 +88,7 @@ Host wao wao.webarch.net 81.95.52.95
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.95
 # BEGIN 81.95.52.31
-Host cloud.inca.coop 81.95.52.31
+Host crosssense crosssense.webarch.coop crosssense.animorph.coop mail.crosssense.com 81.95.52.31
   Hostname 81.95.52.31
   Port 22
   CheckHostIP yes

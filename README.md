@@ -829,24 +829,24 @@ SSH server fingerprints for `cloud.assist.coop` at `81.95.52.103`:
 The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.103 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.103 -->
 <!-- BEGIN 81.95.52.31 -->
-## cloud.inca.coop
-SSH server fingerprints for `cloud.inca.coop` at `81.95.52.31`:
+## crosssense.webarch.coop
+SSH server fingerprints for `crosssense.webarch.coop` at `81.95.52.31`:
 ```yml
--   hash: A2NFSx8W7dZM22mAV0KxnMexh9BoLR/8lHV+0/fH2HM
+-   hash: OsH/WSuPtMu3tNY+keJh/Lpjz2CR7uod2j+tMAZCqI4
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 59:b0:75:f2:55:8e:fa:be:cd:99:2a:1b:74:ec:d8:be
+-   hash: 8d:94:b3:a9:d1:20:42:ab:45:a9:aa:12:eb:fd:bb:ca
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 414wOCEE5qwld2MQq3GHq6ebeMptegRomO20ZITmRX8
+-   hash: TgQ80yiHSlLb1/IFDL2C4hPNnFPyvf9oUQxVwr+/qpw
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: be:b8:9b:43:f9:92:0e:f3:ea:ce:c6:c5:c0:84:b0:6e
+-   hash: 9b:3f:6d:17:79:09:28:5d:cd:6d:e1:ab:6b:04:2a:75
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.31 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.31 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.31 -->
 <!-- BEGIN 81.95.52.95 -->
 ## wao.webarch.net
