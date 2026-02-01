@@ -1633,24 +1633,24 @@ SSH server fingerprints for `greenhost.crin.org` at `213.108.108.167`:
 The above YAML can generated using `ssh-audit -j 213.108.108.167 | jq .fingerprints | yq -P`
 <!-- END 213.108.108.167 -->
 <!-- BEGIN 81.95.52.72 -->
-## op.animorph.coop
-SSH server fingerprints for `op.animorph.coop` at `81.95.52.72`:
+## rabt.webarch.net
+SSH server fingerprints for `rabt.webarch.net` at `81.95.52.72`:
 ```yml
--   hash: QCobd7415j56hnv0Wxil0RoCQyXoL3AKioK+rdLV/II
+-   hash: 1fZO14V8RV/633Sb45sttt5GsXWTWwESSKZTDYOx4dw
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 7a:4a:d5:a6:36:12:8d:b2:c7:fc:e2:fa:e7:dc:8c:23
+-   hash: 1e:c6:0d:c4:2c:2d:b2:c9:1a:96:92:d9:20:7b:4a:ea
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: dDp2LhfcT+mlbl/Q2f7oDZNc4QzJk475ajDZwpWMRqg
+-   hash: xyNMHjTNWVbQZrCSGYTAan4ahmpWILH1eSfmO7gVoE4
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: fa:36:f9:7f:43:20:f7:8f:1b:6a:ff:c5:b5:fb:70:7c
+-   hash: 4a:46:b0:7b:3b:47:b6:22:be:9d:88:10:10:d5:32:76
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.72 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.72 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.72 -->
 <!-- BEGIN 81.95.52.78 -->
 ## together.webarch.net
