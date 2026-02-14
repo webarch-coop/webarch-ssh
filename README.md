@@ -350,7 +350,7 @@ SSH server fingerprints for `dns2.webarch.info` at `217.70.190.127`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 217.70.190.127 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 217.70.190.127 | jq .fingerprints | yq -P`
 <!-- END 217.70.190.127 -->
 <!-- BEGIN 185.112.146.79 -->
 ## dns3.webarch.info
@@ -370,7 +370,7 @@ SSH server fingerprints for `dns3.webarch.info` at `185.112.146.79`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 185.112.146.79 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 185.112.146.79 | jq .fingerprints | yq -P`
 <!-- END 185.112.146.79 -->
 
 # Development servers
