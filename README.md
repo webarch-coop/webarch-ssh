@@ -1633,8 +1633,8 @@ SSH server fingerprints for `greenhost.crin.org` at `213.108.108.167`:
 The above YAML can generated using `ssh-audit -j 213.108.108.167 | jq .fingerprints | yq -P`
 <!-- END 213.108.108.167 -->
 <!-- BEGIN 81.95.52.72 -->
-## rabt.webarch.net
-SSH server fingerprints for `rabt.webarch.net` at `81.95.52.72`:
+## howto.riseagainstbig.tech
+SSH server fingerprints for `howto.riseagainstbig.tech` at `81.95.52.72`:
 ```yml
 -   hash: 1fZO14V8RV/633Sb45sttt5GsXWTWwESSKZTDYOx4dw
     hash_alg: SHA256
