@@ -2072,3 +2072,23 @@ SSH server fingerprints for `harland.webarch.net` at `185.152.3.91`:
 ```
 The above YAML can generated using `ssh-audit --skip-rate-test -j 185.152.3.91 | jq .fingerprints | yq -P`
 <!-- END 185.152.3.91 -->
+<!-- BEGIN 81.95.52.80 -->
+## core.webarch.net
+SSH server fingerprints for `core.webarch.net` at `81.95.52.80`:
+```yml
+-   hash: Fr8Gzu2Y49DMH6NWC11eugK+KJKY0Ac6aHfOsjfRx3E
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: f0:49:af:04:91:bb:2b:91:f7:63:d4:77:d8:ad:6d:c5
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: nrmAs5OPxlhcbClxb0kKyR255Dmzq7cr2AXQT3NxX/M
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 3b:24:12:5e:c1:8e:7c:da:51:40:51:c7:47:fa:67:b5
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.80 | jq .fingerprints | yq -P`
+<!-- END 81.95.52.80 -->
