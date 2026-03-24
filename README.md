@@ -330,7 +330,7 @@ SSH server fingerprints for `dns1.webarchitects.co.uk` at `81.95.52.30`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.30 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.30 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.30 -->
 <!-- BEGIN 217.70.190.127 -->
 ## dns2.webarch.info
