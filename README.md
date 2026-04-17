@@ -1833,24 +1833,24 @@ SSH server fingerprints for `munin.webarch.org.uk` at `81.95.52.41`:
 The above YAML can generated using `ssh-audit -j 81.95.52.41 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.41 -->
 <!-- BEGIN 81.95.52.44 -->
-## odmworkspace.webarch.net
-SSH server fingerprints for `odmworkspace.webarch.net` at `81.95.52.44`:
+## vpn.webarch.net
+SSH server fingerprints for `vpn.webarch.net` at `81.95.52.44`:
 ```yml
--   hash: BRh1Z+DknneAoBawtM9Dntmj3YHyHOb4ki1jqznQFyw
+-   hash: q4aKrT9vMzNc7ByRvPeCTBcN9v+134Bhm1TAeKW0sZw
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: c2:c5:21:46:ae:63:8a:31:4b:2a:b1:46:25:77:e9:ab
+-   hash: 87:44:28:98:ff:3c:3a:e2:7e:a1:e5:56:a7:1f:2c:83
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 9iCmi3MJNWR5n3RO7GmnZiw7Roi3Vgb0vJ6X75ArGQg
+-   hash: mlVnV/zjiT+Y69iy5TTOPNXud2h9EKneDy3P2lkcb5Q
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 6d:5e:ec:a4:9e:bb:61:4f:aa:d1:a5:84:b0:55:20:99
+-   hash: 74:de:ed:2b:30:ba:60:3e:ac:02:87:3e:ea:59:3c:40
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 81.95.52.44 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.44 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.44 -->
 <!-- BEGIN 81.95.52.25 -->
 ## labourstart.webarchitects.co.uk
