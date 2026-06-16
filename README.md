@@ -1336,16 +1336,16 @@ The above YAML can generated using `ssh-audit -j 81.95.52.32 | jq .fingerprints 
 ## bert.croome.net
 SSH server fingerprints for `bert.croome.net` at `81.95.52.5`:
 ```yml
--   hash: mPZCheFmfioVhhYrmtFcWswVAJKThXMkgprI7UE7EGY
+-   hash: HWd/diT2YvwUdAwM/0CkFPNAnbNFHLmhribiflLUc+M
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 2a:35:06:ad:fd:37:b0:d9:2f:bf:e9:d7:b3:24:0d:cf
+-   hash: e8:02:f5:3a:d6:64:c5:0c:d5:39:ea:34:cd:cc:1b:9b
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: nkBI7gUEPffowlGFExyoGYNNceUwrNX5nuZnySaurOc
+-   hash: Sze8Wf/GTs40PjksSAPFC9gJMH8i+zJGrkXhYyPOp98
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 16:bc:66:47:26:d7:fa:c4:2f:83:19:ad:ad:a4:d7:2b
+-   hash: af:dd:9d:69:9d:66:00:2b:9b:a5:1e:1f:67:8e:e9:ae
     hash_alg: MD5
     hostkey: ssh-rsa
 
