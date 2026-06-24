@@ -442,8 +442,8 @@ SSH server fingerprints for `nextcloud.webarch.org.uk` at `81.95.52.26`:
 The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.26 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.26 -->
 <!-- BEGIN 81.95.52.88 -->
-## onlyoffice.webarchitects.org.uk
-SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
+## eurooffice.webarchitects.org.uk
+SSH server fingerprints for `eurooffice.webarchitects.org.uk` at `81.95.52.88`:
 ```yml
 -   hash: mGL7cDJVZm/968HWFH6c9lF0T8ZAHBcnMl4twLsE4/o
     hash_alg: SHA256
@@ -459,7 +459,7 @@ SSH server fingerprints for `onlyoffice.webarchitects.org.uk` at `81.95.52.88`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.88 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.88 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.88 -->
 <!-- BEGIN 81.95.52.56 -->
 ## wsh.webarchitects.org.uk
