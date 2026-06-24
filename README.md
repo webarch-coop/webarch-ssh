@@ -849,24 +849,24 @@ SSH server fingerprints for `crosssense.webarch.coop` at `81.95.52.31`:
 The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.31 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.31 -->
 <!-- BEGIN 81.95.52.95 -->
-## wao.webarch.net
-SSH server fingerprints for `wao.webarch.net` at `81.95.52.95`:
+## meersbrook.webarch.net
+SSH server fingerprints for `meersbrook.webarch.net` at `81.95.52.95`:
 ```yml
--   hash: ZA7BRSof65HGpcU4jiAbzOWeFbQjDjtShw7B1rny3kQ
+-   hash: ZYmfIai6Qvqn0AQiIuNVGWoyySkl20jJ8OtY+k0tEC0
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 15:6e:78:31:8e:39:01:bc:8e:bf:88:e1:ff:69:c9:ed
+-   hash: 27:e3:45:31:48:50:92:ae:ac:cf:e6:97:96:0e:10:31
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: IhJ9jdywVKHzaiRhezuhrrYWcXtjAa+m6mswVjWyyrM
+-   hash: BP6OW2Dm4dMvoNkP4UqdZShvlCuznZNypq4MjRajGWY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: 9c:91:47:0e:0b:e7:5a:06:af:82:32:79:96:94:e8:cc
+-   hash: 5f:bf:9b:fb:f3:a7:86:ea:5a:d7:09:6b:b7:36:0c:a1
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.95 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.95 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.95 -->
 <!-- BEGIN 81.95.52.110 -->
 ## sanford.webarch.net
