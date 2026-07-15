@@ -2072,3 +2072,23 @@ SSH server fingerprints for `core.webarch.net` at `81.95.52.80`:
 ```
 The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.80 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.80 -->
+<!-- BEGIN 81.95.53.41 -->
+## runner-1.git.coop
+SSH server fingerprints for `runner-1.git.coop` at `81.95.53.41`:
+```yml
+-   hash: e+HwdlGx+mUOxU1snC5aBF4tGcN/vUmx0hwBgcMmf1U
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: 48:a8:56:73:0f:c5:90:de:44:e3:2b:64:4e:7a:29:3c
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: FGdyiahHRQPVrYJTpQ0eIHxGewFMuENA99bO5ClD2vo
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 99:ad:8f:40:f3:28:cd:15:e1:be:68:ec:17:a3:56:db
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.53.41 | jq .fingerprints | yq -P`
+<!-- END 81.95.53.41 -->
