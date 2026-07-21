@@ -758,4 +758,20 @@ Host runner-1 runner-1.git.coop 81.95.53.41
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.53.41
+# BEGIN 81.95.53.240
+Host runner-2 runner-2.git.coop 81.95.53.240
+  Hostname 81.95.53.240
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.53.240
+# BEGIN 81.95.53.202
+Host runner-3 runner-3.git.coop 81.95.53.202
+  Hostname 81.95.53.202
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 81.95.53.202
 # vim: syntax=sshconfig

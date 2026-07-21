@@ -2092,3 +2092,43 @@ SSH server fingerprints for `runner-1.git.coop` at `81.95.53.41`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.53.41 | jq .fingerprints | yq -P`
 <!-- END 81.95.53.41 -->
+<!-- BEGIN 81.95.53.240 -->
+## runner-2.git.coop
+SSH server fingerprints for `runner-2.git.coop` at `81.95.53.240`:
+```yml
+-   hash: e+MJe3Q7J98hPN1GIr5ls65n5I4mGDuz81ZO5iJkr/8
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: ee:69:bb:be:3a:64:82:b8:37:9b:3c:67:2f:cc:04:e6
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: iestwslVwmRMx0o+1hLuX2GBRzg3cJUeU5J9AGab2Hc
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 33:4f:01:36:3f:5a:17:c8:92:b1:14:06:68:34:76:1b
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.53.240 | jq .fingerprints | yq -P`
+<!-- END 81.95.53.240 -->
+<!-- BEGIN 81.95.53.202 -->
+## runner-3.git.coop
+SSH server fingerprints for `runner-3.git.coop` at `81.95.53.202`:
+```yml
+-   hash: W/fO1H3bvFePbZM9g43iEwjuj0bf5zGyximUejLSUgI
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: dc:8f:9a:6e:4e:a6:1d:1d:41:24:33:2b:df:81:a9:72
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: 4lbbLMeDKBNOS0mvhP/inN8TTkRv4vvVg210e3jTmLg
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: 9f:cb:89:3d:46:58:e9:37:a9:be:76:d6:fc:08:34:b2
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 81.95.53.202 | jq .fingerprints | yq -P`
+<!-- END 81.95.53.202 -->
