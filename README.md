@@ -479,7 +479,7 @@ SSH server fingerprints for `wsh.webarchitects.org.uk` at `81.95.52.56`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.56 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.56 -->
 
 # Monitoring servers
@@ -786,7 +786,7 @@ SSH server fingerprints for `3dccloud.3dcampus.co.uk` at `81.95.52.55`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.55 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.55 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.55 -->
 <!-- BEGIN 81.95.52.43 -->
 ## ldn.webarch.net
@@ -1297,7 +1297,7 @@ SSH server fingerprints for `3dcmail.webarch.net` at `81.95.52.54`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.54 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.54 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.54 -->
 <!-- BEGIN 81.95.52.32 -->
 ## mail.croome.net
