@@ -104,7 +104,7 @@ Host cloud.assist.coop 81.95.52.103
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.103
 # BEGIN 81.95.52.43
-Host ldn ldn.webarch.net onlyoffice.cloud.ldn.cash 81.95.52.43
+Host ldncash ldncash.webarch.net ldn.webarch.net onlyoffice.cloud.ldn.cash 81.95.52.43
   Hostname 81.95.52.43
   Port 22
   CheckHostIP yes
@@ -432,7 +432,7 @@ Host sanfordmail sanfordmail.webarch.net mail.sanford.coop 81.95.52.109
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.109
 # BEGIN 81.95.52.54
-Host 3dcmail 3dcmail.webarch.net mail.3dcampus.co.uk 81.95.52.54
+Host lab lab.crosssense.com cslab.webarch.net 81.95.52.54
   Hostname 81.95.52.54
   Port 22
   CheckHostIP yes

@@ -789,8 +789,8 @@ SSH server fingerprints for `3dccloud.3dcampus.co.uk` at `81.95.52.55`:
 The above YAML can generated using `ssh-audit -j 81.95.52.55 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.55 -->
 <!-- BEGIN 81.95.52.43 -->
-## ldn.webarch.net
-SSH server fingerprints for `ldn.webarch.net` at `81.95.52.43`:
+## ldncash.webarch.net
+SSH server fingerprints for `ldncash.webarch.net` at `81.95.52.43`:
 ```yml
 -   hash: TRfk4nwz8fhG46gSely9rQCE8FahXl6bQwuVkMhp7f8
     hash_alg: SHA256
@@ -806,7 +806,7 @@ SSH server fingerprints for `ldn.webarch.net` at `81.95.52.43`:
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 81.95.52.43 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 81.95.52.43 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.43 -->
 <!-- BEGIN 81.95.52.103 -->
 ## cloud.assist.coop
@@ -1280,19 +1280,19 @@ SSH server fingerprints for `sanfordmail.webarch.net` at `81.95.52.109`:
 The above YAML can generated using `ssh-audit -j 81.95.52.109 | jq .fingerprints | yq -P`
 <!-- END 81.95.52.109 -->
 <!-- BEGIN 81.95.52.54 -->
-## 3dcmail.webarch.net
-SSH server fingerprints for `3dcmail.webarch.net` at `81.95.52.54`:
+## lab.crosssense.com
+SSH server fingerprints for `lab.crosssense.com` at `81.95.52.54`:
 ```yml
--   hash: 2xzbste1rSyZE8MgE/3MK/8OCF2rpH0vGkDn3gQmZ9s
+-   hash: /lZt65hCe4xPEcJIXthSiyh9AtFmzCpuNdXfwS9Mthg
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 80:24:91:53:a9:02:84:c1:ac:ef:5a:0c:43:e3:6e:83
+-   hash: 21:66:60:f4:39:2a:3c:f9:74:45:74:6f:12:f9:b7:28
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: cyykOyHE7B/5CGGPc+gBWFwIXb3VwqmY+/iVs0jYj0A
+-   hash: djLoeoOFzSF4FPe2JmVjvaM19g3q1HkpLzAIkQHM44Q
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: e4:7a:42:73:7f:9a:1f:18:03:87:e7:82:db:02:26:c6
+-   hash: 6d:28:80:7a:ba:08:ca:3a:14:46:25:a3:80:39:d2:21
     hash_alg: MD5
     hostkey: ssh-rsa
 
