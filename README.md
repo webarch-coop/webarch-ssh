@@ -356,21 +356,21 @@ The above YAML can generated using `ssh-audit --skip-rate-test -j 217.70.190.127
 ## dns3.webarch.info
 SSH server fingerprints for `dns3.webarch.info` at `185.112.146.79`:
 ```yml
--   hash: VfHfL1lX6MyEvxzKVpFNxQlgmDMY1NQeDJLSTlteKbw
+-   hash: LP04sc1eNeU4/f8oIP+pScSXYEZjgzwjcBEeiyTAEKk
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 93:36:e8:cc:c4:13:8d:b4:0c:24:47:67:c4:2d:67:bd
+-   hash: 09:d4:a9:db:76:0e:3f:73:8e:cb:94:e0:9b:7f:8e:57
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: KVUm+m/hhVmj8jnZSJQ0u1nX0XvPN3krJdAOYKG2xDw
+-   hash: FKcYA97n4AkdiiubGgJ9OE58ZnKK3MTNOkYz79Ol1bU
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: b7:5e:5e:2c:6a:6b:2a:26:25:87:8a:6a:f8:f0:dd:e7
+-   hash: 4a:46:b8:30:25:d7:c3:5e:48:a1:d5:50:0f:d8:f7:e1
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit --skip-rate-test -j 185.112.146.79 | jq .fingerprints | yq -P`
+The above YAML can generated using `ssh-audit -j 185.112.146.79 | jq .fingerprints | yq -P`
 <!-- END 185.112.146.79 -->
 
 # Development servers
