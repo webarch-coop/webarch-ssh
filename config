@@ -774,4 +774,20 @@ Host runner-3 runner-3.git.coop 81.95.53.202
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.53.202
+# BEGIN 77.72.7.152
+Host icinga icinga.webarch.net 77.72.7.152
+  Hostname 77.72.7.152
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 77.72.7.152
+# BEGIN 185.44.253.55
+Host icinga icinga.webarch.net 185.44.253.55
+  Hostname 185.44.253.55
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 185.44.253.55
 # vim: syntax=sshconfig
