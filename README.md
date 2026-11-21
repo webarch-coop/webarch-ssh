@@ -2192,3 +2192,23 @@ SSH server fingerprints for `dns3.webarch.info` at `141.98.24.224`:
 ```
 The above YAML can generated using `ssh-audit -j 141.98.24.224 | jq .fingerprints | yq -P`
 <!-- END 141.98.24.224 -->
+<!-- BEGIN 141.98.24.218 -->
+## dns3.webarch.info
+SSH server fingerprints for `dns3.webarch.info` at `141.98.24.218`:
+```yml
+-   hash: LzFwnyhvQcrXRaMBxCVxbyr/Zfs5GC728NvG9zFhssQ
+    hash_alg: SHA256
+    hostkey: ssh-ed25519
+-   hash: c6:b0:a5:d5:e4:73:c9:30:a7:2d:f2:4f:b3:13:68:c5
+    hash_alg: MD5
+    hostkey: ssh-ed25519
+-   hash: uss33I53KY+cy9kK2ALaaEhhutBL56LTQr4xUlf3R0c
+    hash_alg: SHA256
+    hostkey: ssh-rsa
+-   hash: d4:04:7c:80:de:aa:a7:fe:a8:06:6b:05:fb:18:54:53
+    hash_alg: MD5
+    hostkey: ssh-rsa
+
+```
+The above YAML can generated using `ssh-audit -j 141.98.24.218 | jq .fingerprints | yq -P`
+<!-- END 141.98.24.218 -->

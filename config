@@ -798,4 +798,12 @@ Host dns3 dns3.webarch.info 141.98.24.224
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 141.98.24.224
+# BEGIN 141.98.24.218
+Host dns3 dns3.webarch.info 141.98.24.218
+  Hostname 141.98.24.218
+  Port 22
+  CheckHostIP yes
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
+# END 141.98.24.218
 # vim: syntax=sshconfig
