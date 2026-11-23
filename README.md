@@ -487,26 +487,26 @@ The above YAML can generated using `ssh-audit -j 81.95.52.56 | jq .fingerprints 
 * [icinga.webarch.net](#icingawebarchnet)
 * [monitor.webarch.net](#monitorwebarchnet)
 
-<!-- BEGIN 93.95.228.246 -->
+<!-- BEGIN 185.44.253.55 -->
 ## icinga.webarch.net
-SSH server fingerprints for `icinga.webarch.net` at `93.95.228.246`:
+SSH server fingerprints for `icinga.webarch.net` at `185.44.253.55`:
 ```yml
--   hash: Pzo2yBBx8FY0z/QEHvQN0PMrP/Vrmzys7I4n0pDWcxw
+-   hash: ZZbBoqrXjG0jkf0ifFPIpzeVIBC6mosIOtf1DSs+29U
     hash_alg: SHA256
     hostkey: ssh-ed25519
--   hash: 3d:aa:d5:0d:32:35:19:f5:c9:dc:b6:4c:76:f8:82:a0
+-   hash: 12:4d:68:46:19:74:9a:ed:8c:84:90:df:15:8c:fd:4f
     hash_alg: MD5
     hostkey: ssh-ed25519
--   hash: 07lBduPOCl8uDfijwRvJ8QcYsiWhtfP1JOGQuNX7mDk
+-   hash: 3QBGhvRwHyeo6/XuYi5Wrum+16ROxTMC9KdH6elvABY
     hash_alg: SHA256
     hostkey: ssh-rsa
--   hash: f6:93:4b:a4:1c:08:00:dd:41:3f:70:25:b9:1b:a0:1b
+-   hash: 9a:35:c9:d2:06:cc:7f:9b:bc:65:1c:24:cf:f4:73:4b
     hash_alg: MD5
     hostkey: ssh-rsa
 
 ```
-The above YAML can generated using `ssh-audit -j 93.95.228.246 | jq .fingerprints | yq -P`
-<!-- END 93.95.228.246 -->
+The above YAML can generated using `ssh-audit -j 185.44.253.55 | jq .fingerprints | yq -P`
+<!-- END 185.44.253.55 -->
 <!-- BEGIN 81.95.52.37 -->
 ## monitor.webarch.net
 SSH server fingerprints for `monitor.webarch.net` at `81.95.52.37`:
@@ -2132,46 +2132,6 @@ SSH server fingerprints for `runner-3.git.coop` at `81.95.53.202`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.53.202 | jq .fingerprints | yq -P`
 <!-- END 81.95.53.202 -->
-<!-- BEGIN 77.72.7.152 -->
-## icinga.webarch.net
-SSH server fingerprints for `icinga.webarch.net` at `77.72.7.152`:
-```yml
--   hash: aZ0G7/dQKCRrLhZ4Yn7xrKPckWbSW2AH1HJWv4POZds
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: e1:49:8d:eb:72:ac:48:4a:ad:cc:15:8c:c8:02:4d:78
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: MErX45FMknxhEysfLDhxQ15JSNKdzJcqw3mDKZNMxIQ
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: f4:1b:ed:c6:27:7f:d9:16:1c:89:cb:3e:61:1b:9f:18
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 77.72.7.152 | jq .fingerprints | yq -P`
-<!-- END 77.72.7.152 -->
-<!-- BEGIN 185.44.253.55 -->
-## icinga.webarch.net
-SSH server fingerprints for `icinga.webarch.net` at `185.44.253.55`:
-```yml
--   hash: ZZbBoqrXjG0jkf0ifFPIpzeVIBC6mosIOtf1DSs+29U
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 12:4d:68:46:19:74:9a:ed:8c:84:90:df:15:8c:fd:4f
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: 3QBGhvRwHyeo6/XuYi5Wrum+16ROxTMC9KdH6elvABY
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: 9a:35:c9:d2:06:cc:7f:9b:bc:65:1c:24:cf:f4:73:4b
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 185.44.253.55 | jq .fingerprints | yq -P`
-<!-- END 185.44.253.55 -->
 <!-- BEGIN 141.98.24.224 -->
 ## dns3.webarch.info
 SSH server fingerprints for `dns3.webarch.info` at `141.98.24.224`:

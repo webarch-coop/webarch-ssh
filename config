@@ -151,14 +151,6 @@ Host onlyoffice1 onlyoffice1.webarch.net onlyoffice.cloud.1012.me onlyoffice.clo
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.52.87
-# BEGIN 93.95.228.246
-Host icinga icinga.webarch.net 93.95.228.246
-  Hostname 93.95.228.246
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 93.95.228.246
 # BEGIN 81.95.52.37
 Host monitor monitor.webarch.net munin.webarch.net 81.95.52.37
   Hostname 81.95.52.37
@@ -774,14 +766,6 @@ Host runner-3 runner-3.git.coop 81.95.53.202
   HashKnownHosts no
   UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
 # END 81.95.53.202
-# BEGIN 77.72.7.152
-Host icinga icinga.webarch.net 77.72.7.152
-  Hostname 77.72.7.152
-  Port 22
-  CheckHostIP yes
-  HashKnownHosts no
-  UserKnownHostsFile ~/.ssh/webarch-ssh/known_hosts
-# END 77.72.7.152
 # BEGIN 185.44.253.55
 Host icinga icinga.webarch.net 185.44.253.55
   Hostname 185.44.253.55
