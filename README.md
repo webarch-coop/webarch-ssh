@@ -353,8 +353,8 @@ SSH server fingerprints for `dns2.webarch.info` at `217.70.190.127`:
 The above YAML can generated using `ssh-audit --skip-rate-test -j 217.70.190.127 | jq .fingerprints | yq -P`
 <!-- END 217.70.190.127 -->
 <!-- BEGIN 185.112.146.79 -->
-## dns3.webarch.info
-SSH server fingerprints for `dns3.webarch.info` at `185.112.146.79`:
+## dns4.webarch.info
+SSH server fingerprints for `dns4.webarch.info` at `185.112.146.79`:
 ```yml
 -   hash: LP04sc1eNeU4/f8oIP+pScSXYEZjgzwjcBEeiyTAEKk
     hash_alg: SHA256
@@ -2132,26 +2132,6 @@ SSH server fingerprints for `runner-3.git.coop` at `81.95.53.202`:
 ```
 The above YAML can generated using `ssh-audit -j 81.95.53.202 | jq .fingerprints | yq -P`
 <!-- END 81.95.53.202 -->
-<!-- BEGIN 141.98.24.224 -->
-## dns3.webarch.info
-SSH server fingerprints for `dns3.webarch.info` at `141.98.24.224`:
-```yml
--   hash: mLVQsJFXtlMEzlY7KKhtv1iZ/P/LGVr0sPTp+WKXpBU
-    hash_alg: SHA256
-    hostkey: ssh-ed25519
--   hash: 9e:10:2f:f8:f6:e1:52:72:c6:38:f8:aa:e5:ea:5f:fa
-    hash_alg: MD5
-    hostkey: ssh-ed25519
--   hash: D8W0g/2iCEcyq03tG2eM/Ue8gb9fCm7TBiNxWtNVXIY
-    hash_alg: SHA256
-    hostkey: ssh-rsa
--   hash: 4e:a7:00:66:64:fc:ae:7c:00:c2:7c:03:d3:c2:11:64
-    hash_alg: MD5
-    hostkey: ssh-rsa
-
-```
-The above YAML can generated using `ssh-audit -j 141.98.24.224 | jq .fingerprints | yq -P`
-<!-- END 141.98.24.224 -->
 <!-- BEGIN 141.98.24.218 -->
 ## dns3.webarch.info
 SSH server fingerprints for `dns3.webarch.info` at `141.98.24.218`:
